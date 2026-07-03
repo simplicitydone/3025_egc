@@ -1,8 +1,10 @@
-import type { Chord } from '../types/chord'
-import { TENSION_FORMS, TENSION_GLOSSARY, TENSION_QUIZ } from '../data/tension'
+import type { Chord, GlossaryItem, QuizItem, TensionForm } from '../types/chord'
 import { ChordGroupView } from './ChordViews'
 
 interface TensionViewProps {
+  forms: TensionForm[]
+  quiz: QuizItem[]
+  glossary: GlossaryItem[]
   selectedFormIdx: number
   onFormChange: (i: number) => void
   selectedChord: Chord
@@ -10,12 +12,15 @@ interface TensionViewProps {
 }
 
 export function TensionView({
+  forms,
+  quiz,
+  glossary,
   selectedFormIdx,
   onFormChange,
   selectedChord,
   onSelectChord,
 }: TensionViewProps) {
-  const activeForm = TENSION_FORMS[selectedFormIdx]
+  const activeForm = forms[selectedFormIdx]
 
   return (
     <div className="chords-view">
@@ -36,7 +41,7 @@ export function TensionView({
       </div>
 
       <div className="key-tabs">
-        {TENSION_FORMS.map((f, i) => (
+        {forms.map((f, i) => (
           <button
             key={f.formName}
             type="button"
@@ -59,7 +64,7 @@ export function TensionView({
       <div className="study-guide">
         <h3 className="study-guide__heading">Study Guide · 학습 확인 퀴즈</h3>
         <div className="study-guide__quiz">
-          {TENSION_QUIZ.map((item, i) => (
+          {quiz.map((item, i) => (
             <details key={i} className="quiz-item">
               <summary>
                 <span className="quiz-item__num">Q{i + 1}.</span> {item.question}
@@ -71,7 +76,7 @@ export function TensionView({
 
         <h3 className="study-guide__heading">Glossary · 핵심 용어</h3>
         <dl className="glossary">
-          {TENSION_GLOSSARY.map((g) => (
+          {glossary.map((g) => (
             <div key={g.term} className="glossary__entry">
               <dt>{g.term}</dt>
               <dd>{g.definition}</dd>

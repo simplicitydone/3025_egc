@@ -1,10 +1,10 @@
 import type { Chord, KeyChord } from '../types/chord'
 import { ChordDiagram } from './ChordDiagram'
 
-function ChordDisplay({ chord, tuning }: { chord: Chord; tuning?: string }) {
+function ChordDisplay({ chord, openStrings }: { chord: Chord; openStrings?: number[] }) {
   return (
     <div className="chord-display">
-      <ChordDiagram chord={chord} tuning={tuning} />
+      <ChordDiagram chord={chord} openStrings={openStrings} />
       {chord.description && <p className="chord-desc">{chord.description}</p>}
       {chord.subCategory && (
         <span className="badge chord-subcategory">{chord.subCategory}</span>
@@ -20,7 +20,7 @@ interface KeyChordViewProps {
   selected: KeyChord
   onSelect: (chord: KeyChord) => void
   showTiers?: boolean
-  tuning?: string
+  openStrings?: number[]
 }
 
 export function KeyChordView({
@@ -30,7 +30,7 @@ export function KeyChordView({
   selected,
   onSelect,
   showTiers = false,
-  tuning,
+  openStrings,
 }: KeyChordViewProps) {
   const basicChords = showTiers ? chords.filter((c) => c.chord.tier === 'Basic') : chords
   const advancedChords = showTiers
@@ -100,7 +100,7 @@ export function KeyChordView({
           </div>
         )}
       </div>
-      <ChordDisplay chord={selected.chord} tuning={tuning} />
+      <ChordDisplay chord={selected.chord} openStrings={openStrings} />
     </div>
   )
 }

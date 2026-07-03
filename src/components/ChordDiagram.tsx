@@ -1,14 +1,14 @@
 import type { Chord } from '../types/chord'
-import { strumChord } from '../lib/audio'
+import { midiNoteName, STANDARD_TUNING, strumChord } from '../lib/audio'
 
 const STRINGS = [6, 5, 4, 3, 2, 1] as const
 
 export function ChordDiagram({
   chord,
-  tuning = 'standard',
+  openStrings,
 }: {
   chord: Chord
-  tuning?: string
+  openStrings?: number[]
 }) {
   const activeFrets = chord.frets
     .map((f) => parseInt(f, 10))
@@ -27,7 +27,7 @@ export function ChordDiagram({
             type="button"
             className="play-btn"
             aria-label={`Play ${chord.name}`}
-            onClick={() => strumChord(chord.frets, tuning)}
+            onClick={() => strumChord(chord.frets, openStrings)}
           >
             ▶
           </button>
@@ -67,6 +67,18 @@ export function ChordDiagram({
               ))}
             </div>
           ))}
+        </div>
+        <div className="string-labels" aria-label="Sounding notes">
+          {STRINGS.map((str, si) => {
+            const fret = parseInt(chord.frets[si], 10)
+            const open = (openStrings ?? STANDARD_TUNING)[si]
+            const muted = Number.isNaN(fret)
+            return (
+              <span key={str} className={muted ? 'string-labels__muted' : ''}>
+                {muted ? '·' : midiNoteName(open + fret)}
+              </span>
+            )
+          })}
         </div>
       </div>
     </div>

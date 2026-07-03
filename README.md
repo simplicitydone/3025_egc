@@ -11,6 +11,11 @@ Interactive reference for open chords, open tension forms, alternate tunings, ja
 - **Electric** — triads, funk shells, ambient clusters
 - **Examples** — progressions, licks, techniques
 - **▶ audio** on every diagram — Karplus-Strong strum synthesis, tuning-aware
+- **Search** — filter all 218 voicings by name from the sticky bar
+- **Shareable URLs** — hash encodes tab/group/chord (e.g. `#tension?g=4&c=Cmaj7%2FE…`)
+- **Note labels** — every diagram shows its sounding notes, tuning-aware
+- **PWA** — installable, works offline (service worker + manifest)
+- **nginx** — gzip, immutable hashed assets, no-cache for `index.html`/`db.json`/`sw.js`
 
 ## Stack
 
@@ -27,23 +32,53 @@ Interactive reference for open chords, open tension forms, alternate tunings, ja
 | `npm run lint` | Run ESLint |
 | `npm run test` | Run tests in watch mode |
 | `npm run test:run` | Run tests once |
+| `npm run db:export` | Render `db/egc.sqlite` → `public/db.json` |
+| `npm run db:seed` | Rebuild the SQLite DB from `scripts/legacy-data/` (bootstrap only) |
 
 ## Project layout
 
 ```
+db/
+  egc.sqlite    # ⭐ canonical database — all chords & lesson content
+  schema.sql    # schema reference
+public/
+  db.json       # generated export the app fetches at runtime
+scripts/
+  export-db.mjs # sqlite → public/db.json
+  seed-db.mjs   # bootstrap sqlite from legacy-data/ (historic)
+  legacy-data/  # frozen pre-DB data modules (seed source)
 src/
   components/   # UI (ChordDiagram, tab views, TensionView)
-  data/         # Chord database and groupings
-  lib/          # Web Audio strum synthesis
+  data/         # provider.ts — fetches db.json, resolves references
+  lib/          # Web Audio strum synthesis, chord validation
   types/        # Shared TypeScript types
-  test/         # Vitest tests
+  test/         # Vitest tests (validate the db.json export)
 ```
 
-Chord data lives under `src/data/`. Edit `chords.ts` to add voicings, then wire them into `songKeys.ts`, `tension.ts`, `barre.ts`, or other group files. Fret arrays run low E → high e; tests enforce that each chord's `bassNote` matches its lowest sounding string (standard tuning).
+## Data workflow (DB is the source of truth)
+
+The frontend contains **no chord data**. All content lives in `db/egc.sqlite`
+(chords, key groups, tension forms, barre/electric groups, example moves,
+quiz, glossary, tuning MIDI notes). To change data:
+
+1. Edit the SQLite file with any tool, e.g.
+   `sqlite3 db/egc.sqlite "UPDATE chords SET description='...' WHERE name='G Major'"`
+   (or a GUI like DB Browser for SQLite)
+2. `npm run db:export` — regenerates `public/db.json`
+3. `npm run build` — ships it (tests validate the export automatically)
+
+Fret arrays run low E → high e ('X' = muted); tests enforce that each chord's
+`bassNote` matches its lowest sounding string (standard tuning) and that
+tension-form voicings keep strings 1–2 open. A frontend rewrite can't lose
+data: the DB and its JSON export live outside `src/`.
 
 ## Deploy
 
-`npm run build` regenerates `dist/`; the running `egc` nginx container serves it directly (volume mount), no restart needed.
+`npm run build` regenerates `dist/` (bundle + `db.json` + `sw.js`); the running
+`egc` nginx container serves it directly (volume mount), no restart needed.
+Changing `nginx.conf` or `docker-compose.yml` requires `docker compose up -d`.
+If the service-worker logic in `public/sw.js` changes, bump its `CACHE` version
+constant so clients drop the old cache.
 
 ## Requirements
 

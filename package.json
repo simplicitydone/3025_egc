@@ -12,7 +12,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "db:seed": "node --no-warnings scripts/seed-db.mjs",
+    "db:export": "node --no-warnings scripts/export-db.mjs"
   },
   "dependencies": {
     "react": "^19.2.6",

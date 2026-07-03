@@ -1,0 +1,6465 @@
+{
+ "schemaVersion": 1,
+ "chords": {
+  "G Major": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "3",
+    "2",
+    "0",
+    "0",
+    "3",
+    "3"
+   ],
+   "fingers": [
+    "2",
+    "1",
+    "",
+    "",
+    "3",
+    "4"
+   ],
+   "rootString": 6,
+   "bassNote": "G"
+  },
+  "A Minor 7": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "0",
+    "2",
+    "0",
+    "1",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "G/B": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "2",
+    "0",
+    "0",
+    "3",
+    "3"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "",
+    "",
+    "3",
+    "4"
+   ],
+   "rootString": 5,
+   "bassNote": "B"
+  },
+  "C add9": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "3",
+    "2",
+    "0",
+    "3",
+    "3"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "1",
+    "",
+    "3",
+    "4"
+   ],
+   "rootString": 5,
+   "bassNote": "C"
+  },
+  "D sus4": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "X",
+    "0",
+    "2",
+    "3",
+    "3"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "3",
+    "4"
+   ],
+   "rootString": 4,
+   "bassNote": "D"
+  },
+  "D/F#": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "2",
+    "X",
+    "0",
+    "2",
+    "3",
+    "2"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "",
+    "2",
+    "4",
+    "3"
+   ],
+   "rootString": 6,
+   "bassNote": "F#"
+  },
+  "E Minor 7": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "0",
+    "2",
+    "2",
+    "0",
+    "3",
+    "3"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "2",
+    "",
+    "3",
+    "4"
+   ],
+   "rootString": 6,
+   "bassNote": "E"
+  },
+  "G (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "X",
+    "10",
+    "9",
+    "0",
+    "8",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "2",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "G",
+   "description": "I chord up high."
+  },
+  "Am11 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "X",
+    "12",
+    "12",
+    "0",
+    "10",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A",
+   "description": "ii chord up high."
+  },
+  "Cmaj7 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "8",
+    "X",
+    "9",
+    "0",
+    "8",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "3",
+    "",
+    "2",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "C",
+   "description": "IV chord up high."
+  },
+  "Dadd4 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "10",
+    "X",
+    "12",
+    "0",
+    "10",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "3",
+    "",
+    "2",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "D",
+   "description": "V chord up high."
+  },
+  "Em7 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "12",
+    "X",
+    "12",
+    "0",
+    "12",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "2",
+    "",
+    "3",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E",
+   "description": "vi chord up high."
+  },
+  "Gmaj9": {
+   "tier": "Advanced",
+   "subCategory": "Extensions",
+   "frets": [
+    "3",
+    "X",
+    "4",
+    "2",
+    "3",
+    "X"
+   ],
+   "fingers": [
+    "2",
+    "",
+    "4",
+    "1",
+    "3",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G",
+   "description": "Jazzy I chord."
+  },
+  "C6/9": {
+   "tier": "Advanced",
+   "subCategory": "Extensions",
+   "frets": [
+    "X",
+    "3",
+    "2",
+    "2",
+    "3",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "1",
+    "1",
+    "3",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C",
+   "description": "Lush John Mayer style IV chord."
+  },
+  "B7": {
+   "tier": "Advanced",
+   "subCategory": "Altered",
+   "frets": [
+    "X",
+    "2",
+    "1",
+    "2",
+    "0",
+    "2"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "1",
+    "3",
+    "",
+    "4"
+   ],
+   "rootString": 5,
+   "bassNote": "B",
+   "description": "Secondary dominant (V of vi)."
+  },
+  "D Major": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "X",
+    "0",
+    "2",
+    "3",
+    "2"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "3",
+    "2"
+   ],
+   "rootString": 4,
+   "bassNote": "D"
+  },
+  "E Minor 7 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "0",
+    "2",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E"
+  },
+  "F# Minor 7 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "2",
+    "X",
+    "2",
+    "2",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "2",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "F#"
+  },
+  "G Major (D Key)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "3",
+    "2",
+    "0",
+    "0",
+    "3",
+    "3"
+   ],
+   "fingers": [
+    "2",
+    "1",
+    "",
+    "",
+    "3",
+    "4"
+   ],
+   "rootString": 6,
+   "bassNote": "G"
+  },
+  "A sus4": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "0",
+    "2",
+    "2",
+    "3",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "2",
+    "3",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "B Minor 7 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "2",
+    "0",
+    "2",
+    "0",
+    "2"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "",
+    "2",
+    "",
+    "3"
+   ],
+   "rootString": 5,
+   "bassNote": "B"
+  },
+  "D (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "X",
+    "5",
+    "4",
+    "0",
+    "3",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "2",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "D",
+   "description": "I chord cinematic."
+  },
+  "Em11 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "X",
+    "7",
+    "7",
+    "0",
+    "5",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "E",
+   "description": "ii chord cinematic."
+  },
+  "G (High Drone - D Key)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "X",
+    "10",
+    "9",
+    "0",
+    "8",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "2",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "G",
+   "description": "IV chord cinematic."
+  },
+  "A (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "X",
+    "0",
+    "7",
+    "6",
+    "5",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "3",
+    "2",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A",
+   "description": "V chord cinematic."
+  },
+  "Bm11 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "7",
+    "X",
+    "7",
+    "7",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "2",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "B",
+   "description": "vi chord cinematic."
+  },
+  "Dmaj9": {
+   "tier": "Advanced",
+   "subCategory": "Extensions",
+   "frets": [
+    "X",
+    "X",
+    "0",
+    "2",
+    "2",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "2",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "D"
+  },
+  "Gmaj7#11": {
+   "tier": "Advanced",
+   "subCategory": "Extensions",
+   "frets": [
+    "3",
+    "X",
+    "4",
+    "4",
+    "2",
+    "0"
+   ],
+   "fingers": [
+    "2",
+    "",
+    "3",
+    "4",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G",
+   "description": "Lydian dream chord."
+  },
+  "E Major": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "0",
+    "2",
+    "2",
+    "1",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E"
+  },
+  "F# m11 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "2",
+    "4",
+    "4",
+    "2",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "F#"
+  },
+  "E/G#": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "4",
+    "X",
+    "2",
+    "4",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "4",
+    "",
+    "1",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G#"
+  },
+  "A 2": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "0",
+    "2",
+    "2",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "B sus4": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "2",
+    "4",
+    "4",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "B"
+  },
+  "C# Minor 7": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "4",
+    "6",
+    "6",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C#"
+  },
+  "E5 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "0",
+    "7",
+    "9",
+    "9",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E",
+   "description": "Massive I chord."
+  },
+  "F#m11 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "X",
+    "9",
+    "11",
+    "11",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "F#",
+   "description": "Massive ii chord."
+  },
+  "A2 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "X",
+    "0",
+    "7",
+    "6",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A",
+   "description": "Massive IV chord."
+  },
+  "Badd4 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "7",
+    "X",
+    "9",
+    "8",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "3",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "B",
+   "description": "Massive V chord."
+  },
+  "C#m7 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "9",
+    "X",
+    "11",
+    "9",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "3",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "C#",
+   "description": "Massive vi chord."
+  },
+  "Emaj9": {
+   "tier": "Advanced",
+   "subCategory": "Extensions",
+   "frets": [
+    "0",
+    "2",
+    "1",
+    "1",
+    "0",
+    "2"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "1",
+    "1",
+    "",
+    "3"
+   ],
+   "rootString": 6,
+   "bassNote": "E"
+  },
+  "C Major": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "3",
+    "2",
+    "0",
+    "1",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "2",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C"
+  },
+  "D Minor 7": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "X",
+    "0",
+    "2",
+    "1",
+    "1"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "2",
+    "1",
+    "1"
+   ],
+   "rootString": 4,
+   "bassNote": "D"
+  },
+  "C/E": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "0",
+    "3",
+    "2",
+    "0",
+    "1",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "2",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E"
+  },
+  "F Maj 7": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "X",
+    "3",
+    "2",
+    "1",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "3",
+    "2",
+    "1",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "F"
+  },
+  "Am7 (C Key)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "0",
+    "2",
+    "0",
+    "1",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "C (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "8",
+    "X",
+    "10",
+    "9",
+    "8",
+    "8"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "3",
+    "2",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "C"
+  },
+  "Dm11 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "10",
+    "X",
+    "10",
+    "10",
+    "8",
+    "X"
+   ],
+   "fingers": [
+    "2",
+    "",
+    "3",
+    "4",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "D"
+  },
+  "Am11 (High Drone - C Key)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "X",
+    "0",
+    "5",
+    "5",
+    "3",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "3",
+    "4",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "F Minor (Borrowed)": {
+   "tier": "Advanced",
+   "subCategory": "Altered",
+   "frets": [
+    "1",
+    "3",
+    "3",
+    "1",
+    "1",
+    "1"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "F"
+  },
+  "C#dim7": {
+   "tier": "Advanced",
+   "subCategory": "Altered",
+   "frets": [
+    "X",
+    "4",
+    "5",
+    "3",
+    "5",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C#"
+  },
+  "Am(maj7)": {
+   "tier": "Advanced",
+   "subCategory": "Altered",
+   "frets": [
+    "X",
+    "0",
+    "2",
+    "1",
+    "1",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "1",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "Cmaj7 (D2 Top Root)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Top)",
+   "frets": [
+    "X",
+    "X",
+    "10",
+    "9",
+    "8",
+    "7"
+   ],
+   "fingers": [
+    "",
+    "",
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "rootString": 4,
+   "bassNote": "C"
+  },
+  "Cmaj7 (D2 Top 1st)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Top)",
+   "frets": [
+    "X",
+    "X",
+    "2",
+    "4",
+    "1",
+    "3"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "4",
+    "1",
+    "3"
+   ],
+   "rootString": 3,
+   "bassNote": "E"
+  },
+  "Cmaj7 (D2 Top 2nd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Top)",
+   "frets": [
+    "X",
+    "X",
+    "5",
+    "5",
+    "5",
+    "7"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "1",
+    "1",
+    "3"
+   ],
+   "rootString": 2,
+   "bassNote": "G"
+  },
+  "Cmaj7 (D2 Top 3rd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Top)",
+   "frets": [
+    "X",
+    "X",
+    "9",
+    "9",
+    "8",
+    "8"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "3",
+    "1",
+    "1"
+   ],
+   "rootString": 1,
+   "bassNote": "B"
+  },
+  "Cmaj7 (D2 Mid Root)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Mid)",
+   "frets": [
+    "X",
+    "3",
+    "5",
+    "4",
+    "5",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "2",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C"
+  },
+  "Cmaj7 (D2 Mid 1st)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Mid)",
+   "frets": [
+    "X",
+    "7",
+    "9",
+    "5",
+    "8",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "4",
+    "1",
+    "3",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "E"
+  },
+  "Cmaj7 (D2 Mid 2nd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Mid)",
+   "frets": [
+    "X",
+    "10",
+    "10",
+    "9",
+    "12",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "2",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "G"
+  },
+  "Cmaj7 (D2 Mid 3rd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Mid)",
+   "frets": [
+    "X",
+    "14",
+    "14",
+    "12",
+    "13",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "4",
+    "1",
+    "2",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "B"
+  },
+  "Gmaj7 (D3 Root)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-3",
+   "frets": [
+    "3",
+    "X",
+    "4",
+    "4",
+    "3",
+    "X"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "3",
+    "4",
+    "2",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G"
+  },
+  "Gmaj7 (D3 1st)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-3",
+   "frets": [
+    "7",
+    "X",
+    "5",
+    "7",
+    "7",
+    "X"
+   ],
+   "fingers": [
+    "2",
+    "",
+    "1",
+    "3",
+    "4",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "B"
+  },
+  "Gmaj7 (D3 2nd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-3",
+   "frets": [
+    "10",
+    "X",
+    "9",
+    "11",
+    "8",
+    "X"
+   ],
+   "fingers": [
+    "3",
+    "",
+    "2",
+    "4",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "D"
+  },
+  "Gmaj7 (D3 3rd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-3",
+   "frets": [
+    "14",
+    "X",
+    "12",
+    "12",
+    "12",
+    "X"
+   ],
+   "fingers": [
+    "3",
+    "",
+    "1",
+    "1",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "F#"
+  },
+  "Cmaj7 (D2 Low Root)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Low)",
+   "frets": [
+    "8",
+    "10",
+    "9",
+    "9",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "2",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "C"
+  },
+  "Cmaj7 (D2 Low 1st)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Low)",
+   "frets": [
+    "12",
+    "14",
+    "10",
+    "12",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "2",
+    "4",
+    "1",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E"
+  },
+  "Cmaj7 (D2 Low 2nd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Low)",
+   "frets": [
+    "3",
+    "3",
+    "2",
+    "4",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "2",
+    "3",
+    "1",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G"
+  },
+  "Cmaj7 (D2 Low 3rd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 (Low)",
+   "frets": [
+    "7",
+    "7",
+    "5",
+    "5",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "3",
+    "4",
+    "1",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "B"
+  },
+  "Cm7 (D2 Mid Root)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 Minor",
+   "frets": [
+    "X",
+    "3",
+    "5",
+    "3",
+    "4",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "1",
+    "2",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C"
+  },
+  "Cm7 (D2 Mid 1st)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 Minor",
+   "frets": [
+    "X",
+    "6",
+    "8",
+    "5",
+    "8",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "4",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "Eb"
+  },
+  "Cm7 (D2 Mid 2nd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 Minor",
+   "frets": [
+    "X",
+    "10",
+    "10",
+    "8",
+    "11",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "G"
+  },
+  "Cm7 (D2 Mid 3rd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 Minor",
+   "frets": [
+    "X",
+    "13",
+    "13",
+    "12",
+    "13",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "Bb"
+  },
+  "Gm7 (D3 Root)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-3 Minor",
+   "frets": [
+    "3",
+    "X",
+    "3",
+    "3",
+    "3",
+    "X"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "1",
+    "1",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G"
+  },
+  "Gm7 (D3 1st)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-3 Minor",
+   "frets": [
+    "6",
+    "X",
+    "5",
+    "7",
+    "6",
+    "X"
+   ],
+   "fingers": [
+    "2",
+    "",
+    "1",
+    "4",
+    "3",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "Bb"
+  },
+  "Gm7 (D3 2nd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-3 Minor",
+   "frets": [
+    "10",
+    "X",
+    "8",
+    "10",
+    "8",
+    "X"
+   ],
+   "fingers": [
+    "3",
+    "",
+    "1",
+    "4",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "D"
+  },
+  "Gm7 (D3 3rd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-3 Minor",
+   "frets": [
+    "13",
+    "X",
+    "12",
+    "12",
+    "11",
+    "X"
+   ],
+   "fingers": [
+    "3",
+    "",
+    "2",
+    "2",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "F"
+  },
+  "G13": {
+   "tier": "Advanced",
+   "subCategory": "Extensions",
+   "frets": [
+    "3",
+    "X",
+    "3",
+    "4",
+    "5",
+    "X"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "2",
+    "3",
+    "4",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G"
+  },
+  "E7#9": {
+   "tier": "Advanced",
+   "subCategory": "Altered",
+   "frets": [
+    "X",
+    "7",
+    "6",
+    "7",
+    "8",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "1",
+    "3",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "E"
+  },
+  "E7b9": {
+   "tier": "Advanced",
+   "subCategory": "Altered",
+   "frets": [
+    "X",
+    "7",
+    "6",
+    "7",
+    "6",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "1",
+    "3",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "E",
+   "description": "Classic jazz resolution."
+  },
+  "E7#5#9": {
+   "tier": "Advanced",
+   "subCategory": "Altered",
+   "frets": [
+    "X",
+    "7",
+    "6",
+    "7",
+    "8",
+    "8"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "1",
+    "3",
+    "4",
+    "4"
+   ],
+   "rootString": 5,
+   "bassNote": "E"
+  },
+  "B m7b5": {
+   "tier": "Advanced",
+   "subCategory": "Jazz",
+   "frets": [
+    "X",
+    "2",
+    "3",
+    "2",
+    "3",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "2",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "B",
+   "description": "Half-diminished ii chord."
+  },
+  "Gmaj7 (Play Bm)": {
+   "tier": "Advanced",
+   "subCategory": "Upper Structure",
+   "frets": [
+    "X",
+    "X",
+    "X",
+    "7",
+    "7",
+    "7"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 3,
+   "bassNote": "D",
+   "description": "Bm triad over G bass."
+  },
+  "Cmaj9 (Play Em7)": {
+   "tier": "Advanced",
+   "subCategory": "Upper Structure",
+   "frets": [
+    "X",
+    "X",
+    "2",
+    "4",
+    "3",
+    "3"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "3",
+    "2",
+    "2"
+   ],
+   "rootString": 3,
+   "bassNote": "E",
+   "description": "Em7 over C bass."
+  },
+  "G Maj (Top Root)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "X",
+    "12",
+    "12",
+    "10"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "2",
+    "3",
+    "1"
+   ],
+   "rootString": 3,
+   "bassNote": "G"
+  },
+  "G Maj (Top 1st)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "X",
+    "4",
+    "3",
+    "3"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "2",
+    "1",
+    "1"
+   ],
+   "rootString": 1,
+   "bassNote": "B"
+  },
+  "G Maj (Top 2nd)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "X",
+    "7",
+    "8",
+    "7"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "2",
+    "1"
+   ],
+   "rootString": 2,
+   "bassNote": "D"
+  },
+  "C Maj (Mid Root)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "10",
+    "9",
+    "8",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "3",
+    "2",
+    "1",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "C"
+  },
+  "C Maj (Mid 1st)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "2",
+    "0",
+    "1",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 2,
+   "bassNote": "E"
+  },
+  "C Maj (Mid 2nd)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "5",
+    "5",
+    "5",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "1",
+    "1",
+    ""
+   ],
+   "rootString": 3,
+   "bassNote": "G"
+  },
+  "F Maj (Low Root)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "8",
+    "7",
+    "5",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "2",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "F"
+  },
+  "F Maj (Low 1st)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "12",
+    "10",
+    "10",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "1",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "A"
+  },
+  "F Maj (Low 2nd)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "3",
+    "3",
+    "2",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 3,
+   "bassNote": "C"
+  },
+  "G Spread (Root)": {
+   "tier": "Advanced",
+   "subCategory": "Spread Triad",
+   "frets": [
+    "3",
+    "X",
+    "0",
+    "4",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "O",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G",
+   "description": "Root - 5th - 10th."
+  },
+  "G Spread (1st Inv)": {
+   "tier": "Advanced",
+   "subCategory": "Spread Triad",
+   "frets": [
+    "7",
+    "X",
+    "5",
+    "7",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "2",
+    "",
+    "1",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "B"
+  },
+  "G Spread (2nd Inv)": {
+   "tier": "Advanced",
+   "subCategory": "Spread Triad",
+   "frets": [
+    "10",
+    "X",
+    "9",
+    "12",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "2",
+    "",
+    "1",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "D"
+  },
+  "4ths Double Stop": {
+   "tier": "Basic",
+   "subCategory": "Double Stop",
+   "frets": [
+    "X",
+    "X",
+    "X",
+    "7",
+    "7",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "1",
+    ""
+   ],
+   "rootString": 3,
+   "bassNote": "D"
+  },
+  "3rds Double Stop": {
+   "tier": "Basic",
+   "subCategory": "Double Stop",
+   "frets": [
+    "X",
+    "X",
+    "5",
+    "4",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "G"
+  },
+  "D add9 (Cluster)": {
+   "tier": "Advanced",
+   "subCategory": "Ambient",
+   "frets": [
+    "X",
+    "X",
+    "0",
+    "9",
+    "7",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "3",
+    "1",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "D"
+  },
+  "G Min (Top Root)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "X",
+    "12",
+    "11",
+    "10"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "3",
+    "2",
+    "1"
+   ],
+   "rootString": 3,
+   "bassNote": "G"
+  },
+  "G Min (Top 1st)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "X",
+    "3",
+    "3",
+    "3"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 1,
+   "bassNote": "Bb"
+  },
+  "G Min (Top 2nd)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "X",
+    "7",
+    "8",
+    "6"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "2",
+    "3",
+    "1"
+   ],
+   "rootString": 2,
+   "bassNote": "D"
+  },
+  "C Min (Mid Root)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "10",
+    "8",
+    "8",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "3",
+    "1",
+    "1",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "C"
+  },
+  "C Min (Mid 1st)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "1",
+    "0",
+    "1",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "",
+    "3",
+    ""
+   ],
+   "rootString": 2,
+   "bassNote": "Eb"
+  },
+  "C Min (Mid 2nd)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "5",
+    "5",
+    "4",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "3",
+    "1",
+    ""
+   ],
+   "rootString": 3,
+   "bassNote": "G"
+  },
+  "B Dim (Mid Root)": {
+   "tier": "Advanced",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "9",
+    "7",
+    "6",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "4",
+    "2",
+    "1",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "B"
+  },
+  "B Dim (Mid 1st)": {
+   "tier": "Advanced",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "12",
+    "10",
+    "12",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 2,
+   "bassNote": "D"
+  },
+  "B Dim (Mid 2nd)": {
+   "tier": "Advanced",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "3",
+    "4",
+    "3",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "2",
+    "1",
+    ""
+   ],
+   "rootString": 3,
+   "bassNote": "F"
+  },
+  "C Maj (Deep Root)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "8",
+    "7",
+    "5",
+    "X",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "4",
+    "3",
+    "1",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "C"
+  },
+  "C Maj (Deep 1st)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "12",
+    "10",
+    "10",
+    "X",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "3",
+    "1",
+    "1",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "E"
+  },
+  "C Maj (Deep 2nd)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "3",
+    "3",
+    "2",
+    "X",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "2",
+    "3",
+    "1",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "G"
+  },
+  "Dm7 (Funk Shell)": {
+   "tier": "Advanced",
+   "subCategory": "Shell",
+   "frets": [
+    "X",
+    "X",
+    "3",
+    "5",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "F",
+   "description": "Rootless 3rd & 7th"
+  },
+  "G7 (Funk Shell)": {
+   "tier": "Advanced",
+   "subCategory": "Shell",
+   "frets": [
+    "X",
+    "X",
+    "3",
+    "4",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "F",
+   "description": "Rootless 7th & 3rd"
+  },
+  "Cmaj7 (Funk Shell)": {
+   "tier": "Advanced",
+   "subCategory": "Shell",
+   "frets": [
+    "X",
+    "X",
+    "2",
+    "4",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "E",
+   "description": "Rootless 3rd & 7th"
+  },
+  "Csus2 (Pad)": {
+   "tier": "Advanced",
+   "subCategory": "Ambient",
+   "frets": [
+    "X",
+    "3",
+    "5",
+    "5",
+    "3",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C",
+   "description": "Dense stacked 2nd"
+  },
+  "Emaj9 (Cluster)": {
+   "tier": "Advanced",
+   "subCategory": "Ambient",
+   "frets": [
+    "X",
+    "X",
+    "4",
+    "4",
+    "4",
+    "4"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 4,
+   "bassNote": "F#",
+   "description": "Barre cluster"
+  },
+  "G5 (Wide Arena)": {
+   "tier": "Advanced",
+   "subCategory": "Wide 5th",
+   "frets": [
+    "3",
+    "X",
+    "X",
+    "0",
+    "3",
+    "X"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "",
+    "O",
+    "4",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G",
+   "description": "Massive open 5th"
+  },
+  "C5 (Wide Arena)": {
+   "tier": "Advanced",
+   "subCategory": "Wide 5th",
+   "frets": [
+    "8",
+    "X",
+    "X",
+    "5",
+    "8",
+    "X"
+   ],
+   "fingers": [
+    "3",
+    "",
+    "",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "C",
+   "description": "Massive open 5th"
+  },
+  "C/D": {
+   "tier": "Advanced",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "X",
+    "0",
+    "0",
+    "1",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "D"
+  },
+  "G/A": {
+   "tier": "Advanced",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "0",
+    "0",
+    "0",
+    "0",
+    "3"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "3"
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "A/B": {
+   "tier": "Advanced",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "2",
+    "2",
+    "2",
+    "2",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "2",
+    "3",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "B"
+  },
+  "A13 (Play Gmaj7)": {
+   "tier": "Advanced",
+   "subCategory": "Upper Structure",
+   "frets": [
+    "X",
+    "X",
+    "5",
+    "7",
+    "7",
+    "7"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "3",
+    "4",
+    "4"
+   ],
+   "rootString": 3,
+   "bassNote": "G"
+  },
+  "Am6": {
+   "tier": "Advanced",
+   "subCategory": "Altered",
+   "frets": [
+    "X",
+    "0",
+    "2",
+    "2",
+    "1",
+    "2"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "3",
+    "1",
+    "4"
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "C/G": {
+   "tier": "Advanced",
+   "subCategory": "Standard",
+   "frets": [
+    "3",
+    "3",
+    "2",
+    "0",
+    "1",
+    "0"
+   ],
+   "fingers": [
+    "3",
+    "4",
+    "2",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G"
+  },
+  "F/G": {
+   "tier": "Advanced",
+   "subCategory": "Standard",
+   "frets": [
+    "3",
+    "X",
+    "3",
+    "2",
+    "1",
+    "X"
+   ],
+   "fingers": [
+    "3",
+    "",
+    "4",
+    "2",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G"
+  },
+  "A Major (Std)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "0",
+    "2",
+    "2",
+    "2",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "2",
+    "3",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "B Minor 11": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "2",
+    "0",
+    "2",
+    "3",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "",
+    "2",
+    "3",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "B"
+  },
+  "A/C#": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "4",
+    "2",
+    "2",
+    "2",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "1",
+    "1",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C#"
+  },
+  "D Major 9": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "X",
+    "0",
+    "2",
+    "2",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "2",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "D"
+  },
+  "F# Minor 11": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "2",
+    "X",
+    "2",
+    "2",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "2",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "F#"
+  },
+  "A2 (High Drone - A Key)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "X",
+    "0",
+    "7",
+    "6",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A",
+   "description": "Massive I chord."
+  },
+  "Dmaj7 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "X",
+    "5",
+    "7",
+    "6",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "D",
+   "description": "Massive IV chord."
+  },
+  "E (High Drone - A Key)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "0",
+    "7",
+    "9",
+    "9",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E",
+   "description": "Massive V chord."
+  },
+  "B Major": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "2",
+    "4",
+    "4",
+    "4",
+    "2"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "2",
+    "3",
+    "4",
+    "1"
+   ],
+   "rootString": 5,
+   "bassNote": "B"
+  },
+  "B sus4 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "2",
+    "4",
+    "4",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "B"
+  },
+  "E Major 7 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "0",
+    "2",
+    "1",
+    "1",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "1",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E"
+  },
+  "F# Major": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "2",
+    "4",
+    "4",
+    "3",
+    "2",
+    "2"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "2",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "F#"
+  },
+  "G# Minor 7": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "4",
+    "X",
+    "4",
+    "4",
+    "4",
+    "X"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "2",
+    "3",
+    "4",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G#"
+  },
+  "Badd11 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "7",
+    "9",
+    "9",
+    "8",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "B",
+   "description": "Massive I chord — open E adds the 11."
+  },
+  "Emaj9 (High Drone)": {
+   "tier": "Advanced",
+   "subCategory": "High Drone",
+   "frets": [
+    "0",
+    "7",
+    "9",
+    "8",
+    "7",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "4",
+    "3",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E",
+   "description": "Massive IV chord."
+  },
+  "Fmaj7 (Thumb)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "1",
+    "X",
+    "3",
+    "2",
+    "1",
+    "0"
+   ],
+   "fingers": [
+    "T",
+    "",
+    "3",
+    "2",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "F",
+   "description": "Hendrix style thumb root."
+  },
+  "Gm13 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "3",
+    "X",
+    "3",
+    "3",
+    "3",
+    "0"
+   ],
+   "fingers": [
+    "T",
+    "",
+    "1",
+    "1",
+    "1",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G",
+   "description": "Open e rings the 13."
+  },
+  "Bb2 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "1",
+    "3",
+    "3",
+    "1",
+    "1"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "1",
+    "1"
+   ],
+   "rootString": 5,
+   "bassNote": "Bb"
+  },
+  "D (DADGAD)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "0",
+    "0",
+    "0",
+    "2",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "D"
+  },
+  "Em (DADGAD)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "2",
+    "2",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "2",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E"
+  },
+  "F#m (DADGAD)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "4",
+    "4",
+    "0",
+    "2",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "2",
+    "3",
+    "",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "F#"
+  },
+  "G (DADGAD)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "5",
+    "5",
+    "0",
+    "4",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "2",
+    "3",
+    "",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G"
+  },
+  "A (DADGAD)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "7",
+    "7",
+    "0",
+    "6",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "2",
+    "3",
+    "",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "A"
+  },
+  "Bm (DADGAD)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "9",
+    "9",
+    "0",
+    "7",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "2",
+    "3",
+    "",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "B"
+  },
+  "D (Open D)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "D"
+  },
+  "Em (Open D)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "2",
+    "2",
+    "2",
+    "1",
+    "2",
+    "2"
+   ],
+   "fingers": [
+    "1",
+    "1",
+    "1",
+    "2",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "E"
+  },
+  "F#m (Open D)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "4",
+    "4",
+    "4",
+    "3",
+    "4",
+    "4"
+   ],
+   "fingers": [
+    "1",
+    "1",
+    "1",
+    "2",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "F#"
+  },
+  "G (Open D)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "5",
+    "5",
+    "5",
+    "5",
+    "5",
+    "5"
+   ],
+   "fingers": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "G"
+  },
+  "A (Open D)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "7",
+    "7",
+    "7",
+    "7",
+    "7",
+    "7"
+   ],
+   "fingers": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "A"
+  },
+  "Bm (Open D)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "9",
+    "9",
+    "9",
+    "8",
+    "9",
+    "9"
+   ],
+   "fingers": [
+    "1",
+    "1",
+    "1",
+    "2",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "B"
+  },
+  "G (Open G)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "G"
+  },
+  "C (Open G)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "5",
+    "5",
+    "5",
+    "5",
+    "5",
+    "5"
+   ],
+   "fingers": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 5,
+   "bassNote": "C"
+  },
+  "D (Open G)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "7",
+    "7",
+    "7",
+    "7",
+    "7",
+    "7"
+   ],
+   "fingers": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 5,
+   "bassNote": "D"
+  },
+  "C (Open C)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "C"
+  },
+  "F (Open C)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "5",
+    "5",
+    "5",
+    "5",
+    "5",
+    "5"
+   ],
+   "fingers": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "F"
+  },
+  "G (Open C)": {
+   "tier": "Basic",
+   "subCategory": "Alternate Tuning",
+   "frets": [
+    "7",
+    "7",
+    "7",
+    "7",
+    "7",
+    "7"
+   ],
+   "fingers": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "G"
+  },
+  "E7 (Acoustic Blues)": {
+   "tier": "Advanced",
+   "subCategory": "Blues",
+   "frets": [
+    "0",
+    "2",
+    "0",
+    "1",
+    "3",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E",
+   "description": "Classic delta blues dominant"
+  },
+  "Edim7 (Slide)": {
+   "tier": "Advanced",
+   "subCategory": "Blues",
+   "frets": [
+    "X",
+    "1",
+    "2",
+    "0",
+    "2",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "2",
+    "",
+    "3",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "Bb",
+   "description": "Acoustic passing diminished"
+  },
+  "G7 (D2 Mid Root)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 Dominant",
+   "frets": [
+    "X",
+    "10",
+    "12",
+    "10",
+    "12",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "G"
+  },
+  "G7 (D2 Mid 1st)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 Dominant",
+   "frets": [
+    "X",
+    "2",
+    "3",
+    "0",
+    "3",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "B"
+  },
+  "G7 (D2 Mid 2nd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 Dominant",
+   "frets": [
+    "X",
+    "5",
+    "5",
+    "4",
+    "6",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "D"
+  },
+  "G7 (D2 Mid 3rd)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2 Dominant",
+   "frets": [
+    "X",
+    "8",
+    "9",
+    "7",
+    "8",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "F"
+  },
+  "Bm7b5 (D2 Mid Root)": {
+   "tier": "Advanced",
+   "subCategory": "Half-Diminished",
+   "frets": [
+    "X",
+    "2",
+    "3",
+    "2",
+    "3",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "2",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "B"
+  },
+  "Bm7b5 (D2 Mid 1st)": {
+   "tier": "Advanced",
+   "subCategory": "Half-Diminished",
+   "frets": [
+    "X",
+    "5",
+    "7",
+    "4",
+    "6",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "4",
+    "1",
+    "3",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "D"
+  },
+  "Bm7b5 (D2 Mid 2nd)": {
+   "tier": "Advanced",
+   "subCategory": "Half-Diminished",
+   "frets": [
+    "X",
+    "8",
+    "9",
+    "7",
+    "10",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "F"
+  },
+  "Bm7b5 (D2 Mid 3rd)": {
+   "tier": "Advanced",
+   "subCategory": "Half-Diminished",
+   "frets": [
+    "X",
+    "12",
+    "12",
+    "10",
+    "12",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "Co7 (Root)": {
+   "tier": "Advanced",
+   "subCategory": "Diminished",
+   "frets": [
+    "X",
+    "3",
+    "4",
+    "2",
+    "4",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C"
+  },
+  "Co7 (+3 frets)": {
+   "tier": "Advanced",
+   "subCategory": "Diminished",
+   "frets": [
+    "X",
+    "6",
+    "7",
+    "5",
+    "7",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "Eb",
+   "description": "Exact same shape, up a minor 3rd"
+  },
+  "Co7 (+6 frets)": {
+   "tier": "Advanced",
+   "subCategory": "Diminished",
+   "frets": [
+    "X",
+    "9",
+    "10",
+    "8",
+    "10",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "1",
+    "4",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "Gb",
+   "description": "Exact same shape, up a tritone"
+  },
+  "Quartal (A-D-G)": {
+   "tier": "Advanced",
+   "subCategory": "Quartal",
+   "frets": [
+    "X",
+    "5",
+    "5",
+    "5",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "1",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "D",
+   "description": "Stacked perfect 4ths"
+  },
+  "Quartal (D-G-B)": {
+   "tier": "Advanced",
+   "subCategory": "Quartal",
+   "frets": [
+    "X",
+    "X",
+    "5",
+    "5",
+    "6",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "1",
+    "2",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "G",
+   "description": "McCoy Tyner style"
+  },
+  "Cmaj7 (Drop 2&4)": {
+   "tier": "Advanced",
+   "subCategory": "Drop-2&4",
+   "frets": [
+    "8",
+    "X",
+    "5",
+    "4",
+    "5",
+    "X"
+   ],
+   "fingers": [
+    "4",
+    "",
+    "2",
+    "1",
+    "3",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "C",
+   "description": "Eric Johnson wide spread"
+  },
+  "G 6ths (Root)": {
+   "tier": "Basic",
+   "subCategory": "Double Stop",
+   "frets": [
+    "X",
+    "X",
+    "5",
+    "X",
+    "3",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "3",
+    "",
+    "1",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "G",
+   "description": "Country/R&B staple"
+  },
+  "G 6ths (1st Inv)": {
+   "tier": "Basic",
+   "subCategory": "Double Stop",
+   "frets": [
+    "X",
+    "X",
+    "9",
+    "X",
+    "8",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "3",
+    "",
+    "2",
+    ""
+   ],
+   "rootString": 2,
+   "bassNote": "B"
+  },
+  "Gaug (Mid)": {
+   "tier": "Advanced",
+   "subCategory": "Triads",
+   "frets": [
+    "X",
+    "X",
+    "5",
+    "4",
+    "4",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "3",
+    "1",
+    "2",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "G",
+   "description": "Gospel passing chord (G to C)"
+  },
+  "C Min (Deep Root)": {
+   "tier": "Basic",
+   "subCategory": "Triads",
+   "frets": [
+    "8",
+    "6",
+    "5",
+    "X",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "4",
+    "2",
+    "1",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "C"
+  },
+  "Am7 (Hendrix Box)": {
+   "tier": "Advanced",
+   "subCategory": "Embellishment",
+   "frets": [
+    "5",
+    "X",
+    "5",
+    "5",
+    "5",
+    "5"
+   ],
+   "fingers": [
+    "T",
+    "",
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "A",
+   "description": "Thumb root allows pinky embellishments"
+  },
+  "Am (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "0",
+    "2",
+    "2",
+    "1",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "3",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "Dm (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "X",
+    "0",
+    "2",
+    "3",
+    "1"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "2",
+    "3",
+    "1"
+   ],
+   "rootString": 4,
+   "bassNote": "D"
+  },
+  "Em (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "0",
+    "2",
+    "2",
+    "0",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "2",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E"
+  },
+  "A7 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Dominant",
+   "frets": [
+    "X",
+    "0",
+    "2",
+    "0",
+    "2",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "",
+    "2",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A",
+   "description": "Essential blues/folk dominant"
+  },
+  "C7 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Dominant",
+   "frets": [
+    "X",
+    "3",
+    "2",
+    "3",
+    "1",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "2",
+    "4",
+    "1",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C",
+   "description": "Essential blues/folk dominant"
+  },
+  "D7 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Dominant",
+   "frets": [
+    "X",
+    "X",
+    "0",
+    "2",
+    "1",
+    "2"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "2",
+    "1",
+    "3"
+   ],
+   "rootString": 4,
+   "bassNote": "D",
+   "description": "Essential blues/folk dominant"
+  },
+  "E7 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Dominant",
+   "frets": [
+    "0",
+    "2",
+    "0",
+    "1",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E",
+   "description": "Essential blues/folk dominant"
+  },
+  "G7 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Dominant",
+   "frets": [
+    "3",
+    "2",
+    "0",
+    "0",
+    "0",
+    "1"
+   ],
+   "fingers": [
+    "3",
+    "2",
+    "",
+    "",
+    "",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "G",
+   "description": "Essential blues/folk dominant"
+  },
+  "Amaj7 (Open)": {
+   "tier": "Advanced",
+   "subCategory": "Extensions",
+   "frets": [
+    "X",
+    "0",
+    "2",
+    "1",
+    "2",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "2",
+    "1",
+    "3",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A"
+  },
+  "Dmaj7 (Open)": {
+   "tier": "Advanced",
+   "subCategory": "Extensions",
+   "frets": [
+    "X",
+    "X",
+    "0",
+    "2",
+    "2",
+    "2"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "1",
+    "1"
+   ],
+   "rootString": 4,
+   "bassNote": "D"
+  },
+  "Fmaj7#11 (Form 1)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "1",
+    "3",
+    "3",
+    "2",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "F",
+   "description": "E shape at 1fr — use instead of plain F for a dreamy Lydian color."
+  },
+  "F#7add11 (Form 1)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "2",
+    "4",
+    "4",
+    "3",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "F#",
+   "description": "Use instead of F#7 — open B is the 11."
+  },
+  "G6 (Form 1)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "3",
+    "5",
+    "5",
+    "4",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G",
+   "description": "Use instead of G — open e adds the 6."
+  },
+  "Aadd9 (Form 1)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "5",
+    "7",
+    "7",
+    "6",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "A",
+   "description": "The A-key workhorse — open B is the 9."
+  },
+  "Cmaj7 (Form 1)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "8",
+    "10",
+    "10",
+    "9",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "C",
+   "description": "Use instead of C — open B is the maj7."
+  },
+  "D6/9 (Form 1)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "10",
+    "12",
+    "12",
+    "11",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "D",
+   "description": "Use instead of D — 6 and 9 ring on top."
+  },
+  "Cmaj7 (Form 2)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "X",
+    "3",
+    "5",
+    "5",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C",
+   "description": "Asus2 shape at 3fr — use instead of C."
+  },
+  "D6sus2 (Form 2)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "X",
+    "5",
+    "7",
+    "7",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "D",
+   "description": "Use instead of D — floating sus2 with a 6 on top."
+  },
+  "G6 (Form 2)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "X",
+    "10",
+    "12",
+    "12",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "G",
+   "description": "High-fret extension of the form."
+  },
+  "G#m7b13 (Form 3)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "4",
+    "X",
+    "4",
+    "4",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "2",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G#",
+   "description": "Dark minor color — open E is the b13."
+  },
+  "Am9 (Form 3)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "5",
+    "X",
+    "5",
+    "5",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "2",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "A",
+   "description": "Full Am9 — open B is the 9."
+  },
+  "C#m7 (Form 3)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "9",
+    "X",
+    "9",
+    "9",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "2",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "C#",
+   "description": "5th omitted — the open-string nuance still carries."
+  },
+  "D#m7 (Form 3)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "11",
+    "X",
+    "11",
+    "11",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "2",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "D#",
+   "description": "5th omitted; open strings rub (b9) — passing color, mind the clash."
+  },
+  "Em7 (Form 3)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "12",
+    "X",
+    "12",
+    "12",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "2",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E",
+   "description": "Top of the form — pure Em7 at the octave."
+  },
+  "G#m b13 (Form 4)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "4",
+    "6",
+    "6",
+    "4",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "G#",
+   "description": "Fuller G#m — open E adds the b13 shimmer."
+  },
+  "Am add9 (Form 4)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "5",
+    "7",
+    "7",
+    "5",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "A",
+   "description": "Use instead of Am."
+  },
+  "Bm add11 (Form 4)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "7",
+    "9",
+    "9",
+    "7",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "B",
+   "description": "Use instead of Bm."
+  },
+  "C#m7 (Form 4)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "9",
+    "11",
+    "11",
+    "9",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "1",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "C#",
+   "description": "The 9fr hi-position C#m7 — full voicing with 5th."
+  },
+  "Aadd9/C# (Form 5)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "X",
+    "4",
+    "2",
+    "2",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "1",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C#",
+   "description": "1st-inversion A — use for A/C#, open B is the 9."
+  },
+  "Bsus4/D# (Form 5)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "X",
+    "6",
+    "4",
+    "4",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "1",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "D#",
+   "description": "Rising bass line — two frets up from A/C#."
+  },
+  "Cmaj7/E (Form 5)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "X",
+    "7",
+    "5",
+    "5",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "1",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "E",
+   "description": "Use for C/E — open B turns it maj7."
+  },
+  "D6/9/F# (Form 5)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "X",
+    "9",
+    "7",
+    "7",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "1",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "F#",
+   "description": "Use for D/F# in ascending bass runs."
+  },
+  "E/G# (Form 5)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "X",
+    "11",
+    "9",
+    "9",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "3",
+    "1",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "G#",
+   "description": "The E-key resolution point of the climb."
+  },
+  "Fmaj7#11/A (Form 6)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "5",
+    "X",
+    "3",
+    "5",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "2",
+    "",
+    "1",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "A",
+   "description": "Use for F/A — half-step riser with open-string haze."
+  },
+  "F#7add11/A# (Form 6)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "6",
+    "X",
+    "4",
+    "6",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "2",
+    "",
+    "1",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "A#",
+   "description": "Use for F#/A# — keeps the chromatic bass climbing."
+  },
+  "G6/B (Form 6)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "7",
+    "X",
+    "5",
+    "7",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "2",
+    "",
+    "1",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "B",
+   "description": "Use for G/B at the top of the climb."
+  },
+  "D6/9/F# (Form 6)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "2",
+    "X",
+    "0",
+    "2",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "1",
+    "",
+    "",
+    "2",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "F#",
+   "description": "Use for D/F# in descending bass lines."
+  },
+  "G6/B (Form 7)": {
+   "tier": "Advanced",
+   "subCategory": "Open Tension",
+   "frets": [
+    "X",
+    "2",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "B",
+   "description": "One finger — B bass under a ringing G6."
+  },
+  "C (A-Shape)": {
+   "tier": "Basic",
+   "subCategory": "CAGED",
+   "frets": [
+    "X",
+    "3",
+    "5",
+    "5",
+    "5",
+    "3"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "3",
+    "3",
+    "1"
+   ],
+   "rootString": 5,
+   "bassNote": "C",
+   "description": "A-shape barre at 3fr — the second CAGED station."
+  },
+  "C (G-Shape)": {
+   "tier": "Advanced",
+   "subCategory": "CAGED",
+   "frets": [
+    "8",
+    "7",
+    "5",
+    "5",
+    "5",
+    "8"
+   ],
+   "fingers": [
+    "3",
+    "2",
+    "1",
+    "1",
+    "1",
+    "4"
+   ],
+   "rootString": 6,
+   "bassNote": "C",
+   "description": "The hardest CAGED grip — many players fret just the top four strings."
+  },
+  "C (E-Shape)": {
+   "tier": "Basic",
+   "subCategory": "CAGED",
+   "frets": [
+    "8",
+    "10",
+    "10",
+    "9",
+    "8",
+    "8"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "2",
+    "1",
+    "1"
+   ],
+   "rootString": 6,
+   "bassNote": "C",
+   "description": "E-shape barre at 8fr — the workhorse barre chord."
+  },
+  "C (D-Shape)": {
+   "tier": "Advanced",
+   "subCategory": "CAGED",
+   "frets": [
+    "X",
+    "X",
+    "10",
+    "12",
+    "13",
+    "12"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "2",
+    "4",
+    "3"
+   ],
+   "rootString": 4,
+   "bassNote": "C",
+   "description": "D-shape at the 10th fret — bright top-string voicing."
+  },
+  "E5 (Power)": {
+   "tier": "Basic",
+   "subCategory": "Power Chord",
+   "frets": [
+    "0",
+    "2",
+    "2",
+    "X",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E",
+   "description": "Root + 5th — the sound of rock."
+  },
+  "A5 (Power)": {
+   "tier": "Basic",
+   "subCategory": "Power Chord",
+   "frets": [
+    "X",
+    "0",
+    "2",
+    "2",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "",
+    "1",
+    "3",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "A",
+   "description": "Open A power chord."
+  },
+  "F5 (Moveable)": {
+   "tier": "Basic",
+   "subCategory": "Power Chord",
+   "frets": [
+    "1",
+    "3",
+    "3",
+    "X",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "1",
+    "3",
+    "4",
+    "",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "F",
+   "description": "Slide anywhere — the root names the chord."
+  },
+  "C5 (5th-String)": {
+   "tier": "Basic",
+   "subCategory": "Power Chord",
+   "frets": [
+    "X",
+    "3",
+    "5",
+    "5",
+    "X",
+    "X"
+   ],
+   "fingers": [
+    "",
+    "1",
+    "3",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 5,
+   "bassNote": "C",
+   "description": "Same grip from the 5th string."
+  },
+  "E9 (Funk)": {
+   "tier": "Advanced",
+   "subCategory": "Funk",
+   "frets": [
+    "X",
+    "7",
+    "6",
+    "7",
+    "7",
+    "7"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "1",
+    "3",
+    "3",
+    "3"
+   ],
+   "rootString": 5,
+   "bassNote": "E",
+   "description": "The James Brown chord — snap it on the \"and\"."
+  },
+  "D9 (Funk)": {
+   "tier": "Advanced",
+   "subCategory": "Funk",
+   "frets": [
+    "X",
+    "5",
+    "4",
+    "5",
+    "5",
+    "5"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "1",
+    "3",
+    "3",
+    "3"
+   ],
+   "rootString": 5,
+   "bassNote": "D",
+   "description": "Same 9th grip two frets down."
+  },
+  "E13 (Open)": {
+   "tier": "Advanced",
+   "subCategory": "Funk",
+   "frets": [
+    "0",
+    "X",
+    "0",
+    "1",
+    "2",
+    "2"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "2",
+    "3"
+   ],
+   "rootString": 6,
+   "bassNote": "E",
+   "description": "Open-string 13th — huge dominant color for cheap."
+  },
+  "Dsus2 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "X",
+    "X",
+    "0",
+    "2",
+    "3",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "",
+    "",
+    "1",
+    "3",
+    ""
+   ],
+   "rootString": 4,
+   "bassNote": "D",
+   "description": "Lift the 3rd — open, airy D."
+  },
+  "Esus4 (Open)": {
+   "tier": "Basic",
+   "subCategory": "Standard",
+   "frets": [
+    "0",
+    "2",
+    "2",
+    "2",
+    "0",
+    "0"
+   ],
+   "fingers": [
+    "",
+    "2",
+    "3",
+    "4",
+    "",
+    ""
+   ],
+   "rootString": 6,
+   "bassNote": "E",
+   "description": "The 4th leaning back into E major."
+  }
+ },
+ "songKeys": [
+  {
+   "keyName": "Key of G",
+   "isPriority": true,
+   "chords": [
+    {
+     "chord": "G Major",
+     "nashville": "I"
+    },
+    {
+     "chord": "A Minor 7",
+     "nashville": "ii"
+    },
+    {
+     "chord": "G/B",
+     "nashville": "I/3"
+    },
+    {
+     "chord": "C add9",
+     "nashville": "IV"
+    },
+    {
+     "chord": "D sus4",
+     "nashville": "V"
+    },
+    {
+     "chord": "D/F#",
+     "nashville": "V/7"
+    },
+    {
+     "chord": "E Minor 7",
+     "nashville": "vi"
+    },
+    {
+     "chord": "G (High Drone)",
+     "nashville": "I (High)"
+    },
+    {
+     "chord": "Am11 (High Drone)",
+     "nashville": "ii (High)"
+    },
+    {
+     "chord": "Cmaj7 (High Drone)",
+     "nashville": "IV (High)"
+    },
+    {
+     "chord": "Dadd4 (High Drone)",
+     "nashville": "V (High)"
+    },
+    {
+     "chord": "Em7 (High Drone)",
+     "nashville": "vi (High)"
+    },
+    {
+     "chord": "C/D",
+     "nashville": "IV/V"
+    },
+    {
+     "chord": "Gmaj9",
+     "nashville": "I (Maj9)"
+    },
+    {
+     "chord": "C6/9",
+     "nashville": "IV (6/9)"
+    },
+    {
+     "chord": "B7",
+     "nashville": "V/vi"
+    }
+   ]
+  },
+  {
+   "keyName": "Key of D",
+   "isPriority": true,
+   "chords": [
+    {
+     "chord": "D Major",
+     "nashville": "I"
+    },
+    {
+     "chord": "E Minor 7 (Open)",
+     "nashville": "ii"
+    },
+    {
+     "chord": "D/F#",
+     "nashville": "I/3"
+    },
+    {
+     "chord": "G Major (D Key)",
+     "nashville": "IV"
+    },
+    {
+     "chord": "A sus4",
+     "nashville": "V"
+    },
+    {
+     "chord": "B Minor 7 (Open)",
+     "nashville": "vi"
+    },
+    {
+     "chord": "D (High Drone)",
+     "nashville": "I (High)"
+    },
+    {
+     "chord": "Em11 (High Drone)",
+     "nashville": "ii (High)"
+    },
+    {
+     "chord": "G (High Drone - D Key)",
+     "nashville": "IV (High)"
+    },
+    {
+     "chord": "A (High Drone)",
+     "nashville": "V (High)"
+    },
+    {
+     "chord": "Bm11 (High Drone)",
+     "nashville": "vi (High)"
+    },
+    {
+     "chord": "G/A",
+     "nashville": "IV/V"
+    },
+    {
+     "chord": "Dmaj9",
+     "nashville": "I (Maj9)"
+    },
+    {
+     "chord": "Gmaj7#11",
+     "nashville": "IV (#11)"
+    },
+    {
+     "chord": "Dmaj7 (Open)",
+     "nashville": "I (Maj7)"
+    },
+    {
+     "chord": "Dsus2 (Open)",
+     "nashville": "I (sus2)"
+    }
+   ]
+  },
+  {
+   "keyName": "Key of E",
+   "isPriority": true,
+   "chords": [
+    {
+     "chord": "E Major",
+     "nashville": "I"
+    },
+    {
+     "chord": "F# m11 (Open)",
+     "nashville": "ii"
+    },
+    {
+     "chord": "E/G#",
+     "nashville": "I/3"
+    },
+    {
+     "chord": "A 2",
+     "nashville": "IV"
+    },
+    {
+     "chord": "B sus4",
+     "nashville": "V"
+    },
+    {
+     "chord": "C# Minor 7",
+     "nashville": "vi"
+    },
+    {
+     "chord": "E5 (High Drone)",
+     "nashville": "I (High)"
+    },
+    {
+     "chord": "F#m11 (High Drone)",
+     "nashville": "ii (High)"
+    },
+    {
+     "chord": "A2 (High Drone)",
+     "nashville": "IV (High)"
+    },
+    {
+     "chord": "Badd4 (High Drone)",
+     "nashville": "V (High)"
+    },
+    {
+     "chord": "C#m7 (High Drone)",
+     "nashville": "vi (High)"
+    },
+    {
+     "chord": "A/B",
+     "nashville": "IV/V"
+    },
+    {
+     "chord": "Emaj9",
+     "nashville": "I (Maj9)"
+    },
+    {
+     "chord": "Esus4 (Open)",
+     "nashville": "I (sus4)"
+    }
+   ]
+  },
+  {
+   "keyName": "Key of C",
+   "isPriority": true,
+   "chords": [
+    {
+     "chord": "C Major",
+     "nashville": "I"
+    },
+    {
+     "chord": "D Minor 7",
+     "nashville": "ii"
+    },
+    {
+     "chord": "C/E",
+     "nashville": "I/3"
+    },
+    {
+     "chord": "F Maj 7",
+     "nashville": "IV"
+    },
+    {
+     "chord": "Am7 (C Key)",
+     "nashville": "vi"
+    },
+    {
+     "chord": "C (High Drone)",
+     "nashville": "I (High)"
+    },
+    {
+     "chord": "Dm11 (High Drone)",
+     "nashville": "ii (High)"
+    },
+    {
+     "chord": "Am11 (High Drone - C Key)",
+     "nashville": "vi (High)"
+    },
+    {
+     "chord": "F Minor (Borrowed)",
+     "nashville": "iv"
+    },
+    {
+     "chord": "C#dim7",
+     "nashville": "#Idim7"
+    },
+    {
+     "chord": "C7 (Open)",
+     "nashville": "I7"
+    }
+   ]
+  },
+  {
+   "keyName": "Key of A",
+   "chords": [
+    {
+     "chord": "A Major (Std)",
+     "nashville": "I"
+    },
+    {
+     "chord": "B Minor 11",
+     "nashville": "ii"
+    },
+    {
+     "chord": "A/C#",
+     "nashville": "I/3"
+    },
+    {
+     "chord": "D Major 9",
+     "nashville": "IV"
+    },
+    {
+     "chord": "F# Minor 11",
+     "nashville": "vi"
+    },
+    {
+     "chord": "A2 (High Drone - A Key)",
+     "nashville": "I (High)"
+    },
+    {
+     "chord": "Dmaj7 (High Drone)",
+     "nashville": "IV (High)"
+    },
+    {
+     "chord": "E (High Drone - A Key)",
+     "nashville": "V (High)"
+    },
+    {
+     "chord": "Amaj7 (Open)",
+     "nashville": "I (Maj7)"
+    }
+   ]
+  },
+  {
+   "keyName": "Key of B",
+   "chords": [
+    {
+     "chord": "B Major",
+     "nashville": "I"
+    },
+    {
+     "chord": "B sus4 (Open)",
+     "nashville": "I (sus)"
+    },
+    {
+     "chord": "E Major 7 (Open)",
+     "nashville": "IV"
+    },
+    {
+     "chord": "F# Major",
+     "nashville": "V"
+    },
+    {
+     "chord": "G# Minor 7",
+     "nashville": "vi"
+    },
+    {
+     "chord": "Badd11 (High Drone)",
+     "nashville": "I (High)"
+    },
+    {
+     "chord": "Emaj9 (High Drone)",
+     "nashville": "IV (High)"
+    }
+   ]
+  },
+  {
+   "keyName": "Key of F (Thumb)",
+   "chords": [
+    {
+     "chord": "Fmaj7 (Thumb)",
+     "nashville": "I"
+    },
+    {
+     "chord": "Gm13 (Open)",
+     "nashville": "ii"
+    },
+    {
+     "chord": "Bb2 (Open)",
+     "nashville": "IV"
+    }
+   ]
+  },
+  {
+   "keyName": "Foundational Minors",
+   "chords": [
+    {
+     "chord": "Am (Open)",
+     "nashville": "Am"
+    },
+    {
+     "chord": "Dm (Open)",
+     "nashville": "Dm"
+    },
+    {
+     "chord": "Em (Open)",
+     "nashville": "Em"
+    }
+   ]
+  },
+  {
+   "keyName": "Open Dominant 7ths",
+   "chords": [
+    {
+     "chord": "A7 (Open)",
+     "nashville": "A7"
+    },
+    {
+     "chord": "C7 (Open)",
+     "nashville": "C7"
+    },
+    {
+     "chord": "D7 (Open)",
+     "nashville": "D7"
+    },
+    {
+     "chord": "E7 (Open)",
+     "nashville": "E7"
+    },
+    {
+     "chord": "G7 (Open)",
+     "nashville": "G7"
+    }
+   ]
+  },
+  {
+   "keyName": "Acoustic Blues/Slide",
+   "chords": [
+    {
+     "chord": "E7 (Acoustic Blues)",
+     "nashville": "I7"
+    },
+    {
+     "chord": "Edim7 (Slide)",
+     "nashville": "#Idim7"
+    }
+   ]
+  }
+ ],
+ "tuningKeys": [
+  {
+   "keyName": "DADGAD",
+   "chords": [
+    {
+     "chord": "D (DADGAD)",
+     "nashville": "I"
+    },
+    {
+     "chord": "Em (DADGAD)",
+     "nashville": "ii"
+    },
+    {
+     "chord": "F#m (DADGAD)",
+     "nashville": "iii"
+    },
+    {
+     "chord": "G (DADGAD)",
+     "nashville": "IV"
+    },
+    {
+     "chord": "A (DADGAD)",
+     "nashville": "V"
+    },
+    {
+     "chord": "Bm (DADGAD)",
+     "nashville": "vi"
+    }
+   ]
+  },
+  {
+   "keyName": "Open D",
+   "chords": [
+    {
+     "chord": "D (Open D)",
+     "nashville": "I"
+    },
+    {
+     "chord": "Em (Open D)",
+     "nashville": "ii"
+    },
+    {
+     "chord": "F#m (Open D)",
+     "nashville": "iii"
+    },
+    {
+     "chord": "G (Open D)",
+     "nashville": "IV"
+    },
+    {
+     "chord": "A (Open D)",
+     "nashville": "V"
+    },
+    {
+     "chord": "Bm (Open D)",
+     "nashville": "vi"
+    }
+   ]
+  },
+  {
+   "keyName": "Open G",
+   "chords": [
+    {
+     "chord": "G (Open G)",
+     "nashville": "I"
+    },
+    {
+     "chord": "C (Open G)",
+     "nashville": "IV"
+    },
+    {
+     "chord": "D (Open G)",
+     "nashville": "V"
+    }
+   ]
+  },
+  {
+   "keyName": "Open C",
+   "chords": [
+    {
+     "chord": "C (Open C)",
+     "nashville": "I"
+    },
+    {
+     "chord": "F (Open C)",
+     "nashville": "IV"
+    },
+    {
+     "chord": "G (Open C)",
+     "nashville": "V"
+    }
+   ]
+  }
+ ],
+ "barreGroups": [
+  {
+   "groupName": "Drop-2 Matrix (Low 4 Strings)",
+   "usageLabel": "Rhythm Bed",
+   "description": "Muddy but necessary for completing the cycle. Strings E-A-D-G.",
+   "chords": [
+    "Cmaj7 (D2 Low Root)",
+    "Cmaj7 (D2 Low 1st)",
+    "Cmaj7 (D2 Low 2nd)",
+    "Cmaj7 (D2 Low 3rd)"
+   ]
+  },
+  {
+   "groupName": "Drop-2 Matrix (Mid 4 Strings)",
+   "usageLabel": "Essential R&B",
+   "description": "The absolute workhorse for comping. Strings A-D-G-B.",
+   "chords": [
+    "Cmaj7 (D2 Mid Root)",
+    "Cmaj7 (D2 Mid 1st)",
+    "Cmaj7 (D2 Mid 2nd)",
+    "Cmaj7 (D2 Mid 3rd)"
+   ]
+  },
+  {
+   "groupName": "Drop-2 Matrix (Top 4 Strings)",
+   "usageLabel": "Modern Soul",
+   "description": "High register. Cuts through the mix. Strings D-G-B-e.",
+   "chords": [
+    "Cmaj7 (D2 Top Root)",
+    "Cmaj7 (D2 Top 1st)",
+    "Cmaj7 (D2 Top 2nd)",
+    "Cmaj7 (D2 Top 3rd)"
+   ]
+  },
+  {
+   "groupName": "Minor Drop-2 (Mid 4 Strings)",
+   "usageLabel": "Jazz Comping",
+   "description": "The essential minor 7th inversions.",
+   "chords": [
+    "Cm7 (D2 Mid Root)",
+    "Cm7 (D2 Mid 1st)",
+    "Cm7 (D2 Mid 2nd)",
+    "Cm7 (D2 Mid 3rd)"
+   ]
+  },
+  {
+   "groupName": "Drop-3 Matrix",
+   "usageLabel": "Real Jazz Mastery",
+   "description": "Thick traditional jazz sound. Root on 6th string.",
+   "chords": [
+    "Gmaj7 (D3 Root)",
+    "Gmaj7 (D3 1st)",
+    "Gmaj7 (D3 2nd)",
+    "Gmaj7 (D3 3rd)"
+   ]
+  },
+  {
+   "groupName": "Minor Drop-3 Matrix",
+   "usageLabel": "Thick Minor Comping",
+   "description": "Thick minor 7th inversions.",
+   "chords": [
+    "Gm7 (D3 Root)",
+    "Gm7 (D3 1st)",
+    "Gm7 (D3 2nd)",
+    "Gm7 (D3 3rd)"
+   ]
+  },
+  {
+   "groupName": "Rootless Upper Structures",
+   "usageLabel": "Neo-Soul Secret",
+   "description": "Play triads over a bass note to form lush extensions.",
+   "chords": [
+    "Gmaj7 (Play Bm)",
+    "Cmaj9 (Play Em7)",
+    "A13 (Play Gmaj7)"
+   ]
+  },
+  {
+   "groupName": "Altered Dominant Family",
+   "usageLabel": "Tension",
+   "description": "Must-know chords for resolving to minor keys.",
+   "chords": [
+    "E7#9",
+    "E7b9",
+    "E7#5#9",
+    "B m7b5"
+   ]
+  },
+  {
+   "groupName": "CAGED System (C)",
+   "usageLabel": "One Chord, Five Places",
+   "description": "The same C major mapped through all five CAGED shapes up the neck. Learn the map, own the fretboard.",
+   "chords": [
+    "C Major",
+    "C (A-Shape)",
+    "C (G-Shape)",
+    "C (E-Shape)",
+    "C (D-Shape)"
+   ]
+  },
+  {
+   "groupName": "Dominant Drop-2 (Mid)",
+   "usageLabel": "V7 Workhorse",
+   "description": "G7 drop-2 inversions on the middle strings — pair with the maj7 and m7 matrices for full ii-V-I coverage.",
+   "chords": [
+    "G7 (D2 Mid Root)",
+    "G7 (D2 Mid 1st)",
+    "G7 (D2 Mid 2nd)",
+    "G7 (D2 Mid 3rd)"
+   ]
+  },
+  {
+   "groupName": "Half-Diminished Drop-2",
+   "usageLabel": "The ii of Minor Keys",
+   "description": "Bm7b5 drop-2 inversions — the gateway chord of every minor ii-V-i.",
+   "chords": [
+    "Bm7b5 (D2 Mid Root)",
+    "Bm7b5 (D2 Mid 1st)",
+    "Bm7b5 (D2 Mid 2nd)",
+    "Bm7b5 (D2 Mid 3rd)"
+   ]
+  },
+  {
+   "groupName": "Symmetric Diminished",
+   "usageLabel": "Tension Machine",
+   "description": "A dim7 chord repeats itself every three frets — one grip gives you four chords.",
+   "chords": [
+    "Co7 (Root)",
+    "Co7 (+3 frets)",
+    "Co7 (+6 frets)"
+   ]
+  },
+  {
+   "groupName": "Quartal & Wide Spreads",
+   "usageLabel": "Modern Color",
+   "description": "Stacked perfect 4ths (McCoy Tyner) and the Eric Johnson drop-2&4 spread.",
+   "chords": [
+    "Quartal (A-D-G)",
+    "Quartal (D-G-B)",
+    "Cmaj7 (Drop 2&4)"
+   ]
+  }
+ ],
+ "electricGroups": [
+  {
+   "groupName": "Spread Triads",
+   "description": "Eric Johnson / Frusciante style. Spanning across skipped strings.",
+   "chords": [
+    "G Spread (Root)",
+    "G Spread (1st Inv)",
+    "G Spread (2nd Inv)"
+   ]
+  },
+  {
+   "groupName": "Top Triads (Maj & Min)",
+   "description": "G-B-e strings. Essential for R&B accompaniment.",
+   "chords": [
+    "G Maj (Top Root)",
+    "G Maj (Top 1st)",
+    "G Maj (Top 2nd)",
+    "G Min (Top Root)",
+    "G Min (Top 1st)",
+    "G Min (Top 2nd)"
+   ]
+  },
+  {
+   "groupName": "Middle Triads (Maj & Min)",
+   "description": "D-G-B strings. Warmer rhythmic bed.",
+   "chords": [
+    "C Maj (Mid Root)",
+    "C Maj (Mid 1st)",
+    "C Maj (Mid 2nd)",
+    "C Min (Mid Root)",
+    "C Min (Mid 1st)",
+    "C Min (Mid 2nd)"
+   ]
+  },
+  {
+   "groupName": "Low Triads (E-A-D)",
+   "description": "The absolute lowest rhythmic foundation. Replaces the bass player.",
+   "chords": [
+    "C Maj (Deep Root)",
+    "C Maj (Deep 1st)",
+    "C Maj (Deep 2nd)",
+    "C Min (Deep Root)"
+   ]
+  },
+  {
+   "groupName": "Dim & Aug Triads",
+   "description": "Gospel and Neo-Soul passing chords — diminished pulls down, augmented pushes up.",
+   "chords": [
+    "B Dim (Mid Root)",
+    "B Dim (Mid 1st)",
+    "B Dim (Mid 2nd)",
+    "Gaug (Mid)"
+   ]
+  },
+  {
+   "groupName": "Funk Shells (3rd & 7th)",
+   "description": "Rootless 2-note voicings for Cory Wong style funk comping.",
+   "chords": [
+    "Dm7 (Funk Shell)",
+    "G7 (Funk Shell)",
+    "Cmaj7 (Funk Shell)"
+   ]
+  },
+  {
+   "groupName": "Wide Arena Power Chords",
+   "description": "Massive 5ths that span multiple skipped strings.",
+   "chords": [
+    "G5 (Wide Arena)",
+    "C5 (Wide Arena)"
+   ]
+  },
+  {
+   "groupName": "Ambient Clusters",
+   "description": "Dense stacked 2nds for volume swells and heavy reverb pads.",
+   "chords": [
+    "Csus2 (Pad)",
+    "Emaj9 (Cluster)",
+    "D add9 (Cluster)"
+   ]
+  },
+  {
+   "groupName": "Thumb-Root Embellishment",
+   "description": "Hendrix / Mayer style: thumb takes the bass so fingers are free to decorate.",
+   "chords": [
+    "Am7 (Hendrix Box)",
+    "Fmaj7 (Thumb)",
+    "Gm13 (Open)"
+   ]
+  },
+  {
+   "groupName": "Double Stops",
+   "description": "Groove basics.",
+   "chords": [
+    "4ths Double Stop"
+   ]
+  },
+  {
+   "groupName": "Power Chords",
+   "description": "Roots and fifths, moveable everywhere. Palm-mute for chug, open up for choruses.",
+   "chords": [
+    "E5 (Power)",
+    "A5 (Power)",
+    "F5 (Moveable)",
+    "C5 (5th-String)"
+   ]
+  },
+  {
+   "groupName": "Funk 9ths & 13ths",
+   "description": "James Brown-approved dominant stabs. Slide in from a half-step below.",
+   "chords": [
+    "E9 (Funk)",
+    "D9 (Funk)",
+    "E13 (Open)"
+   ]
+  },
+  {
+   "groupName": "Bass-Side Triads (A-D-G)",
+   "description": "The fourth triad string-set — F major inversions living under the wound strings.",
+   "chords": [
+    "F Maj (Low Root)",
+    "F Maj (Low 1st)",
+    "F Maj (Low 2nd)"
+   ]
+  }
+ ],
+ "tensionForms": [
+  {
+   "groupName": "Form 1 · E Shape",
+   "formKr": "제1폼: E 코드 기반 폼",
+   "description": "Start from the open E chord and slide the whole grip up while strings 1-2 keep ringing. Each stop lands on a chord you can use instead of the plain one: F → Fmaj7(#11), F# → F#7(add11), G → G6, A → Aadd9, B → Badd11, C → Cmaj7, D → D6/9.",
+   "chords": [
+    "E Major",
+    "Fmaj7#11 (Form 1)",
+    "F#7add11 (Form 1)",
+    "G6 (Form 1)",
+    "Aadd9 (Form 1)",
+    "Badd11 (High Drone)",
+    "Cmaj7 (Form 1)",
+    "D6/9 (Form 1)"
+   ]
+  },
+  {
+   "groupName": "Form 2 · Asus2 Shape",
+   "formKr": "제2폼: Asus2 (A2) 기반 폼",
+   "description": "Asus2 with the bass on the 5th string. Slide up two frets for Bsus4, three for Cmaj7, one more for the moody C#m7, then Dsus2 territory and on up to F#m11 and G6 at the high frets.",
+   "chords": [
+    "A 2",
+    "B sus4 (Open)",
+    "Cmaj7 (Form 2)",
+    "C# Minor 7",
+    "D6sus2 (Form 2)",
+    "F#m11 (High Drone)",
+    "G6 (Form 2)"
+   ]
+  },
+  {
+   "groupName": "Form 3 · F#m7(add11) Shape",
+   "formKr": "제3폼: F#m7 (add 11) 기반 폼",
+   "description": "The minor-family form: mute the 5th string and move root + b7 + b3 under the open strings. Some stops omit the 5th entirely — the open-string nuance still carries the sound. Watch the b9 rub on D#m7.",
+   "chords": [
+    "F# Minor 7 (Open)",
+    "G#m7b13 (Form 3)",
+    "Am9 (Form 3)",
+    "Bm11 (High Drone)",
+    "C#m7 (Form 3)",
+    "D#m7 (Form 3)",
+    "Em7 (Form 3)"
+   ]
+  },
+  {
+   "groupName": "Form 4 · C#m7 High Position",
+   "formKr": "제4폼: C#m7 하이 포지션 폼",
+   "description": "The fuller four-finger minor grip, at home around the 9th fret (C#m7) and slid down for Bm and Am, or walked F#m → G#m → Am for horizontal motion across the board.",
+   "chords": [
+    "F# m11 (Open)",
+    "G#m b13 (Form 4)",
+    "Am add9 (Form 4)",
+    "Bm add11 (Form 4)",
+    "C#m7 (Form 4)"
+   ]
+  },
+  {
+   "groupName": "Form 5 · Slash Chords (A/C#)",
+   "formKr": "제5폼: 분수 코드 폼 (A/C# 계열)",
+   "description": "First-inversion slash voicings for sophisticated bass motion: A(add9)/C# → Bsus4/D# → Cmaj7/E → D6/9/F# → E/G#. The classic E-key ascending bass line, fully harmonized.",
+   "chords": [
+    "Aadd9/C# (Form 5)",
+    "Bsus4/D# (Form 5)",
+    "Cmaj7/E (Form 5)",
+    "D6/9/F# (Form 5)",
+    "E/G# (Form 5)"
+   ]
+  },
+  {
+   "groupName": "Form 6 · E/G# Variation",
+   "formKr": "제6폼: E/G# 변형 폼",
+   "description": "A compact slash form with the bass on the 6th string. Climb it in half/whole steps for tension — F/A → F#/A# → G/B — and keep D/F# handy for descending runs.",
+   "chords": [
+    "E/G#",
+    "Fmaj7#11/A (Form 6)",
+    "F#7add11/A# (Form 6)",
+    "G6/B (Form 6)",
+    "D6/9/F# (Form 6)"
+   ]
+  },
+  {
+   "groupName": "Form 7 · G6/B Walk",
+   "formKr": "제7폼: G6/B 및 기타 변형 폼",
+   "description": "The lecturer's signature walk: a one-finger G6/B, then the Form-5 grips carry the bass and tensions up together — G6/B → A/C# → Bsus4/D# → C/E — resolving home on E/G#.",
+   "chords": [
+    "G6/B (Form 7)",
+    "Aadd9/C# (Form 5)",
+    "Bsus4/D# (Form 5)",
+    "Cmaj7/E (Form 5)",
+    "E/G# (Form 5)"
+   ]
+  }
+ ],
+ "moves": {
+  "progressions": [
+   {
+    "title": "The 1-5-6-4 Anthem (Pop/Rock)",
+    "category": "Key of G",
+    "example": "G Major → D/F# → Em7 → C add9",
+    "description": "The most common chord progression.",
+    "howTo": "Anchor ring and pinky fingers.",
+    "sequence": [
+     "G Major",
+     "D/F#",
+     "E Minor 7",
+     "C add9"
+    ]
+   },
+   {
+    "title": "The \"Holy Slide\" (I to IV)",
+    "category": "Worship",
+    "example": "E5 (Holy) → A2 (High)",
+    "description": "Cinematic atmospheric transition.",
+    "howTo": "Slide from 7th fret to open.",
+    "sequence": [
+     "E5 (High Drone)",
+     "A2 (High Drone)"
+    ]
+   },
+   {
+    "title": "The Borrowed \"Minor 4\"",
+    "category": "Modal Interchange",
+    "example": "C Major → F Maj 7 → F Minor → C Major",
+    "description": "Emotional nostalgic pull.",
+    "howTo": "Barre the 1st fret for Fm.",
+    "sequence": [
+     "C Major",
+     "F Maj 7",
+     "F Minor (Borrowed)",
+     "C Major"
+    ]
+   },
+   {
+    "title": "The Line Cliche",
+    "category": "Chromatic",
+    "example": "Am → Am(maj7) → Am7 → Am6",
+    "description": "Descending inner line.",
+    "howTo": "Walk the A down half-steps.",
+    "sequence": [
+     "A Minor 7",
+     "Am(maj7)",
+     "Am7 (C Key)",
+     "Am6"
+    ]
+   },
+   {
+    "title": "ii-V-I Minor Turnaround",
+    "category": "Jazz / R&B",
+    "example": "Bm7b5 → E7b9 → Am11",
+    "description": "The classic minor resolution.",
+    "howTo": "Focus on the altered notes pulling to the minor root.",
+    "sequence": [
+     "B m7b5",
+     "E7b9",
+     "A Minor 7"
+    ]
+   },
+   {
+    "title": "Pedal Point Rhythm",
+    "category": "Electric",
+    "example": "C/G → F/G → C/G",
+    "description": "Keeping a static bass note.",
+    "howTo": "Hold the G bass note while shifting triads.",
+    "sequence": [
+     "C/G",
+     "F/G",
+     "C/G"
+    ]
+   },
+   {
+    "title": "The Gospel Walk-Up",
+    "category": "Soul / Gospel",
+    "example": "C → Dm7 → C/E → Fmaj7",
+    "description": "Classic 1-2-3-4 bass climb.",
+    "howTo": "Keep the progression moving smoothly by anticipating the bass notes.",
+    "sequence": [
+     "C Major",
+     "D Minor 7",
+     "C/E",
+     "F Maj 7"
+    ]
+   },
+   {
+    "title": "Neo-Soul Turnaround",
+    "category": "R&B",
+    "example": "Cmaj9 → Bm7b5 → E7#9 → Am11",
+    "description": "Thick, rootless extensions resolving to minor.",
+    "howTo": "Use the rootless Cmaj9 to stay out of the way, then create heavy tension with E7#9.",
+    "sequence": [
+     "Cmaj9 (Play Em7)",
+     "Bm7b5 (D2 Mid Root)",
+     "E7#9",
+     "Am11 (High Drone - C Key)"
+    ]
+   },
+   {
+    "title": "12-Bar Blues (Key of E)",
+    "category": "Blues",
+    "example": "E7 → A7 → B7 → E7",
+    "description": "The most-played progression in history: I7-IV7-V7.",
+    "howTo": "Four bars of E7, two of A7, two of E7, then B7-A7-E7-B7 to turn around. Shuffle the 8ths.",
+    "sequence": [
+     "E7 (Open)",
+     "A7 (Open)",
+     "B7",
+     "E7 (Open)"
+    ]
+   },
+   {
+    "title": "50s Doo-Wop (I–vi–IV–V)",
+    "category": "Pop / Soul",
+    "example": "C → Am → Fmaj7 → G7",
+    "description": "The \"Stand By Me\" changes — hundreds of songs live here.",
+    "howTo": "Two beats per chord with a light swing; keep the index anchored moving C → Am.",
+    "sequence": [
+     "C Major",
+     "Am (Open)",
+     "F Maj 7",
+     "G7 (Open)"
+    ]
+   },
+   {
+    "title": "Sus Breathing (D)",
+    "category": "Acoustic",
+    "example": "Dsus2 → D → Dsus4 → D",
+    "description": "The 2nd and 4th orbit the 3rd — instant campfire motion from one chord.",
+    "howTo": "Keep index and ring planted; lift and add the middle and pinky to swing between sus colors.",
+    "sequence": [
+     "Dsus2 (Open)",
+     "D Major",
+     "D sus4",
+     "D Major"
+    ]
+   }
+  ],
+  "licks": [
+   {
+    "title": "Pentatonic Fall",
+    "category": "E Minor",
+    "example": "e|--3p0-- B|--3p0--",
+    "description": "Classic rock descending run.",
+    "howTo": "Pull-off from 3rd to open.",
+    "sequence": [
+     "E Minor 7"
+    ]
+   },
+   {
+    "title": "Triad Climb",
+    "category": "CAGED",
+    "example": "Open C → A-Shape → E-Shape",
+    "description": "CAGED triad movement.",
+    "howTo": "Move up string sets.",
+    "sequence": [
+     "C Major",
+     "C Maj (Mid Root)",
+     "Cmaj7 (D2 Top Root)"
+    ]
+   },
+   {
+    "title": "Chord Tone Targeting",
+    "category": "Voice Leading",
+    "example": "Dm7 → G7 (target the B)",
+    "description": "Landing on the 3rd of the next chord.",
+    "howTo": "Play a D minor line, ending exactly on the B note when G hits.",
+    "sequence": [
+     "D Minor 7",
+     "G13"
+    ]
+   },
+   {
+    "title": "Acoustic Blues Turnaround",
+    "category": "Blues",
+    "example": "E7 → Edim7 → E7",
+    "description": "Swampy delta blues filler.",
+    "howTo": "Slide the diminished shape up and back down.",
+    "sequence": [
+     "E7 (Acoustic Blues)",
+     "Edim7 (Slide)",
+     "E7 (Acoustic Blues)"
+    ]
+   },
+   {
+    "title": "Country 6ths Glide",
+    "category": "Country / R&B",
+    "example": "G 6ths Root → 1st Inv",
+    "description": "Classic Steve Cropper / Nashville slide.",
+    "howTo": "Pluck the G and high-E strings together, sliding between inversions.",
+    "sequence": [
+     "G 6ths (Root)",
+     "G 6ths (1st Inv)"
+    ]
+   },
+   {
+    "title": "Funk 9th Slide",
+    "category": "Funk",
+    "example": "D9 → (slide) → E9",
+    "description": "The classic funk stab — approach the 9th grip from below.",
+    "howTo": "Strike the grip one fret low and slide up landing on beat one; choke with the fretting hand for the \"chank\".",
+    "sequence": [
+     "D9 (Funk)",
+     "E9 (Funk)"
+    ]
+   }
+  ],
+  "techniques": [
+   {
+    "title": "Hybrid Picking",
+    "category": "Right Hand",
+    "example": "Pluck Root (Pick) → Snap Top (Fingers)",
+    "description": "The absolute foundation of modern electric accompaniment.",
+    "howTo": "Hold the pick with thumb/index. Pluck the G string with the pick, and simultaneously snap the B and e strings with your middle and ring fingers.",
+    "sequence": [
+     "G Maj (Top Root)",
+     "G Maj (Top 1st)"
+    ]
+   },
+   {
+    "title": "Volume Swells",
+    "category": "Ambient",
+    "example": "Vol 0 → Strike Chord → Vol 10",
+    "description": "Creates a synth-pad like wash of sound.",
+    "howTo": "Wrap your pinky around the volume knob. Strike the cluster with the volume at zero, then slowly roll the pinky up.",
+    "sequence": [
+     "D add9 (Cluster)"
+    ]
+   },
+   {
+    "title": "Dynamic Palm Muting",
+    "category": "Rhythm",
+    "example": "Muted 8ths → Open Accents",
+    "description": "Controlling the energy of a building section.",
+    "howTo": "Rest the fleshy side of your picking hand lightly against the bridge saddles. Lift off slightly on the downbeats.",
+    "sequence": [
+     "E5 (High Drone)"
+    ]
+   },
+   {
+    "title": "Systematic Arpeggiation",
+    "category": "Texture",
+    "example": "Rake Down → Move Shape → Rake Up",
+    "description": "Turning static chords into flowing textures.",
+    "howTo": "Do not strum. Let the pick fall through each string individually, maintaining a steady 16th-note subdivision.",
+    "sequence": [
+     "Cmaj7 (D2 Top Root)",
+     "Cmaj7 (D2 Top 1st)"
+    ]
+   },
+   {
+    "title": "Neo-Soul Double Stop Slide",
+    "category": "R&B / Soul",
+    "example": "Slide into the 3rd/5th",
+    "description": "The classic slippery R&B filler.",
+    "howTo": "Barre the double stop one fret below the target, pick once, and instantly slide up into pitch.",
+    "sequence": [
+     "3rds Double Stop",
+     "4ths Double Stop"
+    ]
+   },
+   {
+    "title": "Travis Picking",
+    "category": "Fingerstyle",
+    "example": "Alternating Bass",
+    "description": "The foundation of folk acoustic.",
+    "howTo": "Keep the thumb bouncing between the A and D strings while the fingers pick syncopated melody notes.",
+    "sequence": [
+     "C Major",
+     "G/B"
+    ]
+   },
+   {
+    "title": "16th Note Funk Struts",
+    "category": "Rhythm",
+    "example": "Constant Motion",
+    "description": "Cory Wong style pocket playing.",
+    "howTo": "Right hand never stops moving in 16ths. Use the fretting hand to choke the chord for percussive \"chucks\".",
+    "sequence": [
+     "Dm7 (Funk Shell)",
+     "G7 (Funk Shell)"
+    ]
+   },
+   {
+    "title": "Anchor Fingers",
+    "category": "Left Hand",
+    "example": "C → Am (shared fingers)",
+    "description": "Index and middle never move between C and Am — the fastest chord change you own.",
+    "howTo": "Change chords by moving only the ring finger. Anchored fingers keep the transition silent and instant.",
+    "sequence": [
+     "C Major",
+     "Am (Open)"
+    ]
+   },
+   {
+    "title": "Palm-Mute Chugging",
+    "category": "Rhythm",
+    "example": "E5 → A5 (muted 8ths)",
+    "description": "The bedrock of rock rhythm guitar.",
+    "howTo": "Rest the picking-hand heel on the bridge saddles, downpick straight 8ths, open the mute for accents.",
+    "sequence": [
+     "E5 (Power)",
+     "A5 (Power)"
+    ]
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "question": "E 키와 A 키에서 오픈 텐션 코드를 사용할 때, 주로 어떤 줄을 개방현으로 유지합니까?",
+   "answer": "주로 1번 줄과 2번 줄을 개방현으로 사용합니다. 이는 코드에 고정된 텐션감을 부여하여 입체적인 사운드를 만듭니다."
+  },
+  {
+   "question": "제1폼에서 F 코드 위치를 잡고 1, 2번 줄을 개방하면 어떤 코드가 형성됩니까?",
+   "answer": "Fmaj7 (add #11) 코드가 됩니다. 일반적인 F 코드가 나올 자리에 편곡된 버전으로 사용할 수 있습니다."
+  },
+  {
+   "question": "복잡한 코드 네임을 모두 외워야 합니까? 그 이유는 무엇입니까?",
+   "answer": "굳이 모두 외울 필요는 없습니다. 원래의 기본 코드(예: F, F#) 대신 사용할 수 있다는 점을 기억하고 활용하는 것이 더 중요합니다."
+  },
+  {
+   "question": "Asus2 폼(제2폼)에서 두 칸 이동하여 연주하면 어떤 코드가 됩니까?",
+   "answer": "Bsus 계열 코드가 됩니다. 동일한 폼을 유지한 채 프렛 위치만 이동하여 연주가 가능합니다."
+  },
+  {
+   "question": "F#m7 (add 11) 폼을 이동하여 연주할 때, 일부 코드에서 공통적으로 생략되는 음은 무엇입니까?",
+   "answer": "5도음이 주로 생략됩니다. 5도음이 없어도 오픈 텐션 코드 특유의 뉘앙스는 충분히 살아 있습니다."
+  },
+  {
+   "question": "분수 코드 A/C# 폼에서 두 칸 이동했을 때 만들어지는 코드의 이름은 무엇입니까?",
+   "answer": "Bsus4/D# 코드가 됩니다. 베이스 음이 이동함에 따라 코드의 성격이 변하는 분수 코드의 형태입니다."
+  },
+  {
+   "question": "오픈 텐션 코드가 일반적인 코드에 비해 가지는 사운드 측면의 장점은 무엇입니까?",
+   "answer": "훨씬 풍부하고 입체감 있는 사운드를 낼 수 있습니다. 개방현의 지속적인 울림이 코드 진행에 깊이를 더합니다."
+  },
+  {
+   "question": "강의자가 추천하는 '음악적 고정관념을 벗어나는 방법'은 무엇입니까?",
+   "answer": "화성학 이론이나 고정관념을 잠시 내려놓고, 지판 위 폼 이동과 소리의 어울림을 자유롭게 시도해 보는 것입니다."
+  },
+  {
+   "question": "E/G# 코드를 대체하여 사용할 수 있는 하행 진행용 코드는 무엇입니까?",
+   "answer": "D/F# (또는 D6/9/F#) 코드입니다. 베이스 러닝을 포함한 하행 코드 진행에서 유용합니다."
+  },
+  {
+   "question": "이 7가지 코드 폼은 반드시 E 키나 A 키에서만 사용해야 합니까?",
+   "answer": "아닙니다. 주로 E, A 키에서 쓰이지만 앞뒤 코드와 잘 어울린다면 다른 키에서도 자유롭게 활용할 수 있습니다."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "오픈 코드 (Open Chord)",
+   "definition": "지판을 누르지 않은 개방현을 포함하여 연주하는 코드."
+  },
+  {
+   "term": "텐션 (Tension)",
+   "definition": "기본 3화음·7화음 이외의 음(9, 11, 13도 등)을 더해 긴장감과 색채감을 주는 음."
+  },
+  {
+   "term": "개방현 (Open String)",
+   "definition": "왼손으로 지판을 누르지 않고 줄 본연의 소리를 내는 상태."
+  },
+  {
+   "term": "분수 코드 (Slash Chord)",
+   "definition": "'A/C#'처럼 기본음이 아닌 다른 음을 베이스로 지정한 코드."
+  },
+  {
+   "term": "폼 (Form)",
+   "definition": "지판 위에서 코드를 잡는 손가락의 모양이나 형태."
+  },
+  {
+   "term": "전위 (Inversion)",
+   "definition": "구성음의 위치를 바꾸어 베이스 음을 변경하는 것 (예: A 코드에서 C# 베이스)."
+  },
+  {
+   "term": "부협화음 (Dissonance)",
+   "definition": "동시에 울리는 음들이 충돌하는 느낌을 주는 화음 — 특정 위치 이동 시 주의."
+  },
+  {
+   "term": "add9 / add11",
+   "definition": "코드에 9도음 또는 11도음을 단순히 추가했다는 표기법."
+  }
+ ],
+ "tunings": {
+  "DADGAD": [
+   38,
+   45,
+   50,
+   55,
+   57,
+   62
+  ],
+  "Open C": [
+   36,
+   43,
+   48,
+   55,
+   60,
+   64
+  ],
+  "Open D": [
+   38,
+   45,
+   50,
+   54,
+   57,
+   62
+  ],
+  "Open G": [
+   38,
+   43,
+   50,
+   55,
+   59,
+   62
+  ],
+  "standard": [
+   40,
+   45,
+   50,
+   55,
+   59,
+   64
+  ]
+ }
+}

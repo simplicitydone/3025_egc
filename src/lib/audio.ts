@@ -1,13 +1,14 @@
 // Karplus-Strong plucked-string synthesis for chord playback.
 // Fret arrays are ordered string 6 (low) → string 1 (high), matching Chord.frets.
+// Open-string MIDI notes come from the database (db.json `tunings`); standard
+// tuning is kept here as the physical default.
 
-// MIDI note numbers of the open strings 6 → 1, per tuning group name.
-const TUNINGS: Record<string, number[]> = {
-  standard: [40, 45, 50, 55, 59, 64], // E2 A2 D3 G3 B3 E4
-  DADGAD: [38, 45, 50, 55, 57, 62], // D2 A2 D3 G3 A3 D4
-  'Open D': [38, 45, 50, 54, 57, 62], // D2 A2 D3 F#3 A3 D4
-  'Open G': [38, 43, 50, 55, 59, 62], // D2 G2 D3 G3 B3 D4
-  'Open C': [36, 43, 48, 55, 60, 64], // C2 G2 C3 G3 C4 E4
+export const STANDARD_TUNING = [40, 45, 50, 55, 59, 64] // E2 A2 D3 G3 B3 E4
+
+const NOTE_NAMES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
+
+export function midiNoteName(midi: number): string {
+  return NOTE_NAMES[((midi % 12) + 12) % 12]
 }
 
 const STRUM_INTERVAL = 0.055
@@ -44,24 +45,29 @@ function pluckBuffer(audio: AudioContext, freq: number): AudioBuffer {
   return buffer
 }
 
-export function chordMidiNotes(frets: string[], tuningName = 'standard'): number[] {
-  const open = TUNINGS[tuningName] ?? TUNINGS.standard
+export function chordMidiNotes(
+  frets: string[],
+  openStrings: number[] = STANDARD_TUNING,
+): number[] {
   const notes: number[] = []
   frets.forEach((f, i) => {
     const fret = parseInt(f, 10)
     if (Number.isNaN(fret)) return // muted 'X'
-    notes.push(open[i] + fret)
+    notes.push(openStrings[i] + fret)
   })
   return notes
 }
 
-export function strumChord(frets: string[], tuningName = 'standard'): void {
+export function strumChord(
+  frets: string[],
+  openStrings: number[] = STANDARD_TUNING,
+): void {
   const audio = getContext()
   if (audio.state === 'suspended') {
     void audio.resume()
   }
   const start = audio.currentTime + 0.02
-  chordMidiNotes(frets, tuningName).forEach((midi, order) => {
+  chordMidiNotes(frets, openStrings).forEach((midi, order) => {
     const source = audio.createBufferSource()
     source.buffer = pluckBuffer(audio, midiToFreq(midi))
     const gain = audio.createGain()

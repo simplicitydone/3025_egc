@@ -1,4 +1,3 @@
-import { LICKS, SIGNATURE_MOVES, TECHNIQUES } from '../data/examples'
 import type { Move } from '../types/chord'
 import { ChordDiagram } from './ChordDiagram'
 
@@ -48,25 +47,31 @@ export function MoveSection({ title, moves, variant, idPrefix }: MoveSectionProp
   )
 }
 
-export function ExamplesView() {
+interface ExamplesViewProps {
+  progressions: Move[]
+  licks: Move[]
+  techniques: Move[]
+}
+
+export function ExamplesView({ progressions, licks, techniques }: ExamplesViewProps) {
   return (
     <div className="techniques-view">
       <h2>Masterclass Examples (Progressions, Licks & Techniques)</h2>
       <MoveSection
         title="Signature Progressions"
-        moves={SIGNATURE_MOVES}
+        moves={progressions}
         variant="progression"
         idPrefix="prog"
       />
       <MoveSection
         title="Scale Licks & CAGED Movements"
-        moves={LICKS}
+        moves={licks}
         variant="lick"
         idPrefix="lick"
       />
       <MoveSection
         title="Practical Playable Techniques"
-        moves={TECHNIQUES}
+        moves={techniques}
         variant="technique"
         idPrefix="tech"
       />

@@ -1,64 +1,54 @@
 import { describe, expect, it } from 'vitest'
-import { BARRE_CHORDS } from '../data/barre'
-import { CHORD_LIBRARY, RAW_CHORDS } from '../data/chords'
-import { ELECTRIC_CHORDS } from '../data/electric'
-import { LICKS, SIGNATURE_MOVES, TECHNIQUES } from '../data/examples'
-import { SONG_KEYS } from '../data/songKeys'
-import { TENSION_FORMS, TENSION_GLOSSARY, TENSION_QUIZ } from '../data/tension'
-import { TUNING_KEYS } from '../data/tunings'
-import {
-  bassNoteMatchesShape,
-  collectReferencedChordNames,
-  getMissingLibraryEntries,
-  isValidChordShape,
-} from '../data/validateChords'
+import rawDb from '../../public/db.json'
+import { buildAppData } from '../data/provider'
 import { chordMidiNotes } from '../lib/audio'
+import { bassNoteMatchesShape, isValidChordShape } from '../lib/validate'
+import type { DbJson } from '../types/chord'
 
-describe('CHORD_LIBRARY', () => {
-  it('builds named chords from raw data', () => {
-    expect(Object.keys(RAW_CHORDS).length).toBeGreaterThan(100)
-    expect(Object.keys(CHORD_LIBRARY)).toHaveLength(Object.keys(RAW_CHORDS).length)
+// The exported database is the artifact the app actually loads — test that.
+const data = buildAppData(rawDb as unknown as DbJson)
+
+describe('database export (public/db.json)', () => {
+  it('builds without dangling chord references', () => {
+    // buildAppData throws on unknown chord names; reaching here means all
+    // 250+ references in keys, groups, forms, and moves resolved.
+    expect(Object.keys(data.chordLibrary).length).toBeGreaterThan(100)
   })
 
-  it('assigns each chord its dictionary key as name', () => {
-    for (const [name, chord] of Object.entries(CHORD_LIBRARY)) {
+  it('assigns each chord its dictionary key as name and a valid shape', () => {
+    for (const [name, chord] of Object.entries(data.chordLibrary)) {
       expect(chord.name).toBe(name)
-      expect(isValidChordShape(chord)).toBe(true)
+      expect(isValidChordShape(chord), name).toBe(true)
     }
   })
-})
 
-describe('chord references', () => {
-  it('has no missing library entries in UI data', () => {
-    expect(getMissingLibraryEntries()).toEqual([])
-  })
-
-  it('references a large chord vocabulary', () => {
-    expect(collectReferencedChordNames().length).toBeGreaterThan(50)
+  it('ships all five tunings with six open strings each', () => {
+    expect(Object.keys(data.tunings)).toHaveLength(5)
+    for (const midi of Object.values(data.tunings)) {
+      expect(midi).toHaveLength(6)
+    }
+    expect(data.tunings.standard).toEqual([40, 45, 50, 55, 59, 64])
   })
 })
 
 describe('group data integrity', () => {
-  it('includes chords in every song key', () => {
-    for (const key of SONG_KEYS) {
+  it('includes chords in every song key and tuning key', () => {
+    expect(data.songKeys.length).toBeGreaterThan(5)
+    for (const key of [...data.songKeys, ...data.tuningKeys]) {
       expect(key.chords.length).toBeGreaterThan(0)
     }
   })
 
-  it('includes chords in tuning, barre, and electric groups', () => {
-    for (const key of TUNING_KEYS) {
-      expect(key.chords.length).toBeGreaterThan(0)
-    }
-    for (const group of BARRE_CHORDS) {
-      expect(group.chords.length).toBeGreaterThan(0)
-    }
-    for (const group of ELECTRIC_CHORDS) {
+  it('includes chords in barre and electric groups', () => {
+    for (const group of [...data.barreGroups, ...data.electricGroups]) {
       expect(group.chords.length).toBeGreaterThan(0)
     }
   })
 
-  it('includes chord sequences in examples', () => {
-    for (const move of [...SIGNATURE_MOVES, ...LICKS, ...TECHNIQUES]) {
+  it('includes chord sequences in all example moves', () => {
+    const moves = [...data.progressions, ...data.licks, ...data.techniques]
+    expect(moves.length).toBeGreaterThan(15)
+    for (const move of moves) {
       expect(move.sequence.length).toBeGreaterThan(0)
       for (const chord of move.sequence) {
         expect(isValidChordShape(chord)).toBe(true)
@@ -69,18 +59,17 @@ describe('group data integrity', () => {
 
 describe('open tension forms', () => {
   it('provides all seven forms with valid chords', () => {
-    expect(TENSION_FORMS).toHaveLength(7)
-    for (const form of TENSION_FORMS) {
+    expect(data.tensionForms).toHaveLength(7)
+    for (const form of data.tensionForms) {
       expect(form.chords.length).toBeGreaterThan(0)
       for (const chord of form.chords) {
-        expect(chord).toBeDefined()
         expect(isValidChordShape(chord)).toBe(true)
       }
     }
   })
 
   it('keeps strings 1 and 2 open in every tension voicing', () => {
-    for (const form of TENSION_FORMS) {
+    for (const form of data.tensionForms) {
       for (const chord of form.chords) {
         expect(chord.frets[4]).toBe('0')
         expect(chord.frets[5]).toBe('0')
@@ -89,14 +78,14 @@ describe('open tension forms', () => {
   })
 
   it('ships the study guide content', () => {
-    expect(TENSION_QUIZ).toHaveLength(10)
-    expect(TENSION_GLOSSARY.length).toBeGreaterThanOrEqual(8)
+    expect(data.quiz).toHaveLength(10)
+    expect(data.glossary.length).toBeGreaterThanOrEqual(8)
   })
 })
 
 describe('musical integrity (standard tuning)', () => {
   it('bassNote matches the lowest sounding string for every standard-tuning chord', () => {
-    for (const chord of Object.values(CHORD_LIBRARY)) {
+    for (const chord of Object.values(data.chordLibrary)) {
       if (chord.subCategory === 'Alternate Tuning') continue
       expect(bassNoteMatchesShape(chord), chord.name).toBe(true)
     }
@@ -111,9 +100,17 @@ describe('musical integrity (standard tuning)', () => {
     expect(chordMidiNotes(['X', '3', '2', '0', '1', '0'])).toEqual([
       48, 52, 55, 60, 64,
     ])
-    // DADGAD shapes resolve against the DADGAD open strings
-    expect(chordMidiNotes(['0', '0', '0', '2', '0', '0'], 'DADGAD')).toEqual([
+    // DADGAD shapes resolve against the DADGAD open strings from the DB
+    expect(chordMidiNotes(['0', '0', '0', '2', '0', '0'], data.tunings.DADGAD)).toEqual([
       38, 45, 50, 57, 57, 62,
     ])
+  })
+})
+
+describe('provider error handling', () => {
+  it('throws loudly on dangling chord references', () => {
+    const broken = JSON.parse(JSON.stringify(rawDb)) as DbJson
+    broken.songKeys[0].chords[0].chord = 'No Such Chord'
+    expect(() => buildAppData(broken)).toThrow(/No Such Chord/)
   })
 })
