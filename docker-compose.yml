@@ -1,0 +1,9 @@
+services:
+  egc:
+    image: nginx:alpine
+    container_name: egc
+    restart: always
+    ports:
+      - "3025:80"
+    volumes:
+      - ./dist:/usr/share/nginx/html

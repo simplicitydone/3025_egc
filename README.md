@@ -1,73 +1,50 @@
-# React + TypeScript + Vite
+# Guitar Masterclass Guide (EGC)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive reference for open chords, open tension forms, alternate tunings, jazz voicings, electric triads, and playable progressions. Live at https://egc.simplicity-is-art.com/ (port 3025 via `docker-compose`, nginx serving `dist/`).
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Open** — song-key chord sets (G, D, E, C, A, B, F) with basic/advanced tiers
+- **Tension** — the seven open-tension forms (open 1st/2nd strings, E/A keys) with a Korean study guide & glossary
+- **Tunings** — DADGAD, Open D/G/C shapes
+- **Barre** — drop-2/drop-3 matrices, upper structures, altered dominants
+- **Electric** — triads, funk shells, ambient clusters
+- **Examples** — progressions, licks, techniques
+- **▶ audio** on every diagram — Karplus-Strong strum synthesis, tuning-aware
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19 + TypeScript
+- Vite 8
 
-## Expanding the ESLint configuration
+## Scripts
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server (usually http://localhost:5173) |
+| `npm run build` | Type-check and production build |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint |
+| `npm run test` | Run tests in watch mode |
+| `npm run test:run` | Run tests once |
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Project layout
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+  components/   # UI (ChordDiagram, tab views, TensionView)
+  data/         # Chord database and groupings
+  lib/          # Web Audio strum synthesis
+  types/        # Shared TypeScript types
+  test/         # Vitest tests
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Chord data lives under `src/data/`. Edit `chords.ts` to add voicings, then wire them into `songKeys.ts`, `tension.ts`, `barre.ts`, or other group files. Fret arrays run low E → high e; tests enforce that each chord's `bassNote` matches its lowest sounding string (standard tuning).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Deploy
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+`npm run build` regenerates `dist/`; the running `egc` nginx container serves it directly (volume mount), no restart needed.
+
+## Requirements
+
+- Node.js 20+
