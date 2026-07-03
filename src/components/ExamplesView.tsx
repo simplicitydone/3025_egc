@@ -56,7 +56,7 @@ interface ExamplesViewProps {
 export function ExamplesView({ progressions, licks, techniques }: ExamplesViewProps) {
   return (
     <div className="techniques-view">
-      <h2>Masterclass Examples (Progressions, Licks & Techniques)</h2>
+      <h2>Examples (Progressions, Licks & Techniques)</h2>
       <MoveSection
         title="Signature Progressions"
         moves={progressions}

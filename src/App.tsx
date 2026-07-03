@@ -171,7 +171,7 @@ function LoadedApp({ data }: { data: AppData }) {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>🎸 100% Masterclass Guitar Guide</h1>
+        <h1>🎸 Essential Guitar Chords</h1>
       </header>
       <div className="main-tabs" role="tablist" aria-label="Main sections">
         {TABS.map((t) => (
