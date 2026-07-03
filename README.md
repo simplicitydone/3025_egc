@@ -83,3 +83,7 @@ constant so clients drop the old cache.
 ## Requirements
 
 - Node.js 20+
+
+## License
+
+[MIT](LICENSE)
