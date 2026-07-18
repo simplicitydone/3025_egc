@@ -384,25 +384,32 @@ function LoadedApp({ data }: { data: AppData }) {
       )}
 
       <footer className="app-footer">
-        <div className="craft-credit">
-          <a href="https://blog.naver.com/ensembleguitar" target="_blank" rel="noreferrer">
-            <img
-              src="/ensemble-guitar-works.png"
-              alt="Ensemble Guitar Works"
-              width="756"
-              height="204"
-              loading="lazy"
-            />
-          </a>
-          <span className="craft-credit__tag">Custom Guitar and Basses</span>
-        </div>
         <span>
           Chord data: <code>db/egc.sqlite</code> · schema v{data.schemaVersion} ·{' '}
           {Object.keys(data.chordLibrary).length} voicings
         </span>
-        <a href="https://github.com/simplicitydone/essential-guitar-chords" target="_blank" rel="noreferrer">
-          Source
-        </a>
+        <div className="footer-right">
+          <a href="https://github.com/simplicitydone/essential-guitar-chords" target="_blank" rel="noreferrer">
+            Source
+          </a>
+          <a
+            className="craft-credit"
+            href="https://blog.naver.com/ensembleguitar"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="craft-credit__card">
+              <img
+                src="/ensemble-guitar-works.png"
+                alt="Ensemble Guitar Works"
+                width="756"
+                height="204"
+                loading="lazy"
+              />
+            </span>
+            <span className="craft-credit__tag">Custom Guitar and Basses</span>
+          </a>
+        </div>
       </footer>
     </div>
   )
