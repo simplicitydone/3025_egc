@@ -1,6 +1,6 @@
 # Essential Guitar Chords (EGC)
 
-Interactive reference for open chords, open tension forms, alternate tunings, jazz voicings, electric triads, and playable progressions. Live at https://egc.simplicity-is-art.com/ (port 3025 via `docker-compose`, nginx serving `dist/`).
+Interactive reference for open chords, open tension forms, alternate tunings, jazz voicings, electric triads, and playable progressions. Live at https://egc.simplicity-is-art.com/ (port 3011 via `docker-compose`, nginx serving `dist/`).
 
 ## Features
 

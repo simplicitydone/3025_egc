@@ -335,7 +335,7 @@ function LoadedApp({ data }: { data: AppData }) {
           Chord data: <code>db/egc.sqlite</code> · schema v{data.schemaVersion} ·{' '}
           {Object.keys(data.chordLibrary).length} voicings
         </span>
-        <a href="https://github.com/simplicitydone/3025_egc" target="_blank" rel="noreferrer">
+        <a href="https://github.com/simplicitydone/essential-guitar-chords" target="_blank" rel="noreferrer">
           Source
         </a>
       </footer>
