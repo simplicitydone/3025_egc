@@ -384,6 +384,18 @@ function LoadedApp({ data }: { data: AppData }) {
       )}
 
       <footer className="app-footer">
+        <div className="craft-credit">
+          <a href="https://blog.naver.com/ensembleguitar" target="_blank" rel="noreferrer">
+            <img
+              src="/ensemble-guitar-works.png"
+              alt="Ensemble Guitar Works"
+              width="756"
+              height="204"
+              loading="lazy"
+            />
+          </a>
+          <span className="craft-credit__tag">Custom Guitar and Basses</span>
+        </div>
         <span>
           Chord data: <code>db/egc.sqlite</code> · schema v{data.schemaVersion} ·{' '}
           {Object.keys(data.chordLibrary).length} voicings
