@@ -1,11 +1,14 @@
 import type { Chord, KeyChord } from '../types/chord'
+import { useLang } from '../lib/lang'
 import { ChordDiagram } from './ChordDiagram'
 
 function ChordDisplay({ chord, openStrings }: { chord: Chord; openStrings?: number[] }) {
+  const { lang } = useLang()
+  const desc = lang === 'kr' && chord.descriptionKr ? chord.descriptionKr : chord.description
   return (
     <div className="chord-display">
       <ChordDiagram chord={chord} openStrings={openStrings} />
-      {chord.description && <p className="chord-desc">{chord.description}</p>}
+      {desc && <p className="chord-desc">{desc}</p>}
       {chord.subCategory && (
         <span className="badge chord-subcategory">{chord.subCategory}</span>
       )}
@@ -32,6 +35,7 @@ export function KeyChordView({
   showTiers = false,
   openStrings,
 }: KeyChordViewProps) {
+  const { lang } = useLang()
   const basicChords = showTiers ? chords.filter((c) => c.chord.tier === 'Basic') : chords
   const advancedChords = showTiers
     ? chords.filter((c) => c.chord.tier === 'Advanced')
@@ -46,7 +50,7 @@ export function KeyChordView({
         {showTiers && basicChords.length > 0 && (
           <div className="chord-category">
             <h3 className="chord-category__title chord-category__title--basic">
-              BASICS (MOST USED)
+              {lang === 'kr' ? '기본 (가장 많이 씀)' : 'BASICS (MOST USED)'}
             </h3>
             <div className="chord-buttons">
               {basicChords.map((kc) => (
@@ -66,7 +70,7 @@ export function KeyChordView({
         {showTiers && advancedChords.length > 0 && (
           <div className="chord-category chord-category--advanced">
             <h3 className="chord-category__title chord-category__title--advanced">
-              ADVANCED (HIGH / ALTERED / EXTENDED)
+              {lang === 'kr' ? '심화 (하이 / 얼터드 / 익스텐디드)' : 'ADVANCED (HIGH / ALTERED / EXTENDED)'}
             </h3>
             <div className="chord-buttons">
               {advancedChords.map((kc) => (

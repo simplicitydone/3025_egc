@@ -41,13 +41,16 @@ export function buildAppData(raw: DbJson): AppData {
   const barreGroups: BarreGroup[] = raw.barreGroups.map((g) => ({
     groupName: g.groupName,
     usageLabel: g.usageLabel,
+    usageLabelKr: g.usageLabelKr,
     description: g.description,
+    descriptionKr: g.descriptionKr,
     chords: g.chords.map((c) => resolve(c, `barre/${g.groupName}`)),
   }))
 
   const electricGroups: ElectricGroup[] = raw.electricGroups.map((g) => ({
     groupName: g.groupName,
     description: g.description,
+    descriptionKr: g.descriptionKr,
     chords: g.chords.map((c) => resolve(c, `electric/${g.groupName}`)),
   }))
 
@@ -55,16 +58,20 @@ export function buildAppData(raw: DbJson): AppData {
     formName: g.groupName,
     formKr: g.formKr,
     description: g.description,
+    descriptionKr: g.descriptionKr,
     chords: g.chords.map((c) => resolve(c, `tension/${g.groupName}`)),
   }))
 
   const moves = (list: DbMove[], context: string): Move[] =>
     list.map((m) => ({
       title: m.title,
+      titleKr: m.titleKr,
       category: m.category,
       example: m.example,
       description: m.description,
+      descriptionKr: m.descriptionKr,
       howTo: m.howTo,
+      howToKr: m.howToKr,
       sequence: m.sequence.map((c) => resolve(c, `${context}/${m.title}`)),
     }))
 

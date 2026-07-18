@@ -11,7 +11,8 @@ CREATE TABLE chords (
   fingers     TEXT NOT NULL,  -- JSON array of 6 entries ('', '1'-'4', 'T', 'O')
   root_string INTEGER NOT NULL CHECK (root_string BETWEEN 1 AND 6),
   bass_note   TEXT NOT NULL,
-  description TEXT
+  description TEXT,
+  description_kr TEXT         -- Korean translation (KR mode)
 );
 
 -- Key-based chord sets: the OPEN tab (section 'open') and TUNINGS tab ('tunings').
@@ -38,8 +39,10 @@ CREATE TABLE chord_groups (
   section     TEXT NOT NULL CHECK (section IN ('barre', 'electric', 'tension')),
   group_name  TEXT NOT NULL,
   usage_label TEXT,           -- barre only
+  usage_label_kr TEXT,        -- barre only, Korean
   name_kr     TEXT,           -- tension only (form name from the Korean guide)
   description TEXT NOT NULL,
+  description_kr TEXT,        -- Korean translation (KR mode)
   position    INTEGER NOT NULL
 );
 
@@ -55,10 +58,13 @@ CREATE TABLE moves (
   id          INTEGER PRIMARY KEY,
   kind        TEXT NOT NULL CHECK (kind IN ('progression', 'lick', 'technique')),
   title       TEXT NOT NULL,
+  title_kr    TEXT,           -- Korean translation (KR mode)
   category    TEXT NOT NULL,
   example     TEXT NOT NULL,
   description TEXT NOT NULL,
+  description_kr TEXT,
   how_to      TEXT NOT NULL,
+  how_to_kr   TEXT,
   position    INTEGER NOT NULL
 );
 
@@ -69,19 +75,24 @@ CREATE TABLE move_chords (
   PRIMARY KEY (move_id, position)
 );
 
--- Open tension study guide (Korean quiz + glossary).
+-- Open tension study guide (bilingual quiz + glossary; the *_kr columns carry
+-- the original Korean lecture content, *_en the authored English side).
 CREATE TABLE quiz_items (
-  id        INTEGER PRIMARY KEY,
-  question  TEXT NOT NULL,
-  answer    TEXT NOT NULL,
-  position  INTEGER NOT NULL
+  id          INTEGER PRIMARY KEY,
+  question_kr TEXT NOT NULL,
+  answer_kr   TEXT NOT NULL,
+  question_en TEXT,
+  answer_en   TEXT,
+  position    INTEGER NOT NULL
 );
 
 CREATE TABLE glossary_items (
-  id         INTEGER PRIMARY KEY,
-  term       TEXT NOT NULL,
-  definition TEXT NOT NULL,
-  position   INTEGER NOT NULL
+  id            INTEGER PRIMARY KEY,
+  term_kr       TEXT NOT NULL,
+  definition_kr TEXT NOT NULL,
+  term_en       TEXT,
+  definition_en TEXT,
+  position      INTEGER NOT NULL
 );
 
 -- Open-string MIDI notes per tuning (strings 6 -> 1), used for audio playback.

@@ -1,5 +1,5 @@
 {
- "schemaVersion": 1,
+ "schemaVersion": 2,
  "chords": {
   "G Major": {
    "tier": "Basic",
@@ -176,7 +176,8 @@
    ],
    "rootString": 5,
    "bassNote": "G",
-   "description": "I chord up high."
+   "description": "I chord up high.",
+   "descriptionKr": "하이 포지션의 I 코드."
   },
   "Am11 (High Drone)": {
    "tier": "Advanced",
@@ -199,7 +200,8 @@
    ],
    "rootString": 5,
    "bassNote": "A",
-   "description": "ii chord up high."
+   "description": "ii chord up high.",
+   "descriptionKr": "하이 포지션의 ii 코드."
   },
   "Cmaj7 (High Drone)": {
    "tier": "Advanced",
@@ -222,7 +224,8 @@
    ],
    "rootString": 6,
    "bassNote": "C",
-   "description": "IV chord up high."
+   "description": "IV chord up high.",
+   "descriptionKr": "하이 포지션의 IV 코드."
   },
   "Dadd4 (High Drone)": {
    "tier": "Advanced",
@@ -245,7 +248,8 @@
    ],
    "rootString": 6,
    "bassNote": "D",
-   "description": "V chord up high."
+   "description": "V chord up high.",
+   "descriptionKr": "하이 포지션의 V 코드."
   },
   "Em7 (High Drone)": {
    "tier": "Advanced",
@@ -268,7 +272,8 @@
    ],
    "rootString": 6,
    "bassNote": "E",
-   "description": "vi chord up high."
+   "description": "vi chord up high.",
+   "descriptionKr": "하이 포지션의 vi 코드."
   },
   "Gmaj9": {
    "tier": "Advanced",
@@ -291,7 +296,8 @@
    ],
    "rootString": 6,
    "bassNote": "G",
-   "description": "Jazzy I chord."
+   "description": "Jazzy I chord.",
+   "descriptionKr": "재즈 느낌의 I 코드."
   },
   "C6/9": {
    "tier": "Advanced",
@@ -314,7 +320,8 @@
    ],
    "rootString": 5,
    "bassNote": "C",
-   "description": "Lush John Mayer style IV chord."
+   "description": "Lush John Mayer style IV chord.",
+   "descriptionKr": "존 메이어 스타일의 풍성한 IV 코드."
   },
   "B7": {
    "tier": "Advanced",
@@ -337,7 +344,8 @@
    ],
    "rootString": 5,
    "bassNote": "B",
-   "description": "Secondary dominant (V of vi)."
+   "description": "Secondary dominant (V of vi).",
+   "descriptionKr": "세컨더리 도미넌트 (vi의 V)."
   },
   "D Major": {
    "tier": "Basic",
@@ -492,7 +500,8 @@
    ],
    "rootString": 5,
    "bassNote": "D",
-   "description": "I chord cinematic."
+   "description": "I chord cinematic.",
+   "descriptionKr": "시네마틱한 I 코드."
   },
   "Em11 (High Drone)": {
    "tier": "Advanced",
@@ -515,7 +524,8 @@
    ],
    "rootString": 5,
    "bassNote": "E",
-   "description": "ii chord cinematic."
+   "description": "ii chord cinematic.",
+   "descriptionKr": "시네마틱한 ii 코드."
   },
   "G (High Drone - D Key)": {
    "tier": "Advanced",
@@ -538,7 +548,8 @@
    ],
    "rootString": 5,
    "bassNote": "G",
-   "description": "IV chord cinematic."
+   "description": "IV chord cinematic.",
+   "descriptionKr": "시네마틱한 IV 코드."
   },
   "A (High Drone)": {
    "tier": "Advanced",
@@ -561,7 +572,8 @@
    ],
    "rootString": 5,
    "bassNote": "A",
-   "description": "V chord cinematic."
+   "description": "V chord cinematic.",
+   "descriptionKr": "시네마틱한 V 코드."
   },
   "Bm11 (High Drone)": {
    "tier": "Advanced",
@@ -584,7 +596,8 @@
    ],
    "rootString": 6,
    "bassNote": "B",
-   "description": "vi chord cinematic."
+   "description": "vi chord cinematic.",
+   "descriptionKr": "시네마틱한 vi 코드."
   },
   "Dmaj9": {
    "tier": "Advanced",
@@ -629,7 +642,8 @@
    ],
    "rootString": 6,
    "bassNote": "G",
-   "description": "Lydian dream chord."
+   "description": "Lydian dream chord.",
+   "descriptionKr": "리디안 드림 코드."
   },
   "E Major": {
    "tier": "Basic",
@@ -784,7 +798,8 @@
    ],
    "rootString": 6,
    "bassNote": "E",
-   "description": "Massive I chord."
+   "description": "Massive I chord.",
+   "descriptionKr": "육중한 I 코드."
   },
   "F#m11 (High Drone)": {
    "tier": "Advanced",
@@ -807,7 +822,8 @@
    ],
    "rootString": 5,
    "bassNote": "F#",
-   "description": "Massive ii chord."
+   "description": "Massive ii chord.",
+   "descriptionKr": "육중한 ii 코드."
   },
   "A2 (High Drone)": {
    "tier": "Advanced",
@@ -830,7 +846,8 @@
    ],
    "rootString": 5,
    "bassNote": "A",
-   "description": "Massive IV chord."
+   "description": "Massive IV chord.",
+   "descriptionKr": "육중한 IV 코드."
   },
   "Badd4 (High Drone)": {
    "tier": "Advanced",
@@ -853,7 +870,8 @@
    ],
    "rootString": 6,
    "bassNote": "B",
-   "description": "Massive V chord."
+   "description": "Massive V chord.",
+   "descriptionKr": "육중한 V 코드."
   },
   "C#m7 (High Drone)": {
    "tier": "Advanced",
@@ -876,7 +894,8 @@
    ],
    "rootString": 6,
    "bassNote": "C#",
-   "description": "Massive vi chord."
+   "description": "Massive vi chord.",
+   "descriptionKr": "육중한 vi 코드."
   },
   "Emaj9": {
    "tier": "Advanced",
@@ -1735,7 +1754,8 @@
    ],
    "rootString": 5,
    "bassNote": "E",
-   "description": "Classic jazz resolution."
+   "description": "Classic jazz resolution.",
+   "descriptionKr": "클래식한 재즈 해결 코드."
   },
   "E7#5#9": {
    "tier": "Advanced",
@@ -1780,7 +1800,8 @@
    ],
    "rootString": 5,
    "bassNote": "B",
-   "description": "Half-diminished ii chord."
+   "description": "Half-diminished ii chord.",
+   "descriptionKr": "하프 디미니시드 ii 코드."
   },
   "Gmaj7 (Play Bm)": {
    "tier": "Advanced",
@@ -1803,7 +1824,8 @@
    ],
    "rootString": 3,
    "bassNote": "D",
-   "description": "Bm triad over G bass."
+   "description": "Bm triad over G bass.",
+   "descriptionKr": "G 베이스 위의 Bm 트라이어드."
   },
   "Cmaj9 (Play Em7)": {
    "tier": "Advanced",
@@ -1826,7 +1848,8 @@
    ],
    "rootString": 3,
    "bassNote": "E",
-   "description": "Em7 over C bass."
+   "description": "Em7 over C bass.",
+   "descriptionKr": "C 베이스 위의 Em7."
   },
   "G Maj (Top Root)": {
    "tier": "Basic",
@@ -2047,7 +2070,8 @@
    ],
    "rootString": 6,
    "bassNote": "G",
-   "description": "Root - 5th - 10th."
+   "description": "Root - 5th - 10th.",
+   "descriptionKr": "루트 - 5도 - 10도."
   },
   "G Spread (1st Inv)": {
    "tier": "Advanced",
@@ -2444,7 +2468,8 @@
    ],
    "rootString": 4,
    "bassNote": "F",
-   "description": "Rootless 3rd & 7th"
+   "description": "Rootless 3rd & 7th",
+   "descriptionKr": "루트 없이 3도와 7도만"
   },
   "G7 (Funk Shell)": {
    "tier": "Advanced",
@@ -2467,7 +2492,8 @@
    ],
    "rootString": 4,
    "bassNote": "F",
-   "description": "Rootless 7th & 3rd"
+   "description": "Rootless 7th & 3rd",
+   "descriptionKr": "루트 없이 7도와 3도만"
   },
   "Cmaj7 (Funk Shell)": {
    "tier": "Advanced",
@@ -2490,7 +2516,8 @@
    ],
    "rootString": 4,
    "bassNote": "E",
-   "description": "Rootless 3rd & 7th"
+   "description": "Rootless 3rd & 7th",
+   "descriptionKr": "루트 없이 3도와 7도만"
   },
   "Csus2 (Pad)": {
    "tier": "Advanced",
@@ -2513,7 +2540,8 @@
    ],
    "rootString": 5,
    "bassNote": "C",
-   "description": "Dense stacked 2nd"
+   "description": "Dense stacked 2nd",
+   "descriptionKr": "빽빽하게 쌓은 2도"
   },
   "Emaj9 (Cluster)": {
    "tier": "Advanced",
@@ -2536,7 +2564,8 @@
    ],
    "rootString": 4,
    "bassNote": "F#",
-   "description": "Barre cluster"
+   "description": "Barre cluster",
+   "descriptionKr": "바레 클러스터"
   },
   "G5 (Wide Arena)": {
    "tier": "Advanced",
@@ -2559,7 +2588,8 @@
    ],
    "rootString": 6,
    "bassNote": "G",
-   "description": "Massive open 5th"
+   "description": "Massive open 5th",
+   "descriptionKr": "육중한 오픈 5도"
   },
   "C5 (Wide Arena)": {
    "tier": "Advanced",
@@ -2582,7 +2612,8 @@
    ],
    "rootString": 6,
    "bassNote": "C",
-   "description": "Massive open 5th"
+   "description": "Massive open 5th",
+   "descriptionKr": "육중한 오픈 5도"
   },
   "C/D": {
    "tier": "Advanced",
@@ -2869,7 +2900,8 @@
    ],
    "rootString": 5,
    "bassNote": "A",
-   "description": "Massive I chord."
+   "description": "Massive I chord.",
+   "descriptionKr": "육중한 I 코드."
   },
   "Dmaj7 (High Drone)": {
    "tier": "Advanced",
@@ -2892,7 +2924,8 @@
    ],
    "rootString": 5,
    "bassNote": "D",
-   "description": "Massive IV chord."
+   "description": "Massive IV chord.",
+   "descriptionKr": "육중한 IV 코드."
   },
   "E (High Drone - A Key)": {
    "tier": "Advanced",
@@ -2915,7 +2948,8 @@
    ],
    "rootString": 6,
    "bassNote": "E",
-   "description": "Massive V chord."
+   "description": "Massive V chord.",
+   "descriptionKr": "육중한 V 코드."
   },
   "B Major": {
    "tier": "Basic",
@@ -3048,7 +3082,8 @@
    ],
    "rootString": 6,
    "bassNote": "B",
-   "description": "Massive I chord — open E adds the 11."
+   "description": "Massive I chord — open E adds the 11.",
+   "descriptionKr": "육중한 I 코드 — 개방 E줄이 11도를 더한다."
   },
   "Emaj9 (High Drone)": {
    "tier": "Advanced",
@@ -3071,7 +3106,8 @@
    ],
    "rootString": 6,
    "bassNote": "E",
-   "description": "Massive IV chord."
+   "description": "Massive IV chord.",
+   "descriptionKr": "육중한 IV 코드."
   },
   "Fmaj7 (Thumb)": {
    "tier": "Basic",
@@ -3094,7 +3130,8 @@
    ],
    "rootString": 6,
    "bassNote": "F",
-   "description": "Hendrix style thumb root."
+   "description": "Hendrix style thumb root.",
+   "descriptionKr": "헨드릭스 스타일 엄지 루트."
   },
   "Gm13 (Open)": {
    "tier": "Basic",
@@ -3117,7 +3154,8 @@
    ],
    "rootString": 6,
    "bassNote": "G",
-   "description": "Open e rings the 13."
+   "description": "Open e rings the 13.",
+   "descriptionKr": "개방 e줄이 13도로 울린다."
   },
   "Bb2 (Open)": {
    "tier": "Basic",
@@ -3558,7 +3596,8 @@
    ],
    "rootString": 6,
    "bassNote": "E",
-   "description": "Classic delta blues dominant"
+   "description": "Classic delta blues dominant",
+   "descriptionKr": "클래식한 델타 블루스 도미넌트"
   },
   "Edim7 (Slide)": {
    "tier": "Advanced",
@@ -3581,7 +3620,8 @@
    ],
    "rootString": 5,
    "bassNote": "Bb",
-   "description": "Acoustic passing diminished"
+   "description": "Acoustic passing diminished",
+   "descriptionKr": "어쿠스틱 경과 디미니시드"
   },
   "G7 (D2 Mid Root)": {
    "tier": "Advanced",
@@ -3802,7 +3842,8 @@
    ],
    "rootString": 5,
    "bassNote": "Eb",
-   "description": "Exact same shape, up a minor 3rd"
+   "description": "Exact same shape, up a minor 3rd",
+   "descriptionKr": "같은 모양 그대로 단3도 위"
   },
   "Co7 (+6 frets)": {
    "tier": "Advanced",
@@ -3825,7 +3866,8 @@
    ],
    "rootString": 5,
    "bassNote": "Gb",
-   "description": "Exact same shape, up a tritone"
+   "description": "Exact same shape, up a tritone",
+   "descriptionKr": "같은 모양 그대로 트라이톤 위"
   },
   "Quartal (A-D-G)": {
    "tier": "Advanced",
@@ -3848,7 +3890,8 @@
    ],
    "rootString": 5,
    "bassNote": "D",
-   "description": "Stacked perfect 4ths"
+   "description": "Stacked perfect 4ths",
+   "descriptionKr": "완전4도를 쌓은 보이싱"
   },
   "Quartal (D-G-B)": {
    "tier": "Advanced",
@@ -3871,7 +3914,8 @@
    ],
    "rootString": 4,
    "bassNote": "G",
-   "description": "McCoy Tyner style"
+   "description": "McCoy Tyner style",
+   "descriptionKr": "맥코이 타이너 스타일"
   },
   "Cmaj7 (Drop 2&4)": {
    "tier": "Advanced",
@@ -3894,7 +3938,8 @@
    ],
    "rootString": 6,
    "bassNote": "C",
-   "description": "Eric Johnson wide spread"
+   "description": "Eric Johnson wide spread",
+   "descriptionKr": "에릭 존슨식 와이드 스프레드"
   },
   "G 6ths (Root)": {
    "tier": "Basic",
@@ -3917,7 +3962,8 @@
    ],
    "rootString": 4,
    "bassNote": "G",
-   "description": "Country/R&B staple"
+   "description": "Country/R&B staple",
+   "descriptionKr": "컨트리/R&B 필수 아이템"
   },
   "G 6ths (1st Inv)": {
    "tier": "Basic",
@@ -3962,7 +4008,8 @@
    ],
    "rootString": 4,
    "bassNote": "G",
-   "description": "Gospel passing chord (G to C)"
+   "description": "Gospel passing chord (G to C)",
+   "descriptionKr": "가스펠 경과 코드 (G에서 C로)"
   },
   "C Min (Deep Root)": {
    "tier": "Basic",
@@ -4007,7 +4054,8 @@
    ],
    "rootString": 6,
    "bassNote": "A",
-   "description": "Thumb root allows pinky embellishments"
+   "description": "Thumb root allows pinky embellishments",
+   "descriptionKr": "엄지 루트 덕에 새끼손가락 장식음이 자유롭다"
   },
   "Am (Open)": {
    "tier": "Basic",
@@ -4096,7 +4144,8 @@
    ],
    "rootString": 5,
    "bassNote": "A",
-   "description": "Essential blues/folk dominant"
+   "description": "Essential blues/folk dominant",
+   "descriptionKr": "블루스/포크 필수 도미넌트"
   },
   "C7 (Open)": {
    "tier": "Basic",
@@ -4119,7 +4168,8 @@
    ],
    "rootString": 5,
    "bassNote": "C",
-   "description": "Essential blues/folk dominant"
+   "description": "Essential blues/folk dominant",
+   "descriptionKr": "블루스/포크 필수 도미넌트"
   },
   "D7 (Open)": {
    "tier": "Basic",
@@ -4142,7 +4192,8 @@
    ],
    "rootString": 4,
    "bassNote": "D",
-   "description": "Essential blues/folk dominant"
+   "description": "Essential blues/folk dominant",
+   "descriptionKr": "블루스/포크 필수 도미넌트"
   },
   "E7 (Open)": {
    "tier": "Basic",
@@ -4165,7 +4216,8 @@
    ],
    "rootString": 6,
    "bassNote": "E",
-   "description": "Essential blues/folk dominant"
+   "description": "Essential blues/folk dominant",
+   "descriptionKr": "블루스/포크 필수 도미넌트"
   },
   "G7 (Open)": {
    "tier": "Basic",
@@ -4188,7 +4240,8 @@
    ],
    "rootString": 6,
    "bassNote": "G",
-   "description": "Essential blues/folk dominant"
+   "description": "Essential blues/folk dominant",
+   "descriptionKr": "블루스/포크 필수 도미넌트"
   },
   "Amaj7 (Open)": {
    "tier": "Advanced",
@@ -4255,7 +4308,8 @@
    ],
    "rootString": 6,
    "bassNote": "F",
-   "description": "E shape at 1fr — use instead of plain F for a dreamy Lydian color."
+   "description": "E shape at 1fr — use instead of plain F for a dreamy Lydian color.",
+   "descriptionKr": "1프렛의 E 모양 — 밋밋한 F 대신 몽환적인 리디안 색채로."
   },
   "F#7add11 (Form 1)": {
    "tier": "Advanced",
@@ -4278,7 +4332,8 @@
    ],
    "rootString": 6,
    "bassNote": "F#",
-   "description": "Use instead of F#7 — open B is the 11."
+   "description": "Use instead of F#7 — open B is the 11.",
+   "descriptionKr": "F#7 대신 사용 — 개방 B줄이 11도."
   },
   "G6 (Form 1)": {
    "tier": "Advanced",
@@ -4301,7 +4356,8 @@
    ],
    "rootString": 6,
    "bassNote": "G",
-   "description": "Use instead of G — open e adds the 6."
+   "description": "Use instead of G — open e adds the 6.",
+   "descriptionKr": "G 대신 사용 — 개방 e줄이 6도를 더한다."
   },
   "Aadd9 (Form 1)": {
    "tier": "Advanced",
@@ -4324,7 +4380,8 @@
    ],
    "rootString": 6,
    "bassNote": "A",
-   "description": "The A-key workhorse — open B is the 9."
+   "description": "The A-key workhorse — open B is the 9.",
+   "descriptionKr": "A 키의 주력 코드 — 개방 B줄이 9도."
   },
   "Cmaj7 (Form 1)": {
    "tier": "Advanced",
@@ -4347,7 +4404,8 @@
    ],
    "rootString": 6,
    "bassNote": "C",
-   "description": "Use instead of C — open B is the maj7."
+   "description": "Use instead of C — open B is the maj7.",
+   "descriptionKr": "C 대신 사용 — 개방 B줄이 maj7."
   },
   "D6/9 (Form 1)": {
    "tier": "Advanced",
@@ -4370,7 +4428,8 @@
    ],
    "rootString": 6,
    "bassNote": "D",
-   "description": "Use instead of D — 6 and 9 ring on top."
+   "description": "Use instead of D — 6 and 9 ring on top.",
+   "descriptionKr": "D 대신 사용 — 6도와 9도가 위에서 울린다."
   },
   "Cmaj7 (Form 2)": {
    "tier": "Advanced",
@@ -4393,7 +4452,8 @@
    ],
    "rootString": 5,
    "bassNote": "C",
-   "description": "Asus2 shape at 3fr — use instead of C."
+   "description": "Asus2 shape at 3fr — use instead of C.",
+   "descriptionKr": "3프렛의 Asus2 모양 — C 대신 사용."
   },
   "D6sus2 (Form 2)": {
    "tier": "Advanced",
@@ -4416,7 +4476,8 @@
    ],
    "rootString": 5,
    "bassNote": "D",
-   "description": "Use instead of D — floating sus2 with a 6 on top."
+   "description": "Use instead of D — floating sus2 with a 6 on top.",
+   "descriptionKr": "D 대신 사용 — 6도를 얹은 몽롱한 sus2."
   },
   "G6 (Form 2)": {
    "tier": "Advanced",
@@ -4439,7 +4500,8 @@
    ],
    "rootString": 5,
    "bassNote": "G",
-   "description": "High-fret extension of the form."
+   "description": "High-fret extension of the form.",
+   "descriptionKr": "이 폼의 하이 프렛 확장."
   },
   "G#m7b13 (Form 3)": {
    "tier": "Advanced",
@@ -4462,7 +4524,8 @@
    ],
    "rootString": 6,
    "bassNote": "G#",
-   "description": "Dark minor color — open E is the b13."
+   "description": "Dark minor color — open E is the b13.",
+   "descriptionKr": "어두운 마이너 색채 — 개방 E줄이 b13."
   },
   "Am9 (Form 3)": {
    "tier": "Advanced",
@@ -4485,7 +4548,8 @@
    ],
    "rootString": 6,
    "bassNote": "A",
-   "description": "Full Am9 — open B is the 9."
+   "description": "Full Am9 — open B is the 9.",
+   "descriptionKr": "완전한 Am9 — 개방 B줄이 9도."
   },
   "C#m7 (Form 3)": {
    "tier": "Advanced",
@@ -4508,7 +4572,8 @@
    ],
    "rootString": 6,
    "bassNote": "C#",
-   "description": "5th omitted — the open-string nuance still carries."
+   "description": "5th omitted — the open-string nuance still carries.",
+   "descriptionKr": "5도 생략 — 개방현의 뉘앙스는 그대로 살아 있다."
   },
   "D#m7 (Form 3)": {
    "tier": "Advanced",
@@ -4531,7 +4596,8 @@
    ],
    "rootString": 6,
    "bassNote": "D#",
-   "description": "5th omitted; open strings rub (b9) — passing color, mind the clash."
+   "description": "5th omitted; open strings rub (b9) — passing color, mind the clash.",
+   "descriptionKr": "5도 생략, 개방현과 b9로 부딪힌다 — 경과용 색채, 충돌 주의."
   },
   "Em7 (Form 3)": {
    "tier": "Advanced",
@@ -4554,7 +4620,8 @@
    ],
    "rootString": 6,
    "bassNote": "E",
-   "description": "Top of the form — pure Em7 at the octave."
+   "description": "Top of the form — pure Em7 at the octave.",
+   "descriptionKr": "폼의 꼭대기 — 옥타브 위의 순수한 Em7."
   },
   "G#m b13 (Form 4)": {
    "tier": "Advanced",
@@ -4577,7 +4644,8 @@
    ],
    "rootString": 6,
    "bassNote": "G#",
-   "description": "Fuller G#m — open E adds the b13 shimmer."
+   "description": "Fuller G#m — open E adds the b13 shimmer.",
+   "descriptionKr": "더 꽉 찬 G#m — 개방 E줄이 b13의 아른거림을 더한다."
   },
   "Am add9 (Form 4)": {
    "tier": "Advanced",
@@ -4600,7 +4668,8 @@
    ],
    "rootString": 6,
    "bassNote": "A",
-   "description": "Use instead of Am."
+   "description": "Use instead of Am.",
+   "descriptionKr": "Am 대신 사용."
   },
   "Bm add11 (Form 4)": {
    "tier": "Advanced",
@@ -4623,7 +4692,8 @@
    ],
    "rootString": 6,
    "bassNote": "B",
-   "description": "Use instead of Bm."
+   "description": "Use instead of Bm.",
+   "descriptionKr": "Bm 대신 사용."
   },
   "C#m7 (Form 4)": {
    "tier": "Advanced",
@@ -4646,7 +4716,8 @@
    ],
    "rootString": 6,
    "bassNote": "C#",
-   "description": "The 9fr hi-position C#m7 — full voicing with 5th."
+   "description": "The 9fr hi-position C#m7 — full voicing with 5th.",
+   "descriptionKr": "9프렛 하이 포지션 C#m7 — 5도까지 갖춘 풀 보이싱."
   },
   "Aadd9/C# (Form 5)": {
    "tier": "Advanced",
@@ -4669,7 +4740,8 @@
    ],
    "rootString": 5,
    "bassNote": "C#",
-   "description": "1st-inversion A — use for A/C#, open B is the 9."
+   "description": "1st-inversion A — use for A/C#, open B is the 9.",
+   "descriptionKr": "A의 1전위 — A/C# 자리에 사용, 개방 B줄이 9도."
   },
   "Bsus4/D# (Form 5)": {
    "tier": "Advanced",
@@ -4692,7 +4764,8 @@
    ],
    "rootString": 5,
    "bassNote": "D#",
-   "description": "Rising bass line — two frets up from A/C#."
+   "description": "Rising bass line — two frets up from A/C#.",
+   "descriptionKr": "상행 베이스 라인 — A/C#에서 두 프렛 위."
   },
   "Cmaj7/E (Form 5)": {
    "tier": "Advanced",
@@ -4715,7 +4788,8 @@
    ],
    "rootString": 5,
    "bassNote": "E",
-   "description": "Use for C/E — open B turns it maj7."
+   "description": "Use for C/E — open B turns it maj7.",
+   "descriptionKr": "C/E 자리에 사용 — 개방 B줄이 maj7로 만든다."
   },
   "D6/9/F# (Form 5)": {
    "tier": "Advanced",
@@ -4738,7 +4812,8 @@
    ],
    "rootString": 5,
    "bassNote": "F#",
-   "description": "Use for D/F# in ascending bass runs."
+   "description": "Use for D/F# in ascending bass runs.",
+   "descriptionKr": "상행 베이스 런의 D/F# 자리에 사용."
   },
   "E/G# (Form 5)": {
    "tier": "Advanced",
@@ -4761,7 +4836,8 @@
    ],
    "rootString": 5,
    "bassNote": "G#",
-   "description": "The E-key resolution point of the climb."
+   "description": "The E-key resolution point of the climb.",
+   "descriptionKr": "이 상행의 종착점, E 키의 해결 지점."
   },
   "Fmaj7#11/A (Form 6)": {
    "tier": "Advanced",
@@ -4784,7 +4860,8 @@
    ],
    "rootString": 6,
    "bassNote": "A",
-   "description": "Use for F/A — half-step riser with open-string haze."
+   "description": "Use for F/A — half-step riser with open-string haze.",
+   "descriptionKr": "F/A 자리에 사용 — 개방현의 아지랑이를 두른 반음 상행."
   },
   "F#7add11/A# (Form 6)": {
    "tier": "Advanced",
@@ -4807,7 +4884,8 @@
    ],
    "rootString": 6,
    "bassNote": "A#",
-   "description": "Use for F#/A# — keeps the chromatic bass climbing."
+   "description": "Use for F#/A# — keeps the chromatic bass climbing.",
+   "descriptionKr": "F#/A# 자리에 사용 — 반음계 베이스 상행을 이어 간다."
   },
   "G6/B (Form 6)": {
    "tier": "Advanced",
@@ -4830,7 +4908,8 @@
    ],
    "rootString": 6,
    "bassNote": "B",
-   "description": "Use for G/B at the top of the climb."
+   "description": "Use for G/B at the top of the climb.",
+   "descriptionKr": "상행 꼭대기의 G/B 자리에 사용."
   },
   "D6/9/F# (Form 6)": {
    "tier": "Advanced",
@@ -4853,7 +4932,8 @@
    ],
    "rootString": 6,
    "bassNote": "F#",
-   "description": "Use for D/F# in descending bass lines."
+   "description": "Use for D/F# in descending bass lines.",
+   "descriptionKr": "하행 베이스 라인의 D/F# 자리에 사용."
   },
   "G6/B (Form 7)": {
    "tier": "Advanced",
@@ -4876,7 +4956,8 @@
    ],
    "rootString": 5,
    "bassNote": "B",
-   "description": "One finger — B bass under a ringing G6."
+   "description": "One finger — B bass under a ringing G6.",
+   "descriptionKr": "손가락 하나 — 울리는 G6 아래 B 베이스."
   },
   "C (A-Shape)": {
    "tier": "Basic",
@@ -4899,7 +4980,8 @@
    ],
    "rootString": 5,
    "bassNote": "C",
-   "description": "A-shape barre at 3fr — the second CAGED station."
+   "description": "A-shape barre at 3fr — the second CAGED station.",
+   "descriptionKr": "3프렛의 A 모양 바레 — CAGED의 두 번째 정거장."
   },
   "C (G-Shape)": {
    "tier": "Advanced",
@@ -4922,7 +5004,8 @@
    ],
    "rootString": 6,
    "bassNote": "C",
-   "description": "The hardest CAGED grip — many players fret just the top four strings."
+   "description": "The hardest CAGED grip — many players fret just the top four strings.",
+   "descriptionKr": "CAGED에서 가장 어려운 그립 — 위쪽 네 줄만 잡는 경우도 많다."
   },
   "C (E-Shape)": {
    "tier": "Basic",
@@ -4945,7 +5028,8 @@
    ],
    "rootString": 6,
    "bassNote": "C",
-   "description": "E-shape barre at 8fr — the workhorse barre chord."
+   "description": "E-shape barre at 8fr — the workhorse barre chord.",
+   "descriptionKr": "8프렛의 E 모양 바레 — 바레 코드의 주력."
   },
   "C (D-Shape)": {
    "tier": "Advanced",
@@ -4968,7 +5052,8 @@
    ],
    "rootString": 4,
    "bassNote": "C",
-   "description": "D-shape at the 10th fret — bright top-string voicing."
+   "description": "D-shape at the 10th fret — bright top-string voicing.",
+   "descriptionKr": "10프렛의 D 모양 — 높은 줄의 밝은 보이싱."
   },
   "E5 (Power)": {
    "tier": "Basic",
@@ -4991,7 +5076,8 @@
    ],
    "rootString": 6,
    "bassNote": "E",
-   "description": "Root + 5th — the sound of rock."
+   "description": "Root + 5th — the sound of rock.",
+   "descriptionKr": "루트 + 5도 — 록의 사운드."
   },
   "A5 (Power)": {
    "tier": "Basic",
@@ -5014,7 +5100,8 @@
    ],
    "rootString": 5,
    "bassNote": "A",
-   "description": "Open A power chord."
+   "description": "Open A power chord.",
+   "descriptionKr": "개방 A 파워 코드."
   },
   "F5 (Moveable)": {
    "tier": "Basic",
@@ -5037,7 +5124,8 @@
    ],
    "rootString": 6,
    "bassNote": "F",
-   "description": "Slide anywhere — the root names the chord."
+   "description": "Slide anywhere — the root names the chord.",
+   "descriptionKr": "어디로든 이동 — 루트 음이 코드 이름이 된다."
   },
   "C5 (5th-String)": {
    "tier": "Basic",
@@ -5060,7 +5148,8 @@
    ],
    "rootString": 5,
    "bassNote": "C",
-   "description": "Same grip from the 5th string."
+   "description": "Same grip from the 5th string.",
+   "descriptionKr": "같은 그립을 5번 줄에서."
   },
   "E9 (Funk)": {
    "tier": "Advanced",
@@ -5083,7 +5172,8 @@
    ],
    "rootString": 5,
    "bassNote": "E",
-   "description": "The James Brown chord — snap it on the \"and\"."
+   "description": "The James Brown chord — snap it on the \"and\".",
+   "descriptionKr": "제임스 브라운 코드 — '앤드' 박자에 끊어 친다."
   },
   "D9 (Funk)": {
    "tier": "Advanced",
@@ -5106,7 +5196,8 @@
    ],
    "rootString": 5,
    "bassNote": "D",
-   "description": "Same 9th grip two frets down."
+   "description": "Same 9th grip two frets down.",
+   "descriptionKr": "같은 9th 그립을 두 프렛 아래에서."
   },
   "E13 (Open)": {
    "tier": "Advanced",
@@ -5129,7 +5220,8 @@
    ],
    "rootString": 6,
    "bassNote": "E",
-   "description": "Open-string 13th — huge dominant color for cheap."
+   "description": "Open-string 13th — huge dominant color for cheap.",
+   "descriptionKr": "개방현 13th — 손쉽게 얻는 거대한 도미넌트 색채."
   },
   "Dsus2 (Open)": {
    "tier": "Basic",
@@ -5152,7 +5244,8 @@
    ],
    "rootString": 4,
    "bassNote": "D",
-   "description": "Lift the 3rd — open, airy D."
+   "description": "Lift the 3rd — open, airy D.",
+   "descriptionKr": "3도를 들어낸 — 열려 있고 산뜻한 D."
   },
   "Esus4 (Open)": {
    "tier": "Basic",
@@ -5175,7 +5268,8 @@
    ],
    "rootString": 6,
    "bassNote": "E",
-   "description": "The 4th leaning back into E major."
+   "description": "The 4th leaning back into E major.",
+   "descriptionKr": "4도가 E 메이저로 기대어 해결되는 코드."
   }
  },
  "songKeys": [
@@ -5676,7 +5770,9 @@
   {
    "groupName": "Drop-2 Matrix (Low 4 Strings)",
    "usageLabel": "Rhythm Bed",
+   "usageLabelKr": "리듬 베드",
    "description": "Muddy but necessary for completing the cycle. Strings E-A-D-G.",
+   "descriptionKr": "탁하지만 사이클 완성에 꼭 필요하다. E-A-D-G 줄.",
    "chords": [
     "Cmaj7 (D2 Low Root)",
     "Cmaj7 (D2 Low 1st)",
@@ -5687,7 +5783,9 @@
   {
    "groupName": "Drop-2 Matrix (Mid 4 Strings)",
    "usageLabel": "Essential R&B",
+   "usageLabelKr": "R&B 필수",
    "description": "The absolute workhorse for comping. Strings A-D-G-B.",
+   "descriptionKr": "컴핑의 절대적인 주력. A-D-G-B 줄.",
    "chords": [
     "Cmaj7 (D2 Mid Root)",
     "Cmaj7 (D2 Mid 1st)",
@@ -5698,7 +5796,9 @@
   {
    "groupName": "Drop-2 Matrix (Top 4 Strings)",
    "usageLabel": "Modern Soul",
+   "usageLabelKr": "모던 소울",
    "description": "High register. Cuts through the mix. Strings D-G-B-e.",
+   "descriptionKr": "높은 음역. 믹스를 뚫고 나온다. D-G-B-e 줄.",
    "chords": [
     "Cmaj7 (D2 Top Root)",
     "Cmaj7 (D2 Top 1st)",
@@ -5709,7 +5809,9 @@
   {
    "groupName": "Minor Drop-2 (Mid 4 Strings)",
    "usageLabel": "Jazz Comping",
+   "usageLabelKr": "재즈 컴핑",
    "description": "The essential minor 7th inversions.",
+   "descriptionKr": "필수 마이너 7th 전위들.",
    "chords": [
     "Cm7 (D2 Mid Root)",
     "Cm7 (D2 Mid 1st)",
@@ -5720,7 +5822,9 @@
   {
    "groupName": "Drop-3 Matrix",
    "usageLabel": "Real Jazz Mastery",
+   "usageLabelKr": "정통 재즈 마스터",
    "description": "Thick traditional jazz sound. Root on 6th string.",
+   "descriptionKr": "두툼한 전통 재즈 사운드. 6번 줄 루트.",
    "chords": [
     "Gmaj7 (D3 Root)",
     "Gmaj7 (D3 1st)",
@@ -5731,7 +5835,9 @@
   {
    "groupName": "Minor Drop-3 Matrix",
    "usageLabel": "Thick Minor Comping",
+   "usageLabelKr": "두툼한 마이너 컴핑",
    "description": "Thick minor 7th inversions.",
+   "descriptionKr": "두툼한 마이너 7th 전위들.",
    "chords": [
     "Gm7 (D3 Root)",
     "Gm7 (D3 1st)",
@@ -5742,7 +5848,9 @@
   {
    "groupName": "Rootless Upper Structures",
    "usageLabel": "Neo-Soul Secret",
+   "usageLabelKr": "네오소울의 비밀",
    "description": "Play triads over a bass note to form lush extensions.",
+   "descriptionKr": "베이스 음 위에 트라이어드를 얹어 풍성한 텐션을 만든다.",
    "chords": [
     "Gmaj7 (Play Bm)",
     "Cmaj9 (Play Em7)",
@@ -5752,7 +5860,9 @@
   {
    "groupName": "Altered Dominant Family",
    "usageLabel": "Tension",
+   "usageLabelKr": "텐션",
    "description": "Must-know chords for resolving to minor keys.",
+   "descriptionKr": "마이너 키로 해결할 때 꼭 알아야 할 코드들.",
    "chords": [
     "E7#9",
     "E7b9",
@@ -5763,7 +5873,9 @@
   {
    "groupName": "CAGED System (C)",
    "usageLabel": "One Chord, Five Places",
+   "usageLabelKr": "코드 하나, 자리 다섯",
    "description": "The same C major mapped through all five CAGED shapes up the neck. Learn the map, own the fretboard.",
+   "descriptionKr": "같은 C 메이저를 다섯 가지 CAGED 모양으로 넥 전체에 펼쳤다. 지도를 익히면 지판이 내 것이 된다.",
    "chords": [
     "C Major",
     "C (A-Shape)",
@@ -5775,7 +5887,9 @@
   {
    "groupName": "Dominant Drop-2 (Mid)",
    "usageLabel": "V7 Workhorse",
+   "usageLabelKr": "V7 주력",
    "description": "G7 drop-2 inversions on the middle strings — pair with the maj7 and m7 matrices for full ii-V-I coverage.",
+   "descriptionKr": "가운데 줄의 G7 드롭2 전위 — maj7·m7 매트릭스와 묶으면 ii-V-I가 완성된다.",
    "chords": [
     "G7 (D2 Mid Root)",
     "G7 (D2 Mid 1st)",
@@ -5786,7 +5900,9 @@
   {
    "groupName": "Half-Diminished Drop-2",
    "usageLabel": "The ii of Minor Keys",
+   "usageLabelKr": "마이너 키의 ii",
    "description": "Bm7b5 drop-2 inversions — the gateway chord of every minor ii-V-i.",
+   "descriptionKr": "Bm7b5 드롭2 전위 — 모든 마이너 ii-V-i의 관문 코드.",
    "chords": [
     "Bm7b5 (D2 Mid Root)",
     "Bm7b5 (D2 Mid 1st)",
@@ -5797,7 +5913,9 @@
   {
    "groupName": "Symmetric Diminished",
    "usageLabel": "Tension Machine",
+   "usageLabelKr": "텐션 머신",
    "description": "A dim7 chord repeats itself every three frets — one grip gives you four chords.",
+   "descriptionKr": "dim7 코드는 세 프렛마다 자신을 반복한다 — 그립 하나로 코드 네 개.",
    "chords": [
     "Co7 (Root)",
     "Co7 (+3 frets)",
@@ -5807,7 +5925,9 @@
   {
    "groupName": "Quartal & Wide Spreads",
    "usageLabel": "Modern Color",
+   "usageLabelKr": "모던 컬러",
    "description": "Stacked perfect 4ths (McCoy Tyner) and the Eric Johnson drop-2&4 spread.",
+   "descriptionKr": "완전4도 쌓기(맥코이 타이너)와 에릭 존슨의 드롭 2&4 스프레드.",
    "chords": [
     "Quartal (A-D-G)",
     "Quartal (D-G-B)",
@@ -5819,6 +5939,7 @@
   {
    "groupName": "Spread Triads",
    "description": "Eric Johnson / Frusciante style. Spanning across skipped strings.",
+   "descriptionKr": "에릭 존슨 / 프루시안테 스타일. 줄을 건너뛰며 넓게 펼친다.",
    "chords": [
     "G Spread (Root)",
     "G Spread (1st Inv)",
@@ -5828,6 +5949,7 @@
   {
    "groupName": "Top Triads (Maj & Min)",
    "description": "G-B-e strings. Essential for R&B accompaniment.",
+   "descriptionKr": "G-B-e 줄. R&B 반주의 필수.",
    "chords": [
     "G Maj (Top Root)",
     "G Maj (Top 1st)",
@@ -5840,6 +5962,7 @@
   {
    "groupName": "Middle Triads (Maj & Min)",
    "description": "D-G-B strings. Warmer rhythmic bed.",
+   "descriptionKr": "D-G-B 줄. 더 따뜻한 리듬 베드.",
    "chords": [
     "C Maj (Mid Root)",
     "C Maj (Mid 1st)",
@@ -5852,6 +5975,7 @@
   {
    "groupName": "Low Triads (E-A-D)",
    "description": "The absolute lowest rhythmic foundation. Replaces the bass player.",
+   "descriptionKr": "가장 낮은 리듬 기반. 베이시스트를 대신한다.",
    "chords": [
     "C Maj (Deep Root)",
     "C Maj (Deep 1st)",
@@ -5862,6 +5986,7 @@
   {
    "groupName": "Dim & Aug Triads",
    "description": "Gospel and Neo-Soul passing chords — diminished pulls down, augmented pushes up.",
+   "descriptionKr": "가스펠·네오소울 경과 코드 — 디미니시드는 아래로 당기고, 어그먼트는 위로 민다.",
    "chords": [
     "B Dim (Mid Root)",
     "B Dim (Mid 1st)",
@@ -5872,6 +5997,7 @@
   {
    "groupName": "Funk Shells (3rd & 7th)",
    "description": "Rootless 2-note voicings for Cory Wong style funk comping.",
+   "descriptionKr": "코리 웡 스타일 펑크 컴핑을 위한 루트 없는 2음 보이싱.",
    "chords": [
     "Dm7 (Funk Shell)",
     "G7 (Funk Shell)",
@@ -5881,6 +6007,7 @@
   {
    "groupName": "Wide Arena Power Chords",
    "description": "Massive 5ths that span multiple skipped strings.",
+   "descriptionKr": "여러 줄을 건너뛰며 펼친 육중한 5도.",
    "chords": [
     "G5 (Wide Arena)",
     "C5 (Wide Arena)"
@@ -5889,6 +6016,7 @@
   {
    "groupName": "Ambient Clusters",
    "description": "Dense stacked 2nds for volume swells and heavy reverb pads.",
+   "descriptionKr": "볼륨 스웰과 진한 리버브 패드를 위한 빽빽한 2도 쌓기.",
    "chords": [
     "Csus2 (Pad)",
     "Emaj9 (Cluster)",
@@ -5898,6 +6026,7 @@
   {
    "groupName": "Thumb-Root Embellishment",
    "description": "Hendrix / Mayer style: thumb takes the bass so fingers are free to decorate.",
+   "descriptionKr": "헨드릭스 / 메이어 스타일: 엄지가 베이스를 맡아 나머지 손가락이 자유롭게 장식한다.",
    "chords": [
     "Am7 (Hendrix Box)",
     "Fmaj7 (Thumb)",
@@ -5907,6 +6036,7 @@
   {
    "groupName": "Double Stops",
    "description": "Groove basics.",
+   "descriptionKr": "그루브의 기본기.",
    "chords": [
     "4ths Double Stop"
    ]
@@ -5914,6 +6044,7 @@
   {
    "groupName": "Power Chords",
    "description": "Roots and fifths, moveable everywhere. Palm-mute for chug, open up for choruses.",
+   "descriptionKr": "루트와 5도, 어디로든 이동 가능. 팜 뮤트로 저벅거리다 코러스에서 열어 준다.",
    "chords": [
     "E5 (Power)",
     "A5 (Power)",
@@ -5924,6 +6055,7 @@
   {
    "groupName": "Funk 9ths & 13ths",
    "description": "James Brown-approved dominant stabs. Slide in from a half-step below.",
+   "descriptionKr": "제임스 브라운 인증 도미넌트 스탭. 반음 아래에서 슬라이드로 진입.",
    "chords": [
     "E9 (Funk)",
     "D9 (Funk)",
@@ -5933,6 +6065,7 @@
   {
    "groupName": "Bass-Side Triads (A-D-G)",
    "description": "The fourth triad string-set — F major inversions living under the wound strings.",
+   "descriptionKr": "네 번째 트라이어드 줄 세트 — 감긴 줄 아래 사는 F 메이저 전위들.",
    "chords": [
     "F Maj (Low Root)",
     "F Maj (Low 1st)",
@@ -5945,6 +6078,7 @@
    "groupName": "Form 1 · E Shape",
    "formKr": "제1폼: E 코드 기반 폼",
    "description": "Start from the open E chord and slide the whole grip up while strings 1-2 keep ringing. Each stop lands on a chord you can use instead of the plain one: F → Fmaj7(#11), F# → F#7(add11), G → G6, A → Aadd9, B → Badd11, C → Cmaj7, D → D6/9.",
+   "descriptionKr": "개방 E 코드에서 시작해 1·2번 줄이 계속 울리게 두고 그립 전체를 위로 이동한다. 멈추는 자리마다 밋밋한 코드 대신 쓸 수 있는 코드가 나온다: F → Fmaj7(#11), F# → F#7(add11), G → G6, A → Aadd9, B → Badd11, C → Cmaj7, D → D6/9.",
    "chords": [
     "E Major",
     "Fmaj7#11 (Form 1)",
@@ -5960,6 +6094,7 @@
    "groupName": "Form 2 · Asus2 Shape",
    "formKr": "제2폼: Asus2 (A2) 기반 폼",
    "description": "Asus2 with the bass on the 5th string. Slide up two frets for Bsus4, three for Cmaj7, one more for the moody C#m7, then Dsus2 territory and on up to F#m11 and G6 at the high frets.",
+   "descriptionKr": "5번 줄 베이스의 Asus2. 두 프렛 올리면 Bsus4, 세 프렛이면 Cmaj7, 한 프렛 더 가면 무디한 C#m7, 이어서 Dsus2 영역을 지나 하이 프렛의 F#m11과 G6까지 올라간다.",
    "chords": [
     "A 2",
     "B sus4 (Open)",
@@ -5974,6 +6109,7 @@
    "groupName": "Form 3 · F#m7(add11) Shape",
    "formKr": "제3폼: F#m7 (add 11) 기반 폼",
    "description": "The minor-family form: mute the 5th string and move root + b7 + b3 under the open strings. Some stops omit the 5th entirely — the open-string nuance still carries the sound. Watch the b9 rub on D#m7.",
+   "descriptionKr": "마이너 계열 폼: 5번 줄을 뮤트하고 루트 + b7 + b3을 개방현 아래로 이동한다. 일부 자리는 5도를 아예 생략하지만 개방현의 뉘앙스가 사운드를 충분히 지탱한다. D#m7의 b9 부딪힘에 주의.",
    "chords": [
     "F# Minor 7 (Open)",
     "G#m7b13 (Form 3)",
@@ -5988,6 +6124,7 @@
    "groupName": "Form 4 · C#m7 High Position",
    "formKr": "제4폼: C#m7 하이 포지션 폼",
    "description": "The fuller four-finger minor grip, at home around the 9th fret (C#m7) and slid down for Bm and Am, or walked F#m → G#m → Am for horizontal motion across the board.",
+   "descriptionKr": "네 손가락으로 잡는 더 꽉 찬 마이너 그립. 9프렛 부근의 C#m7이 본거지이고, 내려가면 Bm과 Am, 또는 F#m → G#m → Am으로 걸어가며 지판을 가로지른다.",
    "chords": [
     "F# m11 (Open)",
     "G#m b13 (Form 4)",
@@ -6000,6 +6137,7 @@
    "groupName": "Form 5 · Slash Chords (A/C#)",
    "formKr": "제5폼: 분수 코드 폼 (A/C# 계열)",
    "description": "First-inversion slash voicings for sophisticated bass motion: A(add9)/C# → Bsus4/D# → Cmaj7/E → D6/9/F# → E/G#. The classic E-key ascending bass line, fully harmonized.",
+   "descriptionKr": "세련된 베이스 진행을 위한 1전위 분수 코드: A(add9)/C# → Bsus4/D# → Cmaj7/E → D6/9/F# → E/G#. E 키의 클래식한 상행 베이스 라인을 완전히 화성화했다.",
    "chords": [
     "Aadd9/C# (Form 5)",
     "Bsus4/D# (Form 5)",
@@ -6012,6 +6150,7 @@
    "groupName": "Form 6 · E/G# Variation",
    "formKr": "제6폼: E/G# 변형 폼",
    "description": "A compact slash form with the bass on the 6th string. Climb it in half/whole steps for tension — F/A → F#/A# → G/B — and keep D/F# handy for descending runs.",
+   "descriptionKr": "6번 줄 베이스의 콤팩트한 분수 폼. F/A → F#/A# → G/B처럼 반음·온음으로 기어 올라가며 긴장을 쌓고, 하행 런을 위해 D/F#도 챙겨 두자.",
    "chords": [
     "E/G#",
     "Fmaj7#11/A (Form 6)",
@@ -6024,6 +6163,7 @@
    "groupName": "Form 7 · G6/B Walk",
    "formKr": "제7폼: G6/B 및 기타 변형 폼",
    "description": "The lecturer's signature walk: a one-finger G6/B, then the Form-5 grips carry the bass and tensions up together — G6/B → A/C# → Bsus4/D# → C/E — resolving home on E/G#.",
+   "descriptionKr": "강의자의 시그니처 워크: 손가락 하나로 잡는 G6/B에서 시작해, 5폼 그립들이 베이스와 텐션을 함께 끌고 올라간다 — G6/B → A/C# → Bsus4/D# → C/E — 그리고 E/G#으로 귀결.",
    "chords": [
     "G6/B (Form 7)",
     "Aadd9/C# (Form 5)",
@@ -6037,10 +6177,13 @@
   "progressions": [
    {
     "title": "The 1-5-6-4 Anthem (Pop/Rock)",
+    "titleKr": "1-5-6-4 앤섬 (팝/록)",
     "category": "Key of G",
     "example": "G Major → D/F# → Em7 → C add9",
     "description": "The most common chord progression.",
+    "descriptionKr": "가장 흔한 코드 진행.",
     "howTo": "Anchor ring and pinky fingers.",
+    "howToKr": "약지와 새끼손가락을 고정 앵커로 삼자.",
     "sequence": [
      "G Major",
      "D/F#",
@@ -6050,10 +6193,13 @@
    },
    {
     "title": "The \"Holy Slide\" (I to IV)",
+    "titleKr": "'홀리 슬라이드' (I → IV)",
     "category": "Worship",
     "example": "E5 (Holy) → A2 (High)",
     "description": "Cinematic atmospheric transition.",
+    "descriptionKr": "시네마틱하고 분위기 있는 전환.",
     "howTo": "Slide from 7th fret to open.",
+    "howToKr": "7프렛에서 개방 포지션으로 슬라이드.",
     "sequence": [
      "E5 (High Drone)",
      "A2 (High Drone)"
@@ -6061,10 +6207,13 @@
    },
    {
     "title": "The Borrowed \"Minor 4\"",
+    "titleKr": "빌려 온 '마이너 4'",
     "category": "Modal Interchange",
     "example": "C Major → F Maj 7 → F Minor → C Major",
     "description": "Emotional nostalgic pull.",
+    "descriptionKr": "감정적이고 향수 어린 당김.",
     "howTo": "Barre the 1st fret for Fm.",
+    "howToKr": "1프렛을 바레로 잡아 Fm을 만든다.",
     "sequence": [
      "C Major",
      "F Maj 7",
@@ -6074,10 +6223,13 @@
    },
    {
     "title": "The Line Cliche",
+    "titleKr": "라인 클리셰",
     "category": "Chromatic",
     "example": "Am → Am(maj7) → Am7 → Am6",
     "description": "Descending inner line.",
+    "descriptionKr": "안쪽 성부가 반음씩 내려가는 라인.",
     "howTo": "Walk the A down half-steps.",
+    "howToKr": "A 음을 반음씩 걸어 내려간다.",
     "sequence": [
      "A Minor 7",
      "Am(maj7)",
@@ -6087,10 +6239,13 @@
    },
    {
     "title": "ii-V-I Minor Turnaround",
+    "titleKr": "ii-V-I 마이너 턴어라운드",
     "category": "Jazz / R&B",
     "example": "Bm7b5 → E7b9 → Am11",
     "description": "The classic minor resolution.",
+    "descriptionKr": "클래식한 마이너 해결.",
     "howTo": "Focus on the altered notes pulling to the minor root.",
+    "howToKr": "얼터드 음들이 마이너 루트로 끌려가는 느낌에 집중.",
     "sequence": [
      "B m7b5",
      "E7b9",
@@ -6099,10 +6254,13 @@
    },
    {
     "title": "Pedal Point Rhythm",
+    "titleKr": "페달 포인트 리듬",
     "category": "Electric",
     "example": "C/G → F/G → C/G",
     "description": "Keeping a static bass note.",
+    "descriptionKr": "베이스 음 하나를 고정해 둔다.",
     "howTo": "Hold the G bass note while shifting triads.",
+    "howToKr": "G 베이스를 유지한 채 트라이어드만 움직인다.",
     "sequence": [
      "C/G",
      "F/G",
@@ -6111,10 +6269,13 @@
    },
    {
     "title": "The Gospel Walk-Up",
+    "titleKr": "가스펠 워크업",
     "category": "Soul / Gospel",
     "example": "C → Dm7 → C/E → Fmaj7",
     "description": "Classic 1-2-3-4 bass climb.",
+    "descriptionKr": "클래식한 1-2-3-4 베이스 상행.",
     "howTo": "Keep the progression moving smoothly by anticipating the bass notes.",
+    "howToKr": "다음 베이스 음을 미리 예측하며 진행을 부드럽게 잇는다.",
     "sequence": [
      "C Major",
      "D Minor 7",
@@ -6124,10 +6285,13 @@
    },
    {
     "title": "Neo-Soul Turnaround",
+    "titleKr": "네오소울 턴어라운드",
     "category": "R&B",
     "example": "Cmaj9 → Bm7b5 → E7#9 → Am11",
     "description": "Thick, rootless extensions resolving to minor.",
+    "descriptionKr": "두툼한 루트리스 텐션이 마이너로 해결된다.",
     "howTo": "Use the rootless Cmaj9 to stay out of the way, then create heavy tension with E7#9.",
+    "howToKr": "루트 없는 Cmaj9로 공간을 비워 두다가 E7#9로 강한 긴장을 만든다.",
     "sequence": [
      "Cmaj9 (Play Em7)",
      "Bm7b5 (D2 Mid Root)",
@@ -6137,10 +6301,13 @@
    },
    {
     "title": "12-Bar Blues (Key of E)",
+    "titleKr": "12마디 블루스 (E 키)",
     "category": "Blues",
     "example": "E7 → A7 → B7 → E7",
     "description": "The most-played progression in history: I7-IV7-V7.",
+    "descriptionKr": "역사상 가장 많이 연주된 진행: I7-IV7-V7.",
     "howTo": "Four bars of E7, two of A7, two of E7, then B7-A7-E7-B7 to turn around. Shuffle the 8ths.",
+    "howToKr": "E7 네 마디, A7 두 마디, E7 두 마디, 그리고 B7-A7-E7-B7로 턴어라운드. 8분음표는 셔플로.",
     "sequence": [
      "E7 (Open)",
      "A7 (Open)",
@@ -6150,10 +6317,13 @@
    },
    {
     "title": "50s Doo-Wop (I–vi–IV–V)",
+    "titleKr": "50년대 두왑 (I–vi–IV–V)",
     "category": "Pop / Soul",
     "example": "C → Am → Fmaj7 → G7",
     "description": "The \"Stand By Me\" changes — hundreds of songs live here.",
+    "descriptionKr": "'Stand By Me' 진행 — 수백 곡이 여기 산다.",
     "howTo": "Two beats per chord with a light swing; keep the index anchored moving C → Am.",
+    "howToKr": "코드당 두 박, 가볍게 스윙. C → Am 이동 시 검지는 앵커로 유지.",
     "sequence": [
      "C Major",
      "Am (Open)",
@@ -6163,10 +6333,13 @@
    },
    {
     "title": "Sus Breathing (D)",
+    "titleKr": "서스 브리딩 (D)",
     "category": "Acoustic",
     "example": "Dsus2 → D → Dsus4 → D",
     "description": "The 2nd and 4th orbit the 3rd — instant campfire motion from one chord.",
+    "descriptionKr": "2도와 4도가 3도 주위를 맴돈다 — 코드 하나로 만드는 캠프파이어 무드.",
     "howTo": "Keep index and ring planted; lift and add the middle and pinky to swing between sus colors.",
+    "howToKr": "검지와 약지는 심어 두고, 중지와 새끼로 sus 색채를 오간다.",
     "sequence": [
      "Dsus2 (Open)",
      "D Major",
@@ -6178,20 +6351,26 @@
   "licks": [
    {
     "title": "Pentatonic Fall",
+    "titleKr": "펜타토닉 폴",
     "category": "E Minor",
     "example": "e|--3p0-- B|--3p0--",
     "description": "Classic rock descending run.",
+    "descriptionKr": "클래식 록 하행 런.",
     "howTo": "Pull-off from 3rd to open.",
+    "howToKr": "3프렛에서 개방현으로 풀오프.",
     "sequence": [
      "E Minor 7"
     ]
    },
    {
     "title": "Triad Climb",
+    "titleKr": "트라이어드 클라임",
     "category": "CAGED",
     "example": "Open C → A-Shape → E-Shape",
     "description": "CAGED triad movement.",
+    "descriptionKr": "CAGED 트라이어드 이동.",
     "howTo": "Move up string sets.",
+    "howToKr": "줄 세트를 옮겨 가며 올라간다.",
     "sequence": [
      "C Major",
      "C Maj (Mid Root)",
@@ -6200,10 +6379,13 @@
    },
    {
     "title": "Chord Tone Targeting",
+    "titleKr": "코드 톤 타게팅",
     "category": "Voice Leading",
     "example": "Dm7 → G7 (target the B)",
     "description": "Landing on the 3rd of the next chord.",
+    "descriptionKr": "다음 코드의 3도에 착지하기.",
     "howTo": "Play a D minor line, ending exactly on the B note when G hits.",
+    "howToKr": "D 마이너 라인을 연주하다 G가 나오는 순간 정확히 B 음으로 끝낸다.",
     "sequence": [
      "D Minor 7",
      "G13"
@@ -6211,10 +6393,13 @@
    },
    {
     "title": "Acoustic Blues Turnaround",
+    "titleKr": "어쿠스틱 블루스 턴어라운드",
     "category": "Blues",
     "example": "E7 → Edim7 → E7",
     "description": "Swampy delta blues filler.",
+    "descriptionKr": "끈적한 델타 블루스 필러.",
     "howTo": "Slide the diminished shape up and back down.",
+    "howToKr": "디미니시드 모양을 슬라이드로 올렸다 내린다.",
     "sequence": [
      "E7 (Acoustic Blues)",
      "Edim7 (Slide)",
@@ -6223,10 +6408,13 @@
    },
    {
     "title": "Country 6ths Glide",
+    "titleKr": "컨트리 6도 글라이드",
     "category": "Country / R&B",
     "example": "G 6ths Root → 1st Inv",
     "description": "Classic Steve Cropper / Nashville slide.",
+    "descriptionKr": "클래식한 스티브 크로퍼 / 내슈빌 슬라이드.",
     "howTo": "Pluck the G and high-E strings together, sliding between inversions.",
+    "howToKr": "G줄과 높은 E줄을 함께 뜯으며 전위 사이를 슬라이드.",
     "sequence": [
      "G 6ths (Root)",
      "G 6ths (1st Inv)"
@@ -6234,10 +6422,13 @@
    },
    {
     "title": "Funk 9th Slide",
+    "titleKr": "펑크 9th 슬라이드",
     "category": "Funk",
     "example": "D9 → (slide) → E9",
     "description": "The classic funk stab — approach the 9th grip from below.",
+    "descriptionKr": "클래식 펑크 스탭 — 9th 그립을 아래에서 접근한다.",
     "howTo": "Strike the grip one fret low and slide up landing on beat one; choke with the fretting hand for the \"chank\".",
+    "howToKr": "한 프렛 아래에서 치고 슬라이드로 올라가 1박에 착지. 프렛 손으로 살짝 눌러 '챙크'를 만든다.",
     "sequence": [
      "D9 (Funk)",
      "E9 (Funk)"
@@ -6247,10 +6438,13 @@
   "techniques": [
    {
     "title": "Hybrid Picking",
+    "titleKr": "하이브리드 피킹",
     "category": "Right Hand",
     "example": "Pluck Root (Pick) → Snap Top (Fingers)",
     "description": "The absolute foundation of modern electric accompaniment.",
+    "descriptionKr": "모던 일렉트릭 반주의 절대적 기초.",
     "howTo": "Hold the pick with thumb/index. Pluck the G string with the pick, and simultaneously snap the B and e strings with your middle and ring fingers.",
+    "howToKr": "엄지와 검지로 피크를 쥔다. 피크로 G줄을 치는 동시에 중지·약지로 B줄과 e줄을 탁 뜯는다.",
     "sequence": [
      "G Maj (Top Root)",
      "G Maj (Top 1st)"
@@ -6258,30 +6452,39 @@
    },
    {
     "title": "Volume Swells",
+    "titleKr": "볼륨 스웰",
     "category": "Ambient",
     "example": "Vol 0 → Strike Chord → Vol 10",
     "description": "Creates a synth-pad like wash of sound.",
+    "descriptionKr": "신스 패드 같은 사운드의 파도를 만든다.",
     "howTo": "Wrap your pinky around the volume knob. Strike the cluster with the volume at zero, then slowly roll the pinky up.",
+    "howToKr": "새끼손가락을 볼륨 노브에 감아 둔다. 볼륨 0에서 클러스터를 치고 천천히 노브를 올린다.",
     "sequence": [
      "D add9 (Cluster)"
     ]
    },
    {
     "title": "Dynamic Palm Muting",
+    "titleKr": "다이내믹 팜 뮤트",
     "category": "Rhythm",
     "example": "Muted 8ths → Open Accents",
     "description": "Controlling the energy of a building section.",
+    "descriptionKr": "고조되는 섹션의 에너지를 조절한다.",
     "howTo": "Rest the fleshy side of your picking hand lightly against the bridge saddles. Lift off slightly on the downbeats.",
+    "howToKr": "피킹 손 손날을 브리지 새들에 가볍게 얹는다. 다운비트마다 살짝 떼어 준다.",
     "sequence": [
      "E5 (High Drone)"
     ]
    },
    {
     "title": "Systematic Arpeggiation",
+    "titleKr": "체계적 아르페지오",
     "category": "Texture",
     "example": "Rake Down → Move Shape → Rake Up",
     "description": "Turning static chords into flowing textures.",
+    "descriptionKr": "정적인 코드를 흐르는 텍스처로 바꾼다.",
     "howTo": "Do not strum. Let the pick fall through each string individually, maintaining a steady 16th-note subdivision.",
+    "howToKr": "스트럼하지 말 것. 피크가 한 줄씩 차례로 떨어지게 하며 16분음표를 일정하게 유지한다.",
     "sequence": [
      "Cmaj7 (D2 Top Root)",
      "Cmaj7 (D2 Top 1st)"
@@ -6289,10 +6492,13 @@
    },
    {
     "title": "Neo-Soul Double Stop Slide",
+    "titleKr": "네오소울 더블 스톱 슬라이드",
     "category": "R&B / Soul",
     "example": "Slide into the 3rd/5th",
     "description": "The classic slippery R&B filler.",
+    "descriptionKr": "클래식한 미끄러운 R&B 필러.",
     "howTo": "Barre the double stop one fret below the target, pick once, and instantly slide up into pitch.",
+    "howToKr": "목표 한 프렛 아래에서 더블 스톱을 바레로 잡고, 한 번 친 뒤 즉시 슬라이드로 음정에 도달.",
     "sequence": [
      "3rds Double Stop",
      "4ths Double Stop"
@@ -6300,10 +6506,13 @@
    },
    {
     "title": "Travis Picking",
+    "titleKr": "트래비스 피킹",
     "category": "Fingerstyle",
     "example": "Alternating Bass",
     "description": "The foundation of folk acoustic.",
+    "descriptionKr": "포크 어쿠스틱의 기초.",
     "howTo": "Keep the thumb bouncing between the A and D strings while the fingers pick syncopated melody notes.",
+    "howToKr": "엄지가 A줄과 D줄을 오가며 바운스하는 동안 손가락들이 싱커페이션 멜로디를 뜯는다.",
     "sequence": [
      "C Major",
      "G/B"
@@ -6311,10 +6520,13 @@
    },
    {
     "title": "16th Note Funk Struts",
+    "titleKr": "16분음표 펑크 스트럿",
     "category": "Rhythm",
     "example": "Constant Motion",
     "description": "Cory Wong style pocket playing.",
+    "descriptionKr": "코리 웡 스타일 포켓 연주.",
     "howTo": "Right hand never stops moving in 16ths. Use the fretting hand to choke the chord for percussive \"chucks\".",
+    "howToKr": "오른손은 16분음표로 쉬지 않고 움직인다. 프렛 손으로 코드를 눌러 퍼커시브한 '척'을 만든다.",
     "sequence": [
      "Dm7 (Funk Shell)",
      "G7 (Funk Shell)"
@@ -6322,10 +6534,13 @@
    },
    {
     "title": "Anchor Fingers",
+    "titleKr": "앵커 핑거",
     "category": "Left Hand",
     "example": "C → Am (shared fingers)",
     "description": "Index and middle never move between C and Am — the fastest chord change you own.",
+    "descriptionKr": "C와 Am 사이에서 검지·중지는 움직이지 않는다 — 가장 빠른 코드 체인지.",
     "howTo": "Change chords by moving only the ring finger. Anchored fingers keep the transition silent and instant.",
+    "howToKr": "약지만 움직여 코드를 바꾼다. 고정된 손가락이 전환을 조용하고 즉각적으로 만든다.",
     "sequence": [
      "C Major",
      "Am (Open)"
@@ -6333,10 +6548,13 @@
    },
    {
     "title": "Palm-Mute Chugging",
+    "titleKr": "팜 뮤트 처깅",
     "category": "Rhythm",
     "example": "E5 → A5 (muted 8ths)",
     "description": "The bedrock of rock rhythm guitar.",
+    "descriptionKr": "록 리듬 기타의 반석.",
     "howTo": "Rest the picking-hand heel on the bridge saddles, downpick straight 8ths, open the mute for accents.",
+    "howToKr": "피킹 손 뒤꿈치를 브리지 새들에 얹고 8분음표를 다운피킹으로, 액센트에서 뮤트를 연다.",
     "sequence": [
      "E5 (Power)",
      "A5 (Power)"
@@ -6346,78 +6564,114 @@
  },
  "quiz": [
   {
-   "question": "E 키와 A 키에서 오픈 텐션 코드를 사용할 때, 주로 어떤 줄을 개방현으로 유지합니까?",
-   "answer": "주로 1번 줄과 2번 줄을 개방현으로 사용합니다. 이는 코드에 고정된 텐션감을 부여하여 입체적인 사운드를 만듭니다."
+   "question": "When using open tension chords in the keys of E and A, which strings usually stay open?",
+   "answer": "Strings 1 and 2. They give the chord a built-in tension color and a rich, three-dimensional sound.",
+   "questionKr": "E 키와 A 키에서 오픈 텐션 코드를 사용할 때, 주로 어떤 줄을 개방현으로 유지합니까?",
+   "answerKr": "주로 1번 줄과 2번 줄을 개방현으로 사용합니다. 이는 코드에 고정된 텐션감을 부여하여 입체적인 사운드를 만듭니다."
   },
   {
-   "question": "제1폼에서 F 코드 위치를 잡고 1, 2번 줄을 개방하면 어떤 코드가 형성됩니까?",
-   "answer": "Fmaj7 (add #11) 코드가 됩니다. 일반적인 F 코드가 나올 자리에 편곡된 버전으로 사용할 수 있습니다."
+   "question": "In Form 1, what chord do you get by fretting the F position while leaving strings 1 and 2 open?",
+   "answer": "Fmaj7(#11) — an arranged substitute you can play wherever a plain F would go.",
+   "questionKr": "제1폼에서 F 코드 위치를 잡고 1, 2번 줄을 개방하면 어떤 코드가 형성됩니까?",
+   "answerKr": "Fmaj7 (add #11) 코드가 됩니다. 일반적인 F 코드가 나올 자리에 편곡된 버전으로 사용할 수 있습니다."
   },
   {
-   "question": "복잡한 코드 네임을 모두 외워야 합니까? 그 이유는 무엇입니까?",
-   "answer": "굳이 모두 외울 필요는 없습니다. 원래의 기본 코드(예: F, F#) 대신 사용할 수 있다는 점을 기억하고 활용하는 것이 더 중요합니다."
+   "question": "Do you have to memorize all the long chord names? Why or why not?",
+   "answer": "No. What matters is remembering that each grip can replace its plain chord (F, F#, …) and putting that to use.",
+   "questionKr": "복잡한 코드 네임을 모두 외워야 합니까? 그 이유는 무엇입니까?",
+   "answerKr": "굳이 모두 외울 필요는 없습니다. 원래의 기본 코드(예: F, F#) 대신 사용할 수 있다는 점을 기억하고 활용하는 것이 더 중요합니다."
   },
   {
-   "question": "Asus2 폼(제2폼)에서 두 칸 이동하여 연주하면 어떤 코드가 됩니까?",
-   "answer": "Bsus 계열 코드가 됩니다. 동일한 폼을 유지한 채 프렛 위치만 이동하여 연주가 가능합니다."
+   "question": "In the Asus2 form (Form 2), what chord family do you get by sliding up two frets?",
+   "answer": "A Bsus-family chord. Keep the same form and just shift fret position.",
+   "questionKr": "Asus2 폼(제2폼)에서 두 칸 이동하여 연주하면 어떤 코드가 됩니까?",
+   "answerKr": "Bsus 계열 코드가 됩니다. 동일한 폼을 유지한 채 프렛 위치만 이동하여 연주가 가능합니다."
   },
   {
-   "question": "F#m7 (add 11) 폼을 이동하여 연주할 때, 일부 코드에서 공통적으로 생략되는 음은 무엇입니까?",
-   "answer": "5도음이 주로 생략됩니다. 5도음이 없어도 오픈 텐션 코드 특유의 뉘앙스는 충분히 살아 있습니다."
+   "question": "When moving the F#m7(add11) form, which note is commonly omitted in some chords?",
+   "answer": "The 5th. Even without it, the open-string nuance of the tension sound fully survives.",
+   "questionKr": "F#m7 (add 11) 폼을 이동하여 연주할 때, 일부 코드에서 공통적으로 생략되는 음은 무엇입니까?",
+   "answerKr": "5도음이 주로 생략됩니다. 5도음이 없어도 오픈 텐션 코드 특유의 뉘앙스는 충분히 살아 있습니다."
   },
   {
-   "question": "분수 코드 A/C# 폼에서 두 칸 이동했을 때 만들어지는 코드의 이름은 무엇입니까?",
-   "answer": "Bsus4/D# 코드가 됩니다. 베이스 음이 이동함에 따라 코드의 성격이 변하는 분수 코드의 형태입니다."
+   "question": "What chord is produced when the slash-chord A/C# form moves up two frets?",
+   "answer": "Bsus4/D#. As the bass note moves, the slash chord's character shifts with it.",
+   "questionKr": "분수 코드 A/C# 폼에서 두 칸 이동했을 때 만들어지는 코드의 이름은 무엇입니까?",
+   "answerKr": "Bsus4/D# 코드가 됩니다. 베이스 음이 이동함에 따라 코드의 성격이 변하는 분수 코드의 형태입니다."
   },
   {
-   "question": "오픈 텐션 코드가 일반적인 코드에 비해 가지는 사운드 측면의 장점은 무엇입니까?",
-   "answer": "훨씬 풍부하고 입체감 있는 사운드를 낼 수 있습니다. 개방현의 지속적인 울림이 코드 진행에 깊이를 더합니다."
+   "question": "Sound-wise, what advantage do open tension chords have over plain chords?",
+   "answer": "A far richer, more three-dimensional sound — the sustained ring of the open strings adds depth to the progression.",
+   "questionKr": "오픈 텐션 코드가 일반적인 코드에 비해 가지는 사운드 측면의 장점은 무엇입니까?",
+   "answerKr": "훨씬 풍부하고 입체감 있는 사운드를 낼 수 있습니다. 개방현의 지속적인 울림이 코드 진행에 깊이를 더합니다."
   },
   {
-   "question": "강의자가 추천하는 '음악적 고정관념을 벗어나는 방법'은 무엇입니까?",
-   "answer": "화성학 이론이나 고정관념을 잠시 내려놓고, 지판 위 폼 이동과 소리의 어울림을 자유롭게 시도해 보는 것입니다."
+   "question": "What does the lecturer recommend for breaking out of musical habits?",
+   "answer": "Set theory and preconceptions aside for a moment, and freely experiment with sliding forms around the fretboard, trusting how the sounds blend.",
+   "questionKr": "강의자가 추천하는 '음악적 고정관념을 벗어나는 방법'은 무엇입니까?",
+   "answerKr": "화성학 이론이나 고정관념을 잠시 내려놓고, 지판 위 폼 이동과 소리의 어울림을 자유롭게 시도해 보는 것입니다."
   },
   {
-   "question": "E/G# 코드를 대체하여 사용할 수 있는 하행 진행용 코드는 무엇입니까?",
-   "answer": "D/F# (또는 D6/9/F#) 코드입니다. 베이스 러닝을 포함한 하행 코드 진행에서 유용합니다."
+   "question": "Which chord can substitute for E/G# in descending progressions?",
+   "answer": "D/F# (or D6/9/F#) — useful in descending progressions with bass runs.",
+   "questionKr": "E/G# 코드를 대체하여 사용할 수 있는 하행 진행용 코드는 무엇입니까?",
+   "answerKr": "D/F# (또는 D6/9/F#) 코드입니다. 베이스 러닝을 포함한 하행 코드 진행에서 유용합니다."
   },
   {
-   "question": "이 7가지 코드 폼은 반드시 E 키나 A 키에서만 사용해야 합니까?",
-   "answer": "아닙니다. 주로 E, A 키에서 쓰이지만 앞뒤 코드와 잘 어울린다면 다른 키에서도 자유롭게 활용할 수 있습니다."
+   "question": "Are these seven forms only usable in the keys of E and A?",
+   "answer": "No. They're most at home in E and A, but if they agree with the surrounding chords, use them freely in other keys too.",
+   "questionKr": "이 7가지 코드 폼은 반드시 E 키나 A 키에서만 사용해야 합니까?",
+   "answerKr": "아닙니다. 주로 E, A 키에서 쓰이지만 앞뒤 코드와 잘 어울린다면 다른 키에서도 자유롭게 활용할 수 있습니다."
   }
  ],
  "glossary": [
   {
-   "term": "오픈 코드 (Open Chord)",
-   "definition": "지판을 누르지 않은 개방현을 포함하여 연주하는 코드."
+   "term": "Open Chord",
+   "definition": "A chord that includes unfretted open strings.",
+   "termKr": "오픈 코드",
+   "definitionKr": "지판을 누르지 않은 개방현을 포함하여 연주하는 코드."
   },
   {
-   "term": "텐션 (Tension)",
-   "definition": "기본 3화음·7화음 이외의 음(9, 11, 13도 등)을 더해 긴장감과 색채감을 주는 음."
+   "term": "Tension",
+   "definition": "Notes beyond the basic triad/7th (9, 11, 13…) added for color and pull.",
+   "termKr": "텐션",
+   "definitionKr": "기본 3화음·7화음 이외의 음(9, 11, 13도 등)을 더해 긴장감과 색채감을 주는 음."
   },
   {
-   "term": "개방현 (Open String)",
-   "definition": "왼손으로 지판을 누르지 않고 줄 본연의 소리를 내는 상태."
+   "term": "Open String",
+   "definition": "A string sounded without fretting — its natural pitch.",
+   "termKr": "개방현",
+   "definitionKr": "왼손으로 지판을 누르지 않고 줄 본연의 소리를 내는 상태."
   },
   {
-   "term": "분수 코드 (Slash Chord)",
-   "definition": "'A/C#'처럼 기본음이 아닌 다른 음을 베이스로 지정한 코드."
+   "term": "Slash Chord",
+   "definition": "A chord with a bass note other than the root, written like 'A/C#'.",
+   "termKr": "분수 코드",
+   "definitionKr": "'A/C#'처럼 기본음이 아닌 다른 음을 베이스로 지정한 코드."
   },
   {
-   "term": "폼 (Form)",
-   "definition": "지판 위에서 코드를 잡는 손가락의 모양이나 형태."
+   "term": "Form",
+   "definition": "The shape your fingers make to grip a chord on the fretboard.",
+   "termKr": "폼",
+   "definitionKr": "지판 위에서 코드를 잡는 손가락의 모양이나 형태."
   },
   {
-   "term": "전위 (Inversion)",
-   "definition": "구성음의 위치를 바꾸어 베이스 음을 변경하는 것 (예: A 코드에서 C# 베이스)."
+   "term": "Inversion",
+   "definition": "Reordering chord tones to change the bass note (e.g. A with a C# bass).",
+   "termKr": "전위",
+   "definitionKr": "구성음의 위치를 바꾸어 베이스 음을 변경하는 것 (예: A 코드에서 C# 베이스)."
   },
   {
-   "term": "부협화음 (Dissonance)",
-   "definition": "동시에 울리는 음들이 충돌하는 느낌을 주는 화음 — 특정 위치 이동 시 주의."
+   "term": "Dissonance",
+   "definition": "Simultaneous notes that clash — take care at certain positions when sliding forms.",
+   "termKr": "부협화음",
+   "definitionKr": "동시에 울리는 음들이 충돌하는 느낌을 주는 화음 — 특정 위치 이동 시 주의."
   },
   {
    "term": "add9 / add11",
-   "definition": "코드에 9도음 또는 11도음을 단순히 추가했다는 표기법."
+   "definition": "Notation for simply adding the 9th or 11th to a chord.",
+   "termKr": "add9 / add11",
+   "definitionKr": "코드에 9도음 또는 11도음을 단순히 추가했다는 표기법."
   }
  ],
  "tunings": {

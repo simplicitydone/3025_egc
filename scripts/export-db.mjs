@@ -18,6 +18,7 @@ for (const r of db.prepare('SELECT * FROM chords ORDER BY rowid').all()) {
     rootString: r.root_string,
     bassNote: r.bass_note,
     ...(r.description ? { description: r.description } : {}),
+    ...(r.description_kr ? { descriptionKr: r.description_kr } : {}),
   }
 }
 
@@ -43,6 +44,7 @@ function groupSection(section, extra) {
       groupName: g.group_name,
       ...extra(g),
       description: g.description,
+      ...(g.description_kr ? { descriptionKr: g.description_kr } : {}),
       chords: db
         .prepare('SELECT chord_name FROM chord_group_chords WHERE group_id = ? ORDER BY position')
         .all(g.id)
@@ -56,10 +58,13 @@ function movesOf(kind) {
     .all(kind)
     .map((m) => ({
       title: m.title,
+      ...(m.title_kr ? { titleKr: m.title_kr } : {}),
       category: m.category,
       example: m.example,
       description: m.description,
+      ...(m.description_kr ? { descriptionKr: m.description_kr } : {}),
       howTo: m.how_to,
+      ...(m.how_to_kr ? { howToKr: m.how_to_kr } : {}),
       sequence: db
         .prepare('SELECT chord_name FROM move_chords WHERE move_id = ? ORDER BY position')
         .all(m.id)
@@ -77,7 +82,10 @@ const data = {
   chords,
   songKeys: keySection('open'),
   tuningKeys: keySection('tunings'),
-  barreGroups: groupSection('barre', (g) => ({ usageLabel: g.usage_label })),
+  barreGroups: groupSection('barre', (g) => ({
+    usageLabel: g.usage_label,
+    ...(g.usage_label_kr ? { usageLabelKr: g.usage_label_kr } : {}),
+  })),
   electricGroups: groupSection('electric', () => ({})),
   tensionForms: groupSection('tension', (g) => ({ formKr: g.name_kr })),
   moves: {
@@ -85,10 +93,12 @@ const data = {
     licks: movesOf('lick'),
     techniques: movesOf('technique'),
   },
-  quiz: db.prepare('SELECT question, answer FROM quiz_items ORDER BY position').all()
-    .map((q) => ({ question: q.question, answer: q.answer })),
-  glossary: db.prepare('SELECT term, definition FROM glossary_items ORDER BY position').all()
-    .map((g) => ({ term: g.term, definition: g.definition })),
+  // The study guide is bilingual: *_en columns are the English side, the
+  // original (renamed *_kr) columns keep the Korean lecture content.
+  quiz: db.prepare('SELECT question_en, answer_en, question_kr, answer_kr FROM quiz_items ORDER BY position').all()
+    .map((q) => ({ question: q.question_en, answer: q.answer_en, questionKr: q.question_kr, answerKr: q.answer_kr })),
+  glossary: db.prepare('SELECT term_en, definition_en, term_kr, definition_kr FROM glossary_items ORDER BY position').all()
+    .map((g) => ({ term: g.term_en, definition: g.definition_en, termKr: g.term_kr, definitionKr: g.definition_kr })),
   tunings,
 }
 

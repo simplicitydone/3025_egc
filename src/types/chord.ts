@@ -5,6 +5,7 @@ export interface Chord {
   rootString: number
   bassNote: string
   description?: string
+  descriptionKr?: string
   tier: 'Basic' | 'Advanced'
   subCategory?: string
 }
@@ -23,40 +24,51 @@ export interface KeyGroup {
 export interface BarreGroup {
   groupName: string
   usageLabel: string
+  usageLabelKr?: string
   description: string
+  descriptionKr?: string
   chords: Chord[]
 }
 
 export interface ElectricGroup {
   groupName: string
   description: string
+  descriptionKr?: string
   chords: Chord[]
 }
 
 export interface Move {
   title: string
+  titleKr?: string
   category: string
   example: string
   sequence: Chord[]
   description: string
+  descriptionKr?: string
   howTo: string
+  howToKr?: string
 }
 
 export interface TensionForm {
   formName: string
   formKr: string
   description: string
+  descriptionKr?: string
   chords: Chord[]
 }
 
 export interface QuizItem {
   question: string
   answer: string
+  questionKr: string
+  answerKr: string
 }
 
 export interface GlossaryItem {
   term: string
   definition: string
+  termKr: string
+  definitionKr: string
 }
 
 export type Tab = 'open' | 'tension' | 'tunings' | 'barre' | 'electric' | 'examples'
@@ -73,6 +85,7 @@ export interface DbChord {
   rootString: number
   bassNote: string
   description?: string
+  descriptionKr?: string
 }
 
 export interface DbJson {
@@ -80,9 +93,22 @@ export interface DbJson {
   chords: Record<string, DbChord>
   songKeys: { keyName: string; isPriority?: boolean; chords: { chord: string; nashville: string }[] }[]
   tuningKeys: { keyName: string; isPriority?: boolean; chords: { chord: string; nashville: string }[] }[]
-  barreGroups: { groupName: string; usageLabel: string; description: string; chords: string[] }[]
-  electricGroups: { groupName: string; description: string; chords: string[] }[]
-  tensionForms: { groupName: string; formKr: string; description: string; chords: string[] }[]
+  barreGroups: {
+    groupName: string
+    usageLabel: string
+    usageLabelKr?: string
+    description: string
+    descriptionKr?: string
+    chords: string[]
+  }[]
+  electricGroups: { groupName: string; description: string; descriptionKr?: string; chords: string[] }[]
+  tensionForms: {
+    groupName: string
+    formKr: string
+    description: string
+    descriptionKr?: string
+    chords: string[]
+  }[]
   moves: {
     progressions: DbMove[]
     licks: DbMove[]
@@ -95,10 +121,13 @@ export interface DbJson {
 
 export interface DbMove {
   title: string
+  titleKr?: string
   category: string
   example: string
   description: string
+  descriptionKr?: string
   howTo: string
+  howToKr?: string
   sequence: string[]
 }
 
